@@ -1,0 +1,11 @@
+@Backdoor
+@Email-Worm
+@Ransomware
+@Trojan
+@Trojan-Downloader
+@Trojan-Dropper
+@Trojan-Proxy
+@Trojan-PSW
+@Trojan-Spy
+@Virus
+@Worm
