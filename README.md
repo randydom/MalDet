@@ -1,5 +1,20 @@
-                                MalDet -- A Tool for Malware Detection
-                                        Version 0.0.1 (31.01.2018)
+MalDet -- A Tool for Malware Detection
+
+Version 0.0.1 (31.01.2018)
+		
+HOW TO INSTALL:
+
+This tool accompanies with 
+  + IDA Pro
+  + Jakstab
+  + Moped
+
+This tool is setup by the following steps:
+ 1) You can get IDA Pro on https://www.hex-rays.com/products/ida/index.shtml. After install IDA Pro to your PC, you copy the installed folder to the folder containing this tool. Then, you copy our two files analysis.idc and idc.idc to the folder idc of IDA Pro.
+ 2) You get Jakstab from their website http://www.jakstab.org/. Then, you copy the Jakstab folder to the folder containing this tool.
+ 3) You get Moped from their website http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/. Then, you copy our file poststar.c to the Moped folder before compilation.
+ 
+ 		
 
 
     Commands:
@@ -26,18 +41,7 @@
 
 
 
-HOW TO INSTALL:
 
-This tool accompanies with 
-  + IDA Pro
-  + Jakstab
-  + Moped
-
-This tool is setup by the following steps:
- 1) You can get IDA Pro on https://www.hex-rays.com/products/ida/index.shtml. After install IDA Pro to your PC, you copy the installed folder to the folder containing this tool. Then, you copy our two files analysis.idc and idc.idc to the folder idc of IDA Pro.
- 2) You get Jakstab from their website http://www.jakstab.org/. Then, you copy the Jakstab folder to the folder containing this tool.
- 3) You get Moped from their website http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/. Then, you copy our file poststar.c to the Moped folder before compilation.
- 
  
  
 
