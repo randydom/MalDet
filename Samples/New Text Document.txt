@@ -1,0 +1,12 @@
+malunpacked\Trojan-Spy.Win32.Banker.eb.exe.upx
+nopackGraph\Trojan-Downloader.Win32.Agent.hs.exe
+malunpacked\Virus.Win32.HLL.Fugo.exe.upx
+nopackGraph\Virus.Win32.Htrip.b.exe
+nopackGraph\Virus.Win32.HLLP.Kiro.exe
+ransomwareGraph\VirusShare_c2d60174e004afdb6fc9d570f8f54ad4
+ransomwareGraph\VirusShare_c34a722d9060d65791ce88e2853a82a9
+nopackGraph\Backdoor.Win32.Harvester.23.e.exe
+nopackGraph\Backdoor.Win32.Afcore.ch.exe
+malunpacked\Email-Worm.Win32.Ronoper.l.exe.upx
+malunpacked\Email-Worm.Win32.Clepa.exe.upx
+nopackGraph\Email-Worm.Win32.Retaner.b.exe
