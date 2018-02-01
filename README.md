@@ -15,8 +15,6 @@ This tool is setup by the following steps:
  3) You get Moped from their website http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/. Then, you copy our file poststar.c to the Moped folder before compilation.
  
  HOW TO USE
- 
- Usage: MalDet.exe <Command> [options] [<TestFile>] [<ListFiles>]
 
     Commands:
       Train  Compute the malicious API graphs from executables in <ListFiles>
