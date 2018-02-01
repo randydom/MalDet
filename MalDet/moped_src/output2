@@ -1,0 +1,82 @@
+Initial ordering is lg/bit/var/copy.
+
+Statistics for common resources (reading):
+  - Time   : 0.00 seconds
+Statistics for common resources (post*):
+  - Time   : 0.00 seconds
+Statistics for common resources (pruning):
+  - Time   : 0.00 seconds
+Statistics for common resources (heads):
+  - Time   : 0.00 seconds
+NO.
+
+--- START FA ---
+p40102C -[TOP@4198421]-> ^p401001~ebp@4198400^
+  
+p401085 -[TOP@4198533]-> ^p401001~ebp@4198400^
+  
+p401055 -[TOP@4198477]-> ^p401001~ebp@4198400^
+  
+psub_401A10 -[TOP@4198449]-> ^psub_401A10~TOP@4198449^
+  
+p401086 -[TOP@4198533]-> ^p401001~ebp@4198400^
+  
+p401041 -[TOP@4198449]-> ^p401001~ebp@4198400^
+  
+^psub_401A10~TOP@4198449^ -[TOP@4198421]-> ^p401001~ebp@4198400^
+p401000 -[p0@0]-> __s__
+  
+p401001 -[ebp@4198400]-> ^p401001~ebp@4198400^
+  
+p401006 -[ebp@4198400]-> ^p401001~ebp@4198400^
+  
+p40104D -[TOP@4198477]-> ^p401001~ebp@4198400^
+  
+p401039 -[TOP@4198449]-> ^p401001~ebp@4198400^
+  
+p401010 -[ebp@4198400]-> ^p401001~ebp@4198400^
+  
+psub_401A30 -[TOP@4198505]-> ^psub_401A30~TOP@4198505^
+  
+p401031 -[TOP@4198449]-> ^p401001~ebp@4198400^
+  
+^psub_401A30~TOP@4198505^ -[TOP@4198477]-> ^p401001~ebp@4198400^
+p401025 -[TOP@4198421]-> ^p401001~ebp@4198400^
+  
+^psub_401A40~TOP@4198533^ -[TOP@4198505]-> ^p401001~ebp@4198400^
+psub_401A40 -[TOP@4198533]-> ^psub_401A40~TOP@4198533^
+  
+^p401001~ebp@4198400^ -[p0@0]-> __s__
+p40101D -[TOP@4198421]-> ^p401001~ebp@4198400^
+  
+p401015 -[TOP@4198421]-> ^p401001~ebp@4198400^
+  
+p401080 -[TOP@4198505]-> ^p401001~ebp@4198400^
+  
+p401003 -[ebp@4198400]-> ^p401001~ebp@4198400^
+  
+^psub_401A20~TOP@4198477^ -[TOP@4198449]-> ^p401001~ebp@4198400^
+p401009 -[ebp@4198400]-> ^p401001~ebp@4198400^
+  
+p401079 -[TOP@4198505]-> ^p401001~ebp@4198400^
+  
+p401071 -[TOP@4198505]-> ^p401001~ebp@4198400^
+  
+p401069 -[TOP@4198505]-> ^p401001~ebp@4198400^
+  
+psub_401A20 -[TOP@4198477]-> ^psub_401A20~TOP@4198477^
+  
+p401064 -[TOP@4198477]-> ^p401001~ebp@4198400^
+  
+p401048 -[TOP@4198449]-> ^p401001~ebp@4198400^
+  
+^psub_4019E0~TOP@4198421^ -[ebp@4198400]-> ^p401001~ebp@4198400^
+psub_4019E0 -[TOP@4198421]-> ^psub_4019E0~TOP@4198421^
+  
+p40105D -[TOP@4198477]-> ^p401001~ebp@4198400^
+  
+--- END FA ---
+
+
+Statistics for common resources (overall):
+  - Time   : 0.00 seconds

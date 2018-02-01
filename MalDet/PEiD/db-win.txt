@@ -1,0 +1,3614 @@
+ ;  CMD denotes that the tool supports command line mode. 
+;  GUI denotes that the tool is GUI-based application.
+;  The following string of CMD or GUI is the path of the unpack tool with options. 
+;  signature is a sequence of hex codes to check whether the binary code can be unpacked by the unpack tool.
+;  ep_only= true denotes that the signature is only for PE files, otherwise it is for any executable files.
+ 
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 53 8B 5D 08 56 8B 75 0C 57 8B 7D 10 85 F6
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 B8 ?? ?? ?? 68 D0 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 20
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 E0 ?? ?? ?? 68 D4 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 38
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 B0 ?? ?? ?? 68 60 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 24
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 D8 ?? ?? ?? 68 14 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 B8 ?? ?? ?? 68 F8 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 20 ?? ?? ?? 33 D2 8A D4 89 15 D0
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? ?? E0 ?? ?? ?? ?? 68 D4 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58 53 56 57 89 65 E8 FF ?? ?? ?? 15 38
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? ?? B0 ?? ?? ?? ?? 68 60 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58 53 56 57 89 65 E8 FF ?? ?? ?? 15 24
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 40 ?? ?? ?? 68 54 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 58 ?? ?? ?? 33 D2 8A D4 89 15 EC
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 D0 ?? ?? ?? 68 34 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 68 ?? ?? ?? 33 D2 8A D4 89 15 84
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? ?? 68 94 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 6C ?? ?? ?? 33 D2 8A D4 89 15 B4
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 50 ?? ?? ?? 68 74 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 58 ?? ?? ?? 33 D2 8A D4 89 15 FC
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 90 ?? ?? ?? 68 24 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 60 ?? ?? ?? 33 D2 8A D4 89 15 3C
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 40 ?? ?? ?? 68 F4 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 6C ?? ?? ?? 33 D2 8A D4 89 15 F4
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 28 ?? ?? ?? 68 E4 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 6C ?? ?? ?? 33 D2 8A D4 89 15 0C
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 38 ?? ?? ?? 68 40 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 28 ?? ?? ?? 33 D2 8A D4 89 15 F4
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 68 ?? ?? ?? 68 D0 ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 28 ?? ?? ?? 33 D2 8A D4 89 15 24
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 68 ?? ?? ?? 68 ?? ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 EC 58 53 56 57 89 65 E8 FF 15 28 ?? ?? ?? 33 D2 8A D4 89 15 24
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 6A ?? 8B B5 ?? ?? ?? ?? C1 E6 04 8B 85 ?? ?? ?? ?? 25 07 ?? ?? 80 79 05 48 83 C8 F8 40 33 C9 8A 88 ?? ?? ?? ?? 8B 95 ?? ?? ?? ?? 81 E2 07 ?? ?? 80 79 05 4A 83 CA F8 42 33 C0 8A 82
+ep_only = true
+
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 60 E8 00 00 00 00 5D 50 51 EB 0F B9 EB 0F B8 EB 07 B9 EB 0F 90 EB 08 FD EB 0B F2 EB F5 EB F6 F2 EB 08 FD EB E9 F3 EB E4 FC E9 59 58 50 51 EB 0F B9 EB 0F B8 EB 07 B9 EB 0F 90 EB 08 FD EB 0B F2 EB F5 EB F6 F2 EB 08 FD EB E9 F3 EB E4 FC E9 59 58 50 51 EB 0F
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 E0 97 44 00 68 20 C0 42 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58 53 56 57 89 65 E8 FF 15 4C 41 44 00 33 D2 8A D4 89 15 90 A1 44 00 8B C8 81 E1 FF 00 00 00 89 0D 8C A1 44 00 C1 E1 08 03 CA 89 0D 88 A1 44 00 C1 E8 10 A3 84 A1
+ep_only = true
+ 
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 60 E8 00 00 00 00 5D 50 51 EB 0F ?? EB 0F ?? EB 07 ?? EB 0F ?? EB 08 FD EB 0B F2 EB F5 EB F6 F2 EB 08 FD EB E9 F3 EB E4 FC ?? 59 58 50 51 EB 0F ?? EB 0F ?? EB 07 ?? EB 0F ?? EB 08 FD EB 0B F2 EB F5 EB F6 F2 EB 08 FD EB E9 F3 EB E4 FC ?? 59 58 50 51 EB 0F
+ep_only = true
+ 
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 44 64 65 44 61 74 61 20 69 6E 69 74 69 61 6C 69 7A 65 64 20 28 41 4E 53 49 29 2C 20 61 70 70 20 73 74 72 69 6E 67 73 20 61 72 65 20 27 25 73 27 20 61 6E 64 20 27 25 73 27 00 00 00 44 64 65 44 61 74 61 20 69 6E 69 74 69 61 6C 69 7A 65 64 20 28 55 4E 49 43
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 31 2E 31 2E 34 00 00 00 C2 E0 94 BE 93 FC DE C6 B6 24 83 F7 D2 A4 92 77 40 27 CF EB D8 6F 50 B4 B5 29 24 FA 45 08 04 52 D5 1B D2 8C 8A 1E 6E FF 8C 5F 42 89 F1 83 B1 27 C5 69 57 FC 55 0A DD 44 BE 2A 02 97 6B 65 15 AA 31 E9 28 7D 49 1B DF B5 5D 08 A8 BA A8
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 98 71 40 00 68 48 2D 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true 
+ 
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 B0 71 40 00 68 6C 37 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true 
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 E8 C1 00 00 68 F4 86 00 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+ 
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 E0 C1 40 00 68 74 81 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true 
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 E0 C1 40 00 68 64 84 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+ 
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 E8 C1 40 00 68 F4 86 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+ 
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 10 F2 40 00 68 64 9A 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 64 FF 68 10 F2 40 00 68 14 9B 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true 
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 E0 C1 40 00 68 04 89 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 F0 C1 40 00 68 A4 89 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 08 E2 40 00 68 94 95 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 08 E2 40 00 68 B4 96 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 10 F2 40 00 68 74 9D 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 00 02 41 00 68 C4 A0 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 00 F2 40 00 68 C4 A0 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 08 02 41 00 68 04 9A 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 18 12 41 00 68 24 A0 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 10 12 41 00 68 F4 A0 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 30 12 41 00 68 A4 A5 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 B8 ?? ?? ?? 68 F8 ?? ?? ?? 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58 53 56 57 89 65 E8 FF 15 20 ?? ?? ?? 33 D2 8A D4 89 15 D0
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? ?? 40 ?? ?? ?? ?? 68 54 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58 53 56 57 89 65 E8 FF ?? ?? ?? 15 58 33 D2 8A D4 89
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 58 53 56 57 89 65 E8 FF 15 58 ?? ?? ?? 33 D2 8A D4 89 15 EC
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 60 E8 ?? ?? ?? ?? 5D 50 51 EB 0F B9 EB 0F B8 EB 07 B9 EB 0F 90 EB 08 FD EB 0B F2 EB F5 EB F6 F2 EB 08 FD EB E9 F3 EB E4 FC E9 59 58 60 33 C9
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 60 E8 ?? ?? ?? ?? 5D 50 51 EB 0F B9 EB 0F B8 EB 07 B9 EB 0F 90 EB 08 FD EB 0B F2 EB F5 EB F6 F2 EB 08 FD EB E9 F3 EB E4 FC E9 59 58 50 51 EB
+ep_only = true
+
+[GUI./PEiD/unpacker/ASPackDie141ArmaG3ddon/ArmaGeddon.exe]
+signature = 60 E8 ?? ?? ?? ?? 5D 50 51 EB 0F B9 EB 0F B8 EB 07 B9 EB 0F 90 EB 08 FD EB 0B F2 EB F5 EB F6 F2 EB 08 FD EB E9 F3 EB E4 FC E9 59 58
+ep_only = true
+ 
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 ?? ?? ?? ?? 5D 81 ED 92 1A 44 ?? B8 8C 1A 44 ?? 03 C5 2B 85 CD 1D 44 ?? 89 85 D9 1D 44 ?? 80 BD C4 1D 44
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 ?? ?? ?? ?? 5D 81 ED D2 2A 44 ?? B8 CC 2A 44 ?? 03 C5 2B 85 A5 2E 44 ?? 89 85 B1 2E 44 ?? 80 BD 9C 2E 44
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 ?? ?? ?? ?? 5D 81 ED 3E D9 43 ?? B8 38 ?? ?? ?? 03 C5 2B 85 0B DE 43 ?? 89 85 17 DE 43 ?? 80 BD 01 DE 43 ?? ?? 75 15 FE 85 01 DE 43 ?? E8 1D ?? ?? ?? E8 79 02 ?? ?? E8 12 03 ?? ?? 8B 85 03 DE 43 ?? 03 85 17 DE 43 ?? 89 44 24 1C 61 FF
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 ?? ?? ?? ?? 5D 81 ED 96 78 43 ?? B8 90 78 43 ?? 03 C5 2B 85 7D 7C 43 ?? 89 85 89 7C 43 ?? 80 BD 74 7C 43
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 ?? ?? ?? ?? 5D 81 ED AE 98 43 ?? B8 A8 98 43 ?? 03 C5 2B 85 18 9D 43 ?? 89 85 24 9D 43 ?? 80 BD 0E 9D 43
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 ?? ?? ?? ?? 5D 81 ED CE 3A 44 ?? B8 C8 3A 44 ?? 03 C5 2B 85 B5 3E 44 ?? 89 85 C1 3E 44 ?? 80 BD AC 3E 44
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 ?? ?? ?? ?? 5D 81 ED EA A8 43 ?? B8 E4 A8 43 ?? 03 C5 2B 85 78 AD 43 ?? 89 85 84 AD 43 ?? 80 BD 6E AD 43
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 EB 0A 5D EB 02 FF 25 45 FF E5 E8 E9 E8 F1 FF FF FF E9 81 ?? ?? ?? 44 ?? BB 10 ?? 44 ?? 03 DD 2B 9D
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 EB 0A 5D EB 02 FF 25 45 FF E5 E8 E9 E8 F1 FF FF FF E9 81 ?? ?? ?? 44 00 BB 10 ?? 44 00 03 DD 2B 9D
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 EB 0A 5D EB 02 FF 25 45 FF E5 E8 E9 E8 F1 FF FF FF E9 81 ED 23 6A 44 00 BB 10 ?? 44 00 03 DD 2B 9D 72
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D 81 ED 0A 4A 44 00 BB 04 4A 44 00 03 DD 2B 9D B1 50 44 00 83 BD AC 50 44 00 00 89 9D BB 4E
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D ?? ?? ?? ?? ?? ?? BB ?? ?? ?? ?? 03 DD 2B 9D B1 50 44 00 83 BD AC 50 44 00 00 89 9D BB 4E
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 EB 03 5D FF E5 E8 F8 FF FF FF 81 ED 1B 6A 44 00 BB 10 6A 44 00 03 DD 2B 9D 2A
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D 81 ED 96 78 43 00 B8 90 78 43 00 03 C5
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 ?? ?? ?? ?? 5D 81 ED ?? ?? ?? ?? B8 ?? ?? ?? ?? 03 C5 2B 85 ?? 12 9D ?? 89 85 1E 9D ?? ?? 80 BD 08 9D
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 ?? ?? ?? ?? 5D 81 ED ?? ?? ?? ?? B8 ?? ?? ?? ?? 03 C5 2B 85 ?? 0B DE ?? 89 85 17 DE ?? ?? 80 BD 01 DE
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D ?? ?? ?? ?? ?? ?? B8 ?? ?? ?? ?? 03 C5
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 EB ?? 5D EB ?? FF ?? ?? ?? ?? ?? E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D ?? ?? ?? ?? ?? ?? BB ?? ?? ?? ?? 03 DD
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D 81 ED 0A 4A 44 00 BB 04 4A 44 00 03 DD
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 41 06 00 00 EB 41
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 90 90 75 01 90 E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 90 90 75 00 E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 75 00 E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 90 75 00 E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 90 75 ?? E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 90 90 75 ?? E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 75 ?? E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 75 01 FF E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 90 90 75 01 FF E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 90 75 01 FF E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 90 75 ?? 90 E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 75 ?? 90 E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 90 90 75 ?? 90 E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 90 75 01 90 E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 75 01 90 E9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 ?? ?? ?? ?? EB
+ep_only = true
+ 
+[CMD./TitanMist.exe -i] 
+signature = A8 03 00 00 61 75 08 B8 01 00 00 00 C2 0C 00 68 00 00 00 00 C3 8B 85 26 04 00 00 8D 8D 3B 04 00 00 51 50 FF 95
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 02 00 00 00 EB 09 5D 55 81 ED 39 39 44 00 C3 E9 3D 04 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 02 00 00 00 EB 09 5D 55 81 ED 39 39 44 00 C3 E9 59 04 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB
+ep_only = true
+
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 70 05 00 00 EB 4C
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 72 05 00 00 EB 4C
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 72 05 00 00 EB 33 87 DB 90 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 02 00 00 00 EB 09 5D 55
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = A8 03 ?? ?? 61 75 08 B8 01 ?? ?? ?? C2 0C ?? 68 ?? ?? ?? ?? C3 8B 85 26 04 ?? ?? 8D 8D 3B 04 ?? ?? 51 50 FF 95
+ep_only = true
+
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E9 3D 04 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 90 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB 00 ?? ?? ?? 80 7D 4D 01 75 0C 8B 74 24 28 83 FE 01 89 5D 4E 75 31 8D 45 53 50 53 FF B5 ED 09 00 00 8D 45 35 50 E9 82 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 90 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB 00 ?? ?? ?? 80 7D 4D 01 75 0C 8B 74 24 28 83 FE 01 89 5D 4E 75 31 8D 45 53 50 53 FF B5 ED 09 00 00 8D 45 35 50 E9 82 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 90 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB ?? ?? ?? ?? 80 7D 4D 01 75 0C 8B 74 24 28 83 FE 01 89 5D 4E 75 31 8D 45 53 50 53 FF B5 D5 09 00 00 8D 45 35 50 E9 82 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 90 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB ?? ?? ?? ?? 80 7D 4D 01 75 0C 8B 74 24 28 83 FE 01 89 5D 4E 75 31 8D 45 53 50 53 FF B5 D5 09 00 00 8D 45 35 50 E9 82 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 90 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB 00 ?? ?? 00 80 7D 4D 01 75 0C 8B 74 24 28 83 FE 01 89 5D 4E 75 31 8D 45 53 50 53 FF B5 DD 09 00 00 8D 45 35 50 E9 82 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 90 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB 00 ?? ?? 00 80 7D 4D 01 75 0C 8B 74 24 28 83 FE 01 89 5D 4E 75 31 8D 45 53 50 53 FF B5 DD 09 00 00 8D 45 35 50 E9 82 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 90 60 E8 1B 00 00 00 E9 FC 8D B5 0F 06 00 00 8B FE B9 97 00 00 00 AD 35 78 56 34 12 AB 49 75 F6 EB 04 5D 45 55 C3 E9 ?? ?? ?? 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 60 E8 03 00 00 00 E9 ?? ?? 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ?? ?? ?? ?? 03 DD
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 68 01 ?? ?? ?? E8 01 00 00 00 C3 C3
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 60 E8 01 ?? ?? ?? 90 5D 81 ED ?? ?? ?? ?? BB ?? ?? ?? ?? 03 DD 2B 9D
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 60 E9 ?? 04 ?? ?? E9 ?? ?? ?? ?? ?? ?? ?? EE
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 60 E9 ?? ?? ?? ?? 91 78 79 79 79 E9
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 90 60 E8 1B ?? ?? ?? E9 FC
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 68 01 ?? ?? 00 E8 01 00 00 00 C3 C3
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 00 00 68 01 ?? ?? ?? C3 AA
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 68 01 ?? ?? ?? E8 01 ?? ?? ?? C3 C3
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 60 ?? ?? ?? ?? ?? 90 5D ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 03 DD
+ep_only = true
+
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 60 E9 ?? 05
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 90 60 E9 ?? 04
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 68 01 ?? ?? ?? C3
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 90 60 ?? ?? ?? 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB 00 ?? ?? ?? 80 7D 4D 01 75 0C 8B 74 24 28 83 FE 01 89 5D 4E 75 31 8D 45 53 50 53 FF B5 ED 09 00 00 8D 45 35 50 E9 82 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB 00 ?? ?? ?? 80 7D 4D 01 75 0C 8B 74 24 28 83 FE 01 89 5D 4E 75 31 8D 45 53 50 53 FF B5 ED 09 00 00 8D 45 35 50 E9 82 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB 00 ?? ?? ?? 80 7D 4D 01 75 0C 8B 74 24 28 83 FE 01 89 5D 4E 75 31 8D 45 53 50 53 FF B5 D5 09 00 00 8D 45 35 50 E9 82 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 60 E8 03 00 00 00 E9 EB 04 5D 45 55 C3 E8 01 00 00 00 EB 5D BB ED FF FF FF 03 DD 81 EB 00 ?? ?? ?? 80 7D 4D 01 75 0C 8B 74 24 28 83 FE 01 89 5D 4E 75 31 8D 45 53 50 53 FF B5 D5 09 00 00 8D 45 35 50 E9 82 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ASProtect_unpacker_by_PE_Kill/DecomAS.exe]
+signature = 68 01 ?? 40 00 E8 01 00 00 00 C3 C3
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 F9 50 E8 01 00 00 00 7C 58 58 49 50 E8 01 00 00 00 7E 58 58 79 04 66 B9 B8 72 E8 01 00 00 00 7A 83 C4 04 85 C8 EB 01 EB C1 F8 BE 72 03 73 01 74 0F 81 01 00 00 00 F9 EB 01 75 F9 E8 01 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 47 65 74 50 72 6F 63 41 64 64 72 65 73 73 00 00 00 47 65 74 4D 6F 64 75 6C 65 48 61 6E 64 6C 65 41 00 00 00 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 00 45 78 69 74 50 72 6F 63 65 73 73 00 00 00 4D 65 73 73 61 67 65 42 6F 78 41 00 90 4D 69 6E 65 49 6D 70
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 4B 45 52 4E 45 4C 33 32 2E 44 4C 4C 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 55 53 45 52 33 32 2E 44 4C 4C 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 47 65 74 50 72 6F 63
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 50 E8 01 00 00 00 75 83
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 01 00 00 00 7C 83 04 24 06 C3
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 0F 87 02 00 00 00 1B F8 E8 01 00 00 00 73 83 04 24 06 C3
+ep_only = true
+
+
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 80 ?? ?? ?? 83 ?? ?? ?? ?? 90 90 90 83 ?? ?? E2
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 83 ?? ?? E2 ?? ?? E2 ?? FF
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 80 ?? ?? ?? 83 ?? ?? ?? ?? 90 90 90 E2
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 81 ?? ?? ?? ?? ?? ?? 83 ?? ?? ?? ?? ?? ?? ?? 83 ?? ?? E2 ?? EB
+ep_only = true
+ 
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = E8 0E 00 00 00 8B 54 24 0C 83 82 B8 00 00 00 0D 33 C0 C3 64 67 FF 36 00 00 64 67 89 26 00 00 50 33 C0 8B 00 C3 E9 FA 00 00 00 E8 D5 FF FF FF 58 64 67 8F 06 00 00 83 C4 04 E8 2B 13 00 00
+ep_only = true
+ 
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 04 25 80 34 CA E8 29 00 00 00 EB 02 C1 81 EB 01 3A 8B 54 24 0C EB 02 32 92 83 82 B8 00 00 00 22 EB 02 F2 7F 33 C0 EB 04 65 7E 14 79 C3 EB 04 05 AD 7F 45 EB 04 05 65 0B E8 64 67 FF 36 00 00 EB 04 0D F6 A8 7F 64 67 89 26 00 00 EB 04 8D 68 C7 FB EB 01 6B
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 02 ?? ?? E8 25 00 00 00 EB 04 ?? ?? ?? ?? EB 01 ?? 8B 54 24 0C EB 01 ?? 83 82 B8 00 00 00 23 EB 01 ?? 33 C0 EB 02 ?? ?? C3 EB 02 ?? ?? EB 04 ?? ?? ?? ?? 64 67 FF 36 00 00 EB 03 ?? ?? ?? 64 67 89 26 00 00 EB 02 ?? ?? EB 01 ?? 50 EB 01 ?? 33 C0 EB 01 ?? 8B 00 EB 01 ?? C3 EB 02 ?? ?? E9 FA 00 00 00 EB 02 ?? ?? E8 D5 FF FF FF EB 03 ?? ?? ?? EB 04 ?? ?? ?? ?? 58 EB 02 ?? ?? EB 04 ?? ?? ?? ?? 64 67 8F 06 00 00 EB 03 ?? ?? ?? 83 C4 04 EB 01 ?? E8 3B 26 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 02 ?? ?? E8 28 00 00 00 EB 04 ?? ?? ?? ?? EB 01 ?? 8B 54 24 0C EB 01 ?? 83 82 B8 00 00 00 25 EB 02 ?? ?? 33 C0 EB 03 ?? ?? ?? C3 EB 03 ?? ?? ?? EB 02 ?? ?? 64 67 FF 36 00 00 EB 01 ?? 64 67 89 26 00 00 EB 03 ?? ?? ?? EB 04 ?? ?? ?? ?? 50 EB 04
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 02 ?? ?? E8 26 00 00 00 EB 03 ?? ?? ?? EB 01 ?? 8B 54 24 0C EB 04 ?? ?? ?? ?? 83 82 B8 00 00 00 26 EB 01 ?? 33 C0 EB 02 ?? ?? C3 EB 01 ?? EB 04 ?? ?? ?? ?? 64 67 FF 36 00 00 EB 01 ?? 64 67 89 26 00 00 EB 01 ?? EB 03 ?? ?? ?? 50 EB 03 ?? ?? ?? 33 C0 EB 03 ?? ?? ?? 8B 00 EB 04 ?? ?? ?? ?? C3 EB 03 ?? ?? ?? E9 FA 00 00 00 EB 03 ?? ?? ?? E8 D5 FF FF FF EB 04 ?? ?? ?? ?? EB 01 ?? 58 EB 02 ?? ?? EB 03 ?? ?? ?? 64 67 8F 06 00 00 EB 01 ?? 83 C4 04 EB 03 ?? ?? ?? E8 23 27
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 02 ?? ?? E8 25 00 00 00 EB 04 ?? ?? ?? ?? EB 01 ?? 8B 54 24 0C EB 01 ?? 83 82 B8 00 00 00 23 EB 01 ?? 33 C0 EB 02 ?? ?? C3 EB 02 ?? ?? EB 04 ?? ?? ?? ?? 64 67 FF 36 00 00 EB 03 ?? ?? ?? 64 67 89 26 00 00 EB 02 ?? ?? EB 01 ?? 50 EB 01 ?? 33 C0 EB 01
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 01 ?? E8 29 00 00 00 EB 02 ?? ?? EB 03 ?? ?? ?? 8B 54 24 0C EB 02 ?? ?? 83 82 B8 00 00 00 24 EB 04 ?? ?? ?? ?? 33 C0 EB 02 ?? ?? C3 EB 02 ?? ?? EB 02 ?? ?? 64 67 FF 36 00 00 EB 04 ?? ?? ?? ?? 64 67 89 26 00 00 EB 01 ?? EB 02 ?? ?? 50 EB 01 ?? 33 C0 EB 04 ?? ?? ?? ?? 8B 00 EB 03 ?? ?? ?? C3 EB 03 ?? ?? ?? E9 FA 00 00 00 EB 02 ?? ?? E8 D5 FF FF FF EB 01 ?? EB 04 ?? ?? ?? ?? 58 EB 02 ?? ?? EB 04 ?? ?? ?? ?? 64 67 8F 06 00 00 EB 01 ?? 83 C4 04 EB 02 ?? ?? E8 5F 27 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 02 ?? ?? E8 25 00 00 00 EB 04 ?? ?? ?? ?? EB 01 ?? 8B 54 24 0C EB 01 ?? 83 82 B8 00 00 00 23 EB 01 ?? 33 C0 EB 02 ?? ?? C3 EB 02 ?? ?? EB 04 ?? ?? ?? ?? 64 67 FF 36 00 00 EB 03 ?? ?? ?? 64
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 04 25 80 34 CA E8 29 00 00 00 EB 02 C1 81 EB 01 3A 8B 54 24 0C EB 02 32 92 83 82 B8 00 00 00 22 EB 02 F2 7F 33 C0 EB 04 65 7E 14 79 C3 EB 04 05 AD 7F 45 EB 04 05 65 0B E8 64 67 FF 36 00 00 EB 04 0D F6 A8 7F 64 67 89 26 00 00 EB 04 8D 68 C7 FB EB 01 6B 50 EB 03 8A 0B 93 33 C0 EB 02 28 B9 8B 00 EB 01 04 C3 EB 04 65 B3 54 0A E9 FA 00 00 00 EB 01 A2 E8 D5 FF FF FF EB 02 2B 49 EB 03 7C 3E 76 58 EB 04 B8 94 92 56 EB 01 72 64 67 8F 06 00 00 EB 02 23 72 83 C4 04 EB 02 A9 CB E8 47 26 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 02 ?? ?? E8 3F 1E 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 02 ?? ?? E8 E7 1C 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 02 ?? ?? E8 77 1E 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 01 ?? E8 ?? 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = E8 0E 00 00 00 8B 54 24 0C 83 82 B8 00 00 00 0D 33 C0 C3
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 04 ?? ?? ?? ?? E8 ?? 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 04 ?? ?? ?? ?? E8 29 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = EB 02 ?? ?? E8 ?? 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/ObsidiumUnpacker/ObsidiumUnpacker.exe]
+signature = E8 AF 1C 00 00
+ep_only = true  
+
+[GUI./PEiD/unpacker/unPESpin/UnPesPin-0.7.exe]
+signature = EB 01 68 60 E8 00 00 00 00 8B
+ep_only = false
+
+[GUI./PEiD/unpacker/unPESpin/UnPesPin-0.7.exe]
+signature = EB 01 68 60 E8 00 00 00 00 8B 1C 24 83 C3 12 81 2B E8 B1 06 00 FE 4B FD 82 2C 24 72 C8 46 00 0B E4 74 9E 75 01 C7 81 73 04 D7 7A F7 2F 81 73 19 77 00 43 B7 F6 C3 6B B7 00 00 F9 FF E3 C9 C2 08 00 A3 68 72 01 FF 5D 33 C9 41 E2 26 E8 01 00 00 00 EA 5A 33 C9
+ep_only = true
+
+
+[GUI./PEiD/unpacker/unPESpin/UnPesPin-0.7.exe]
+signature = EB 01 68 60 E8 00 00 00 00 8B 1C 24 83 C3 12 81 2B E8 B1 06 00 FE 4B FD 82 2C 24 83 D5 46 00 0B E4 74 9E 75 01 C7 81 73 04 D7 7A F7 2F 81 73 19 77 00 43 B7 F6 C3 6B B7 00 00 F9 FF E3 C9 C2 08 00 A3 68 72 01 FF 5D 33 C9 41 E2 17 EB 07 EA EB 01 EB EB 0D FF
+ep_only = true
+
+[GUI./PEiD/unpacker/unPESpin/UnPesPin-0.7.exe]
+signature = EB 01 68 60 E8 00 00 00 00 8B 1C 24 83 C3 12 81 2B E8 B1 06 00 FE 4B FD 82 2C 24 83 D5 46 00 0B E4 74 9E
+ep_only = true
+
+[GUI./PEiD/unpacker/unPESpin/unPESPIN-0.3/unPESpin.exe]
+signature = EB 01 68 60 E8 00 00 00 00 8B 1C 24 83 C3 12 81 2B E8 B1 06 00 FE 4B FD 82 2C 24 B7 CD 46
+ep_only = true
+
+[GUI./PEiD/unpacker/unPESpin/unPESPIN-0.3/unPESpin.exe]
+signature = EB 01 68 60 E8 00 00 00 00 8B 1C 24 83 C3 12 81 2B E8 B1 06 00 FE 4B FD 82 2C 24 5C CB 46 00 0B E4 74 9E 75 01 C7 81 73 04 D7 7A F7 2F 81 73 19 77 00 43 B7 F6 C3 6B B7 00 00 F9 FF E3 C9 C2 08 00 A3 68 72 01 FF 5D 33 C9 41 E2 17 EB 07 EA EB 01 EB EB 0D FF E8 01 00 00 00 EA 5A 83 EA 0B FF E2 8B 95 B3 28 40 00 8B 42 3C 03 C2 89 85 BD 28 40 00 41 C1 E1 07 8B 0C 01 03 CA 8B 59 10 03 DA 8B 1B 89 9D D1 28 40 00 53 8F 85 C4 27 40 00 BB ?? 00 00 00 B9 A5 08 00 00 8D BD 75 29 40 00 4F 30 1C 39 FE CB E2 F9 68 2D 01 00 00 59 8D BD AA 30 40 00 C0 0C 39 02 E2 FA E8 02 00 00 00 FF 15 5A 8D 85 07 4F 56 00 BB 54 13 0B 00 D1 E3 2B C3 FF E0 E8 01 00 00 00 68 E8 1A 00 00 00 8D 34 28 B8 ?? ?? ?? ?? 2B C9 83 C9 15 0F A3 C8 0F 83 81 00 00 00 8D B4 0D C4 28 40 00 8B D6 B9 10 00 00 00 AC 84 C0 74 06 C0 4E FF 03 E2 F5 E8 00 00 00 00 59 81 C1 1D 00 00 00 52 51 C1 E9 05 23 D1 FF
+ep_only = true
+
+[GUI./PEiD/unpacker/unPESpin/unpespin-v11/UnPesPin.exe]
+signature = EB 01 68 60 E8 00 00 00 00 8B 1C 24 83 C3 12 81 2B E8 B1 06 00 FE 4B FD 82 2C 24 7D DE 46 00 0B E4 74 9E 75 01 C7 81 73 04 D7 7A F7 2F 81 73 19 77 00 43 B7 F6 C3 6B B7 00 00 F9 FF E3 C9 C2 08 00 A3 68 72 01 FF 5D 33 C9 41 E2 17 EB 07 EA EB 01 EB EB 0D FF
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5B 8D 5B FA BD 00 00 ?? ?? 8B 7D 3C 8D 74 3D 00 8D BE F8 00 00 00 0F B7 76 06 4E 8B 47 10 09 C0 74 55 0F B7 47 22 09 C0 74 4D 6A 04 68 00 10 00 00 FF 77 10 6A 00 FF 93 38 03 00 00 50 56 57 89 EE 03 77 0C 8B 4F 10 89 C7 89 C8 C1 E9 02 FC F3 A5 89 C1 83 E1 03 F3 A4 5F 5E 8B 04 24 89 EA 03 57 0C E8 3F 01 00 00 58 68 00 40 00 00 FF 77 10 50 FF 93 3C 03 00 00 83 C7 28 4E 75 9E BE ?? ?? ?? ?? 09 F6 0F 84 0C 01 00 00 01 EE 8B 4E 0C 09 C9 0F 84 FF 00 00 00 01 E9 89 CF 57 FF 93 30 03 00 00 09 C0 75 3D 6A 04 68 00 10 00 00 68 00 10 00 00 6A 00 FF 93 38 03 00 00 89 C6 8D 83 6F 02 00 00 57 50 56 FF 93 44 03 00 00 6A 10 6A 00 56 6A 00 FF 93 48 03 00 00 89 E5
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 4D 5A 90 EB 01 00 52 E9 89 01 00 00 50 45 00 00 4C 01 02 00 00 00 00 00 00 00 00 00 00 00 00 00 E0 00 0F 03 0B 01 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 40 00 00 C0 4B 45 52 4E 45 4C 33 32 2E 44 4C 4C 00 00 00 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 00 00 47 65 74 50 72 6F 63 41 64 64 72 65 73 73 00 00 00 00 56 69 72 74 75 61 6C 50 72 6F 74 65 63 74 00 00 EB 01 CD 64 A1 30 00 00 00 EB 01 CD 8B 48 0C E3 6F EB 01 CD 05 AC 00 00 00 EB 01 CD 66 81 38 93 08 EB 01 CD 75 0A EB 01 CD B8 38 FF FF FF EB 14 EB 01 CD 66 81 38 28 0A 75 4A EB 01 CD B8 1A FF FF FF EB 00 EB 01 CD 31 C9 EB 01 CD 51 EB 01 CD 51 EB 01 CD 6A 11 EB 01 CD 6A FE EB 01 CD E8 03 00 00 00 EB 01 CD 83 04 24 18 EB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5B 8D 5B FA 6A 00 FF 93 ?? ?? 00 00 89 C5 8B 7D 3C 8D 74 3D 00 8D BE F8 00 00 00 8B 86 88 00 00 00 09 C0
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5B 8D 5B FA BD ?? ?? ?? ?? 8B 7D 3C 8D 74 3D 00 8D BE F8 00 00 00 0F B7 76 06 4E 8B 47 10 09 C0
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 4D 5A 90 EB 01 00 52 E9 ?? 01 00 00 50 45 00 00 4C 01 02 00
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 60 E8 00 00 00 00 5D 81 ED F3 1D 40 00 B9 7B 09 00 00 8D BD 3B 1E 40 00 8B F7 61 60 E8 00 00 00 00 5D 55 81 04 24 0A 00 00 00 C3 8B F5 81 C5 ?? ?? 00 00 89 6D 34 89 75 38 8B 7D 38 81 E7 00 FF FF FF 81 C7 48 00 00 00 47 03 7D 60 8B 4D 5C 83 F9 00 7E 0F 8B
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 60 E8 00 00 00 00 5D 55 81 04 24 0A 00 00 00 C3 8B F5 81 C5 ?? ?? 00 00 89 6D 34 89 75 38 8B 7D 38 81 E7 00 FF FF FF 81 C7 48 00 00 00 47 03 7D 60 8B 4D 5C 83 F9 00 7E 0F 8B 17 33 55 58 89 17 83 C7 04 83 C1 FC EB EC 8B
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = E9 BE 00 00 00 60 8B 74 24 24 8B 7C 24 28 FC B2 80 33 DB A4 B3 02 E8 6D 00 00 00 73 F6 33 C9 E8 64 00 00 00 73 1C 33 C0 E8 5B 00 00 00 73 23 B3 02 41 B0 10 E8 4F 00 00 00 12 C0 73 F7 75 3F AA EB D4 E8 4D 00 00 00 2B CB 75 10 E8 42 00 00 00 EB 28 AC D1 E8 74 4D 13 C9 EB 1C 91 48 C1 E0 08 AC E8 2C 00 00 00 3D 00 7D 00 00 73 0A 80 FC 05 73 06 83 F8 7F 77 02 41 41 95 8B C5 B3 01 56 8B F7 2B F0 F3 A4 5E EB 8E 02 D2 75 05 8A 16 46 12 D2 C3 33 C9 41 E8 EE FF FF FF 13 C9 E8 E7 FF FF FF 72 F2 C3 2B 7C 24 28 89 7C 24 1C 61 C3 60 FF 74 24 24 6A 40 FF 95 1A 0F 41 00 89 44 24 1C 61 C2 04 00 E8 00 00 00 00 81 2C 24 3A 10 41 00 5D E8 00 00 00 00 81 2C 24 31 01 00 00 8B 85 2A 0F 41 00 29 04 24
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = E8 00 00 00 00 81 2C 24 AA 1A 41 00 5D E8 00 00 00 00 83 2C 24 6E 8B 85 5D 1A 41 00 29 04 24 8B 04 24 89 85 5D 1A 41 00 58 8B 85 5D 1A 41 00 8B 50 3C 03 D0 8B 92 80 00 00 00 03 D0 8B 4A 58 89 8D 49 1A 41 00 8B 4A 5C 89 8D 4D 1A 41 00 8B 4A 60 89 8D 55 1A 41 00 8B 4A 64 89 8D 51 1A 41 00 8B 4A 74 89 8D 59 1A 41 00 68 00 20 00 00 E8 D2 00 00 00 50 8D 8D 00 1C 41 00 50 51 E8 1B 00 00 00 83 C4 08 58 8D 78 74 8D B5 49 1A 41 00 B9 18 00 00 00 F3 A4 05 A4 00 00 00 50 C3 60 8B 74 24 24 8B 7C 24 28 FC B2 80 33 DB A4 B3 02 E8 6D 00 00 00 73 F6 33 C9 E8 64 00 00 00 73 1C 33 C0 E8 5B 00 00 00 73 23 B3 02 41 B0 10 E8 4F 00 00 00 12 C0 73 F7 75 3F AA EB D4 E8 4D 00 00 00 2B CB 75 10 E8 42 00 00 00 EB 28 AC D1 E8 74 4D 13 C9 EB 1C 91 48 C1 E0 08 AC E8 2C 00 00 00 3D 00 7D 00 00 73 0A 80 FC 05 73 06 83 F8 7F 77 02 41 41 95 8B C5 B3 01 56 8B F7 2B F0 F3 A4 5E EB 8E 02 D2 75 05 8A 16 46 12 D2 C3 33 C9 41 E8 EE FF FF FF 13 C9 E8 E7 FF FF FF 72 F2 C3 2B 7C 24 28 89 7C 24 1C 61 C3 60 FF 74 24 24 6A 40 FF 95 4D 1A 41 00 89 44 24 1C 61 C2 04
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = E9 BE 00 00 00 60 8B 74 24 24 8B 7C 24 28 FC B2 80 33 DB A4 B3 02 E8 6D 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 83 EC 18 53 8B 1D 00 30 ?? ?? 55 56 57 68 30 07 00 00 33 ED 55 FF D3 8B F0 3B F5 74 0D 89 AE 20 07 00 00 E8 88 0F 00 00 EB 02 33 F6 6A 10 55 89 35 30 40 ?? ?? FF D3 8B F0 3B F5 74 09 89 2E E8 3C FE FF FF EB 02 33 F6 6A 18 55 89 35 D8 43 ?? ?? FF D3 8B F0
+ep_only = true
+ 
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 ?? ?? ?? ?? 20 43 6F 6D 70 69 6C 65 64 20 62 79 3A 20 42 65 52 6F 54 69 6E 79 50 61 73 63 61 6C 20 2D 20 28 43 29 20 43 6F 70 79 72 69 67 68 74 20 32 30 30 36 2C 20 42 65 6E 6A 61 6D 69 6E 20 27 42 65 52 6F 27 20 52 6F 73 73 65 61 75 78 20
+ep_only = true
+ 
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 55 E8 00 00 00 00 5D 81 ED 18 00 00 00 8B C5 55 60 9C 2B 85 E9 06 00 00 89 85 E1 06 00 00 FF 74 24 2C E8 BB 01 00 00 0F 82 92 05 00 00 E8 F1 03 00 00 49 0F 88 86 05 00 00 68 6C D9 B2 96 33 C0 50 E8 24
+ep_only = true
+
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB 15 03 00 00 00 06
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 55 E8 ?? ?? ?? ?? 5D 83 ED 06 8B C5 55 60 89 AD ?? ?? ?? ?? 2B 85
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 55 E8 ?? ?? ?? ?? 5D 83 ED 06 8B C5 55 60 89 AD ?? ?? ?? ?? 2B 85 ?? ?? ?? ?? 89 85 ?? ?? ?? ?? 55 BB ?? ?? ?? ?? 03 DD 53 64 67 FF 36 ?? ?? 64 67 89 26
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 10 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 55 E8 ?? ?? ?? ?? 5D 81 ED 18 ?? ?? ?? 8B C5 55 60 9C 2B 85 E9 06 ?? ?? 89 85 E1 06 ?? ?? FF 74 24 2C E8 BB 01 00 00 0F 82 92 05 00 00 E8 F1 03 00 00 49 0F 88 86 05 00 00 68 6C D9 B2 96 33 C0 50 E8 24
+ep_only = false
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 55 E8 ?? ?? ?? ?? 5D 83 ED 06 8B C5 55 60 89 AD ?? ?? ?? ?? 2B 85 ?? ?? ?? ?? 89 85 ?? ?? ?? ?? 80 BD ?? ?? ?? ?? ?? 75 09 C6 85
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 10 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 55 E8 ?? ?? ?? ?? 5D 81 ED 18 ?? ?? ?? 8B C5 55 60 9C 2B 85 ?? ?? ?? ?? 89 85 ?? ?? ?? ?? FF 74
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 15 03 ?? ?? ?? 06
+ep_only = false
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 2E ?? ?? ?? ?? 2E ?? ?? ?? B4 30 CD 21 3C 03 73 ?? BB ?? ?? 8E DB 8D ?? ?? ?? B4 09 CD 21 06 33 C0 50 CB
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 10 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 55 E8
+ep_only = false
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 15 03 ?? ?? ?? 06 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 68 ?? ?? ?? ?? 55 E8
+ep_only = false
+ 
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 20 ?? ?? 40 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 9C 55 57 56 52 51 53 9C E8 ?? ?? ?? ?? 5D 81 ED ?? ?? ?? ?? 9C 6A 10 73 0B EB 02 C1 51 E8 06 ?? ?? ?? C4 11 73 F7 5B CD 83 C4 04 EB 02 99 EB FF 0C 24 71
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE ?? ?? 40 00 6A ?? 59 80 7E 07 00 74 11 8B 46 0C 05 00 00 40 00 8B 56 10 30 10 40 4A 75 FA 83 C6 28 E2 E4 68 ?? ?? 40 00 C3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE ?? 01 40 00 6A ?? 59 80 7E 07 00 74 11 8B 46 0C 05 00 00 40 00 8B 56 10 30 10 40 4A 75 FA 83 C6 28 E2 E4 68 ?? ?? 40 00 C3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE ?? 01 40 00 6A ?? 59 80 7E 07 00 74 11 8B 46 0C 05 00 00 40 00 8B 56 10 30 10 40 4A 75 FA 83 C6 28 E2 E4 68 ?? 10 40 00 C3
+ep_only = false
+ 
+[CMD./TitanMist.exe -i] 
+signature = BE ?? 01 40 00 6A 05 59 80 7E 07 00 74 11 8B 46
+ep_only = true
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = E8 F7 FE FF FF 05 ?? ?? 00 00 FF E0 E8 EB FE FF FF 05 ?? ?? 00 00 FF E0 E8 04 00 00 00 FF FF FF FF 5E C3
+ep_only = true
+ 
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = 6B 65 72 6E 65 6C 33 32 2E 64 6C 6C 00 00 00 00 00 00 47 65 74 4D 6F 64 75 6C 65 48 61 6E 64 6C 65 41 00 00 00 00 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 00 00 47 65 74 50 72 6F 63 41 64 64 72 65 73 73 00 00 00 00 00 00 45 78 69 74 50 72 6F 63 65 73 73
+ep_only = false
+ 
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = E8 24 00 00 00 8B 4C 24 0C C7 01 17 00 01 00 C7 81 ?? ?? ?? ?? ?? ?? ?? 31 C0 89 41 14 89 41 18 80 A1
+ep_only = true
+ 
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = E8 24 00 00 00 8B 4C 24 0C C7 01 17 00 01 00 C7 81 B8 00 00 00 00 ?? ?? 00 31 C0 89 41 14 89 41 18 80
+ep_only = true
+ 
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = E8 24 ?? ?? ?? 8B 4C 24 0C C7 01 17 ?? 01 ?? C7 81 B8 ?? ?? ?? ?? ?? ?? ?? 31 C0 89 41 14 89 41 18 80 A1 C1 ?? ?? ?? FE C3 31 C0 64 FF 30 64 89 20 CC C3
+ep_only = true
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = E8 24 00 00 00 8B 4C 24 0C C7 01 17 00 01 00 C7 81 B8 00 00 00 00 ?? ?? 00 31 C0 89 41 14 89 41 18 80 A1 C1 00 00 00 FE C3 31 C0 64 FF 30 64 89 20 CC C3
+ep_only = false
+ 
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = BE ?? ?? ?? ?? B8 00 00 ?? ?? 89 45 FC 89 C2 8B 46 0C 09 C0 0F 84 ?? 00 00 00 01 D0 89 C3 50 FF 15 94 ?? ?? ?? 09 C0 0F 85 0F 00 00 00 53 FF 15 98 ?? ?? ?? 09 C0 0F 84 ?? 00 00 00 89 45 F8 6A 00 8F 45 F4 8B 06 09 C0 8B 55 FC 0F 85 03 00 00 00 8B 46 10 01
+ep_only = false
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = E8 F7 FE FF FF 05 ?? ?? 00 00 FF E0 E8 EB FE FF FF 05 ?? ?? 00 00 FF E0 E8 ?? 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = A4 ?? ?? 00 00 00 00 00 FF FF FF FF 3C ?? ?? 00 94 ?? ?? 00 D8 ?? ?? 00 00 00 00 00 FF FF FF FF
+ep_only = false
+
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = E8 24 ?? ?? ?? 8B 4C 24 0C C7 01 17 ?? 01 ?? C7 81 ?? ?? ?? ?? ?? ?? ?? 31 C0 89 41 14 89 41 18 80 A1
+ep_only = true
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = E9 ?? ?? ?? ?? 66 9C 60 50 8D 88 ?? ?? ?? ?? 8D 90 04 16 ?? ?? 8B DC 8B E1
+ep_only = true
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = E8 24 ?? ?? ?? 8B 4C 24 0C C7 01 17 ?? 01 ?? C7 81 B8 ?? ?? ?? ?? ?? ?? ?? 31 C0 89 41
+ep_only = true
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = 83 C6 14 8B 55 FC E9 ?? FF FF FF
+ep_only = false
+
+[GUI./PEiD/unpacker/Unpacker_ExeCryptor.exe]
+signature = FF E0 E8 04 00 00 00 FF FF FF FF 5E C3 00
+ep_only = false
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = E8 04 00 00 00 83 60 EB 0C 5D EB 05 45 55 EB 04 B8 EB F9 00 C3 E8 00 00 00 00 5D 81 ED BC 1A 40 00 EB 01 00 8D B5 46 1B 40 00 BA B3 0A 00 00 EB 01 00 8D 8D F9 25 40 00 8B 09 E8 14 00 00 00 83 EB 01 00 8B FE E8 00 00 00 00 58 83 C0 07 50 C3 00 EB 04 58 40
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = E8 04 00 00 00 83 60 EB 0C 5D EB 05 45 55 EB 04 B8 EB F9 00 C3 E8 00 00 00 00 5D 81 ED D4 1A 40 00 EB 01 00 8D B5 5E 1B 40 00 BA A1 0B 00 00 EB 01 00 8D 8D FF 26 40 00 8B 09 E8 14 00 00 00 83 EB 01 00 8B FE E8 00 00 00 00 58 83 C0 07 50 C3 00 EB 04 58 40
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 06 68 40 85 06 00 C3 9C 60 E8 02 00 00 00 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 3F 90 40 00 87 DD 8B 85 E6 90 40 00 01 85 33 90 40 00 66 C7 85 30 90 40 00 90 90 01 85 DA 90 40 00 01 85 DE 90 40 00 01 85 E2 90 40 00 BB 7B 11 00 00 03 9D EA 90 40
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 06 68 90 1F 06 00 C3 9C 60 E8 02 00 00 00 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 3F 90
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 60 E8 00 00 00 00 5D 81 ED 0B 20 40 00 B9 EB 08 00 00 8D BD 53 20 40 00 8B F7 AC ?? ?? ?? F8
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = E8 04 00 00 00 83 60 EB 0C 5D EB 05
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 06 68 F4 86 06 00 C3 9C 60 E8 02 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 65 78 65 73 68 6C 2E 64 6C 6C C0 5D 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 90 EB 22 45 78 65 53 74 65 61 6C 74 68 20 2D 20 77 77 77 2E 77 65 62 74 6F 6F 6C 6D 61 73 74 65 72 2E 63 6F 6D E8 00 00 00 00 5D 81 ED 40 1E 40 00 B9 99 09 00 00 8D BD 88 1E 40 00 8B F7 AC
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = EB 00 EB 2F 53 68 61 72 65 77 61 72 65 20 2D 20 45 78 65 53 74 65 61 6C 74 68 00 EB 16 77 77 77 2E 77 65 62 74 6F 6F 6C 6D 61 73 74 65 72 2E 63 6F 6D 00 60 90 E8 00 00 00 00 5D 81 ED F0 27 40 00 B9 15 00 00 00 83 C1 05 EB 05 EB FE 83 C7 56 EB 00 83 E9 02
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = EB 00 EB 17 53 68 61 72 65 77 61 72 65 20 2D 20 45 78 65 53 74 65 61 6C 74 68 00 60 90 E8 00 00 00 00 5D 81 ED C4 27 40 00 B9 15 00 00 00 83 C1 04 83 C1 01 EB 05 EB FE 83 C7 56 EB 00 83 E9 02 81 C1 78 43 27 65 EB 00 81 C1 10 25 94 00 81 E9 63 85 00 00 B9
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D 81 ED FB 1D 40 00 B9 7B 09 00 00 8B F7 AC
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 00 60 EB 00 E8 00 00 00 00 5D 81 ED D3 26 40
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 00 60 EB 00 E8 00 00 00 00 5D 81 ED B0 27 40
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 00 EB 2F 53 68 61 72 65 77 61 72 65 20 2D 20
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 00 EB 17 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 60 90 E8 00 00 00 00 5D
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 58 53 68 61 72 65 77 61 72 65 2D 56 65 72 73 69 6F 6E 20 45 78 65 53 74 65 61 6C 74 68 2C 20 63 6F 6E 74 61 63 74 20 73 75 70 70 6F 72 74 40 77 65 62 74 6F 6F 6C 6D 61 73 74 65 72 2E 63 6F 6D 20 2D 20 77 77 77 2E 77 65 62 74 6F 6F 6C 6D 61 73 74 65 72
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 90 60 90 E8 00 00 00 00 5D 81 ED D1 27 40 00 B9 15 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = B8 ?? ?? ?? 00 50 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 33 C0 89 08 50 45 43 6F 6D 70 61 63 74 32 00 CE 1E 42 AF F8 D6 CC E9 FB C8 4F 1B 22 7C B4 C8 0D BD 71 A9 C8 1F 5F B1 29 8F 11 73 8F 00 D1 88 87 A9 3F 4D 00 6C 3C BF C0 80 F7 AD 35 23 EB 84 82 6F
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = B8 ?? ?? ?? 00 50 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 33 C0 89 08 50 45 43 6F 6D 70 61 63 74 32 00 CE 1E 42 AF F8 D6 CC
+ep_only = true 
+   
+[GUI./PEiD/unpacker/WSUnpackerV0.20/WSUnpacker.exe]
+signature = 60 E8 ?? ?? ?? ?? 5D 8B FD 81 ED ?? ?? ?? ?? 2B B9 ?? ?? ?? ?? 81 EF ?? ?? ?? ?? 83 BD ?? ?? ?? ?? ?? 0F 84
+ep_only = true
+
+[GUI./PEiD/unpacker/WSUnpackerV0.20/WSUnpacker.exe]
+signature = 60 E8 00 00 00 00 5D 8B FD 81 ED 06 10 40 00 2B BD 94 12 40 00 81 EF 06 00 00 00 83 BD 14 13 40 00 01 0F 84 2F 01 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BB D0 01 40 00 BF 00 10 40 00 BE ?? ?? ?? ?? 53 E8 0A 00 00 00 02 D2 75 05 8A 16 46 12 D2 C3 FC B2 80 A4 6A 02 5B
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 4B 45 52 4E 45 4C 33 32 2E 64 6C 6C 00 00 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 47 65 74 50 72 6F 63 41 64 64 72 65 73 73 00 ?? 00 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BB D0 01 40 00 BF 00 10 40 00 BE ?? ?? ?? ?? 53 BB ?? ?? ?? ?? B2 80 A4 B6 80 FF D3 73 F9 33 C9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BB D0 01 40 ?? BF ?? 10 40 ?? BE ?? ?? ?? ?? FC B2 80 8A 06 46 88 07 47 02 D2 75 05 8A 16
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 80 E9 A1 C1 C1 13 68 E4 16 75 46 C1 C1 05 5E EB 01 9D 68 64 86 37 46 EB 02 8C E0 5F F7 D0
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 01 02 EB 02 CD 20 B8 80 ?? 42 00 EB 01 55 BE F4 00 00 00 13 DF 13 D8 0F B6 38 D1 F3 F7
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 02 CD 20 2B C8 68 80 ?? ?? 00 EB 02 1E BB 5E EB 02 CD 20 68 B1 2B 6E 37 40 5B 0F B6 C9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 23 CA EB 02 5A 0D E8 02 00 00 00 6A 35 58 C1 C9 10 BE 80 ?? ?? 00 0F B6 C9 EB 02 CD 20 BB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 01 2E EB 02 A5 55 BB 80 ?? ?? 00 87 FE 8D 05 AA CE E0 63 EB 01 75 BA 5E CE E0 63 EB 02
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 2B C2 E8 02 00 00 00 95 4A 59 8D 3D 52 F1 2A E8 C1 C8 1C BE 2E ?? ?? 18 EB 02 AB A0 03 F7
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 02 CD 20 EB 02 CD 20 EB 02 CD 20 C1 E6 18 BB 80 ?? ?? 00 EB 02 82 B8 EB 01 10 8D 05 F4
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = C1 C8 10 EB 01 0F BF 03 74 66 77 C1 E9 1D 68 83 ?? ?? 77 EB 02 CD 20 5E EB 02 CD 20 2B F7
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 1B DB E8 02 00 00 00 1A 0D 5B 68 80 ?? ?? 00 E8 01 00 00 00 EA 5A 58 EB 02 CD 20 68 F4 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 01 56 E8 02 00 00 00 B2 D9 59 68 80 ?? 41 00 E8 02 00 00 00 65 32 59 5E EB 02 CD 20 BB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = F7 D8 0F BE C2 BE 80 ?? ?? 00 0F BE C9 BF 08 3B 65 07 EB 02 D8 29 BB EC C5 9A F8 EB 01 94
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 03 F7 23 FE 33 FB EB 02 CD 20 BB 80 ?? 40 00 EB 01 86 EB 01 90 B8 F4 00 00 00 83 EE 05 2B
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 01 DB E8 02 00 00 00 86 43 5E 8D 1D D0 75 CF 83 C1 EE 1D 68 50 ?? 8F 83 EB 02 3D 0F 5A
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 02 09 94 0F B7 FF 68 80 ?? ?? 00 81 F6 8E 00 00 00 5B EB 02 11 C2 8D 05 F4 00 00 00 47
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = C1 CB 10 EB 01 0F B9 03 74 F6 EE 0F B6 D3 8D 05 83 ?? ?? EF 80 F3 F6 2B C1 EB 01 DE 68 77
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 2C 71 1B CA EB 01 2A EB 01 65 8D 35 80 ?? ?? 00 80 C9 84 80 C9 68 BB F4 00 00 00 EB 01 EB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 33 D2 0F BE D2 EB 01 C7 EB 01 D8 8D 05 80 ?? ?? ?? EB 02 CD 20 EB 01 F8 BE F4 00 00 00 EB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E8 01 00 00 00 5A 5E E8 02 00 00 00 BA DD 5E 03 F2 EB 01 64 BB 80 ?? ?? 00 8B FA EB 01 A8
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 0B D0 8B DA E8 02 00 00 00 40 A0 5A EB 01 9D B8 80 ?? ?? ?? EB 02 CD 20 03 D3 8D 35 F4 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = F7 D8 40 49 EB 02 E0 0A 8D 35 80 ?? ?? ?? 0F B6 C2 EB 01 9C 8D 1D F4 00 00 00 EB 01 3C 80
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 87 FE E8 02 00 00 00 98 CC 5F BB 80 ?? ?? 00 EB 02 CD 20 68 F4 00 00 00 E8 01 00 00 00 E3
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = F7 DB 80 EA BF B9 2F 40 67 BA EB 01 01 68 AF ?? A7 BA 80 EA 9D 58 C1 C2 09 2B C1 8B D7 68
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = F7 D0 EB 02 CD 20 BE BB 74 1C FB EB 02 CD 20 BF 3B ?? ?? FB C1 C1 03 33 F7 EB 02 CD 20 68
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = F7 DB 80 EA BF B9 2F 40 67 BA EB 01 01 68 AF ?? ?? BA 80 EA 9D 58 C1 C2 09 2B C1 8B D7 68
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 91 EB 02 CD 20 BF 50 BC 04 6F 91 BE D0 ?? ?? 6F EB 02 CD 20 2B F7 EB 02 F0 46 8D 1D F4 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 03 DE EB 01 F8 B8 80 ?? 42 00 EB 02 CD 20 68 17 A0 B3 AB EB 01 E8 59 0F B6 DB 68 0B A1 B3
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E8 01 00 00 00 0E 59 E8 01 00 00 00 58 58 BE 80 ?? ?? 00 EB 02 61 E9 68 F4 00 00 00 C1 C8
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 02 AB 35 EB 02 B5 C6 8D 05 80 ?? ?? 00 C1 C2 11 BE F4 00 00 00 F7 DB F7 DB 0F BE 38 E8
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = D1 E9 03 C0 68 80 ?? ?? 00 EB 02 CD 20 5E 40 BB F4 00 00 00 33 CA 2B C7 0F B6 16 EB 01 3E
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = C1 CE 10 C1 F6 0F 68 00 ?? ?? 00 2B FA 5B 23 F9 8D 15 80 ?? ?? 00 E8 01 00 00 00 B6 5E 0B
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 01 4D 83 F6 4C 68 80 ?? ?? 00 EB 02 CD 20 5B EB 01 23 68 48 1C 2B 3A E8 02 00 00 00 38
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE A4 01 40 00 AD 93 AD 97 AD 56 96 B2 80 A4 B6 80 FF 13 73 F9 33 C9 FF 13 73 16 33 C0 FF
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 87 25 ?? ?? ?? ?? 61 94 55 A4 B6 80 FF 13 73 F9 33 C9 FF 13 73 16 33 C0 FF 13 73 1F B6 80 41 B0 10 FF 13 12 C0 73 FA 75
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = BE ?? ?? ?? 00 BF ?? ?? ?? 00 BB ?? ?? ?? 00 53 BB ?? ?? ?? 00 B2 80
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 02 CD 20 03 ?? 8D ?? 80 ?? ?? 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? EB 02
+ep_only = true
+ 
+[CMD./TitanMist.exe -i] 
+signature = EB 01 ?? EB 02 ?? ?? ?? 80 ?? ?? 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 02 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? F6
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BB D0 01 40 ?? BF ?? 10 40 ?? BE
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E8 01 00 00 00 ?? ?? E8 ?? 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 87 FE ?? 02 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 02 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 02 CD 20 ?? CF ?? ?? 80 ?? ?? 00 ?? ?? ?? ?? ?? ?? ?? ?? 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE A4 01 40 00 AD 93 AD 97 AD 56 96 B2 80 A4 B6 80 FF 13 73
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 87 25 ?? ?? ?? 00 61 94 55 A4 B6 80 FF 13
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BB D0 01 40 00 BF 00 10 40 00 BE ?? ?? ?? 00 53 E8 0A 00 00 00 02 D2 75 05 8A 16 46 12 D2 C3 FC B2 80 A4 6A 02 5B FF 14 24 73 F7 33 C9 FF 14 24 73 18 33 C0 FF 14 24 73 21 B3 02 41 B0 10 FF 14 24 12 C0 73 F9 75 3F AA EB DC E8 43 00 00 00 2B CB 75 10 E8 38
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BB D0 01 40 00 BF 00 10 40 00 BE ?? ?? ?? 00 53 E8 0A 00 00 00 02 D2 75 05 8A 16 46 12 D2 C3 B2 80 A4 6A 02 5B FF 14 24 73 F7 33 C9 FF 14 24 73 18 33 C0 FF 14 24 73 21 B3 02 41 B0 10 FF 14 24 12 C0 73 F9 75 3F AA EB DC E8 43 00 00 00 2B CB 75 10 E8 38 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 23 CA EB 02 5A 0D E8 02 00 00 00 6A 35 58 C1 C9 10 BE 80 ?? ?? 00 0F B6 C9 EB 02 CD 20 BB F4 00 00 00 EB 02 04 FA EB 01 FA EB 01 5F EB 02 CD 20 8A 16 EB 02 11 31 80 E9 31 EB 02 30 11 C1 E9 11 80 EA 04 EB 02 F0 EA 33 CB 81 EA AB AB 19 08 04 D5 03 C2 80 EA
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 2B C2 E8 02 00 00 00 95 4A 59 8D 3D 52 F1 2A E8 C1 C8 1C BE 2E ?? ?? 18 EB 02 AB A0 03 F7 EB 02 CD 20 68 F4 00 00 00 0B C7 5B 03 CB 8A 06 8A 16 E8 02 00 00 00 8D 46 59 EB 01 A4 02 D3 EB 02 CD 20 02 D3 E8 02 00 00 00 57 AB 58 81 C2 AA 87 AC B9 0F BE C9 80
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 1B DB E8 02 00 00 00 1A 0D 5B 68 80 ?? ?? 00 E8 01 00 00 00 EA 5A 58 EB 02 CD 20 68 F4 00 00 00 EB 02 CD 20 5E 0F B6 D0 80 CA 5C 8B 38 EB 01 35 EB 02 DC 97 81 EF F7 65 17 43 E8 02 00 00 00 97 CB 5B 81 C7 B2 8B A1 0C 8B D1 83 EF 17 EB 02 0C 65 83 EF 43 13
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 03 F7 23 FE 33 FB EB 02 CD 20 BB 80 ?? 40 00 EB 01 86 EB 01 90 B8 F4 00 00 00 83 EE 05 2B F2 81 F6 EE 00 00 00 EB 02 CD 20 8A 0B E8 02 00 00 00 A9 54 5E C1 EE 07 F7 D7 EB 01 DE 81 E9 B7 96 A0 C4 EB 01 6B EB 02 CD 20 80 E9 4B C1 CF 08 EB 01 71 80 E9 1C EB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 0B D0 8B DA E8 02 00 00 00 40 A0 5A EB 01 9D B8 80 ?? ?? 00 EB 02 CD 20 03 D3 8D 35 F4 00 00 00 EB 01 35 EB 01 88 80 CA 7C 80 F3 74 8B 38 EB 02 AC BA 03 DB E8 01 00 00 00 A5 5B C1 C2 0B 81 C7 DA 10 0A 4E EB 01 08 2B D1 83 EF 14 EB 02 CD 20 33 D3 83 EF 27
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 03 DE EB 01 F8 B8 80 ?? 42 00 EB 02 CD 20 68 17 A0 B3 AB EB 01 E8 59 0F B6 DB 68 0B A1 B3 AB EB 02 CD 20 5E 80 CB AA 2B F1 EB 02 CD 20 43 0F BE 38 13 D6 80 C3 47 2B FE EB 01 F4 03 FE EB 02 4F 4E 81 EF 93 53 7C 3C 80 C3 29 81 F7 8A 8F 67 8B 80 C3 C7 2B FE
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = C1 F0 07 EB 02 CD 20 BE 80 ?? ?? 00 1B C6 8D 1D F4 00 00 00 0F B6 06 EB 02 CD 20 8A 16 0F B6 C3 E8 01 00 00 00 DC 59 80 EA 37 EB 02 CD 20 2A D3 EB 02 CD 20 80 EA 73 1B CF 32 D3 C1 C8 0E 80 EA 23 0F B6 C9 02 D3 EB 01 B5 02 D3 EB 02 DB 5B 81 C2 F6 56 7B F6
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 0F BE C1 EB 01 0E 8D 35 C3 BE B6 22 F7 D1 68 43 ?? ?? 22 EB 02 B5 15 5F C1 F1 15 33 F7 80 E9 F9 BB F4 00 00 00 EB 02 8F D0 EB 02 08 AD 8A 16 2B C7 1B C7 80 C2 7A 41 80 EA 10 EB 01 3C 81 EA CF AE F1 AA EB 01 EC 81 EA BB C6 AB EE 2C E3 32 D3 0B CB 81 EA AB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 0F B6 D0 E8 01 00 00 00 0C 5A B8 80 ?? ?? 00 EB 02 00 DE 8D 35 F4 00 00 00 F7 D2 EB 02 0E EA 8B 38 EB 01 A0 C1 F3 11 81 EF 84 88 F4 4C EB 02 CD 20 83 F7 22 87 D3 33 FE C1 C3 19 83 F7 26 E8 02 00 00 00 BC DE 5A 81 EF F7 EF 6F 18 EB 02 CD 20 83 EF 7F EB 01
+ep_only = true
+ 
+[CMD./TitanMist.exe -i] 
+signature = 33 C2 2C FB 8D 3D 7E 45 B4 80 E8 02 00 00 00 8A 45 58 68 02 ?? 8C 7F EB 02 CD 20 5E 80 C9 16 03 F7 EB 02 40 B0 68 F4 00 00 00 80 F1 2C 5B C1 E9 05 0F B6 C9 8A 16 0F B6 C9 0F BF C7 2A D3 E8 02 00 00 00 99 4C 58 80 EA 53 C1 C9 16 2A D3 E8 02 00 00 00 9D CE
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = EB 02 CD 20 EB 01 91 8D 35 80 ?? ?? 00 33 C2 68 83 93 7E 7D 0C A4 5B 23 C3 68 77 93 7E 7D EB 01 FA 5F E8 02 00 00 00 F7 FB 58 33 DF EB 01 3F E8 02 00 00 00 11 88 58 0F B6 16 EB 02 CD 20 EB 02 86 2F 2A D3 EB 02 CD 20 80 EA 2F EB 01 52 32 D3 80 E9 CD 80 EA
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = C1 E0 06 EB 02 CD 20 EB 01 27 EB 01 24 BE 80 ?? 42 00 49 EB 01 99 8D 1D F4 00 00 00 EB 01 5C F7 D8 1B CA EB 01 31 8A 16 80 E9 41 EB 01 C2 C1 E0 0A EB 01 A1 81 EA A8 8C 18 A1 34 46 E8 01 00 00 00 62 59 32 D3 C1 C9 02 EB 01 68 80 F2 1A 0F BE C9 F7 D1 2A D3
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BB D0 01 40 00 BF 00 10 40 00 BE ?? ?? ?? ?? 53 E8 0A 00 00 00 02 D2 75 05 8A 16 46 12 D2 C3 B2 80 A4 6A 02 5B FF 14 24 73 F7 33 C9 FF 14 24 73 18 33 C0 FF 14 24 73 21 B3 02 41 B0 10 FF 14 24 12 C0 73 F9 75 3F AA EB DC E8 43 00 00 00 2B CB 75 10 E8 38 00
+ep_only = true
+ 
+[CMD./TitanMist.exe -i] 
+signature = BB D0 01 40 00 BF 00 10 40 00 BE ?? ?? ?? 00 53 BB ?? ?? ?? 00 B2 80 A4 B6 80 FF D3 73 F9 33 C9 FF D3 73 16 33 C0 FF D3 73 23 B6 80 41 B0 10 FF D3 12 C0 73 FA 75 42 AA EB E0 E8 46 00 00 00 02 F6 83 D9 01 75 10 E8 38 00 00 00 EB 28 AC D1 E8 74 48 13 C9 EB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE A4 01 40 00 AD 93 AD 97 AD 56 96 B2 80 A4 B6 80 FF 13 73 F9 33 C9 FF 13 73 16 33 C0 FF 13 73 1F B6 80 41 B0 10 FF 13 12 C0 73 FA 75 3C AA EB E0 FF 53 08 02 F6 83 D9 01 75 0E FF 53 04 EB 26 AC D1 E8 74 2F 13 C9 EB 1A 91 48 C1 E0 08 AC FF 53 04 3D 00 7D
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = E8 BA 00 00 00 ?? 00 00 00 00 ?? ?? 00 00 10 40 00 ?? ?? ?? 00 ?? ?? ?? 00 00 ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? 00 00 00 00 00 00 00 ?? ?? ?? 00 00 00 00 00 00 00 00 00 ?? ?? ?? 00 ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 00 00 00 00 4B 65 72 6E 65 6C 33 32 2E 64 6C 6C 00 00 00 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 00 47 65 74 50 72 6F 63 41 64 64 72 65 73 73 00 00 00 56 69 72 74 75 61 6C 46 72 65 65 00 00 00 56 69 72 74 75 61 6C 41 6C 6C 6F 63 00 5E 83 C6 64 AD 50 AD 50 83 EE 6C AD 50 AD 50 AD 50 AD 50 AD 50 E8 E7 07 00 00 AD 8B DE 8B F0 83 C3 44 AD 85 C0 74 32 8B F8 56 FF 13 8B E8 AC 84 C0 75 FB AC 84 C0 74 EA 4E AD A9 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 01 9A E8 76 00 00 00 EB 01 9A E8 65 00 00 00 EB 01 9A E8 7D 00 00 00 EB 01 9A E8 55 00 00 00 EB 01 9A E8 43 04 00 00 EB 01 9A E8 E1 00 00 00 EB 01 9A E8 3D 00 00 00 EB 01 9A E8 EB 01 00 00 EB 01 9A E8 2C 04 00 00 EB 01 9A E8 25 00 00 00 EB 01 9A E8 02
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 01 9A E8 ?? 00 00 00 EB 01 9A E8 ?? ?? 00 00 EB 01 9A E8 ?? ?? 00 00 EB 01
+ep_only = false
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 01 9A E8 3D 00 00 00 EB 01 9A E8 EB 01 00 00 EB 01 9A E8 2C 04 00 00 EB 01
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 01 9A E8 76 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = E9 5D 01 00 00 CE D1 CE CD 0D
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = E9 5D 01 00 00 CE D1 CE CE 0D 0A 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 0D 0A 2D 20 4F 52 69 45 4E 20 65 78 65 63 75 74 61 62 6C 65 20 66 69 6C 65 73 20 70 72 6F
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = E9 5D 01 00 00 CE D1 CE ?? 0D 0A 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 0D 0A 2D 20 4F 52 69 45 4E 20 65 78 65 63 75 74 61 62 6C 65 20 66 69 6C 65 73 20 70 72 6F
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = FC 55 50 E8 00 00 00 00 5D EB 01
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 50 E8 ?? ?? ?? ?? 5D EB 01 E3 60 E8 03 ?? ?? ?? D2 EB 0B 58 EB 01 48 40 EB 01
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = FC 55 50 E8 00 00 00 00 5D 60 E8 03 00 00 00 83 EB 0E EB 01 0C 58 EB 01 35 40 EB 01 36 FF E0 0B 61 B8 ?? ?? ?? 00 EB 01 E3 60 E8 03 00 00 00 D2 EB 0B 58 EB 01 48 40 EB 01 35 FF E0 E7 61 2B E8 9C EB 01 D5 9D EB 01 0B 58 60 E8 03 00 00 00 83 EB 0E EB 01 0C
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = FC 55 50 E8 00 00 00 00 5D 60 E8 03 00 00 00 83 EB 0E EB 01 0C 58 EB 01 35 40 EB 01 36 FF E0 0B 61 B8 30 D2 40 00 EB 01 E3 60 E8 03 00 00 00 D2 EB 0B 58 EB 01 48 40 EB 01 35 FF E0 E7 61 2B E8 9C EB 01 D5 9D EB 01 0B 58 60 E8 03 00 00 00 83 EB 0E EB 01 0C
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 5D 8B D5 81 ED A2 30 40 ?? 2B 95 91 33 40 ?? 81 EA 0B ?? ?? ?? 89 95 9A 33 40 ?? 80 BD 99
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 53 51 52 56 57 55 E8 00 00 00 00 5D 8B D5 81 ED A2 30 40 00 2B 95 91 33 40 00 81 EA 0B 00 00 00 89 95 9A 33 40 00 80 BD 99 33 40 00 00 74
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 53 51 52 56 57 55 E8 00 00 00 00
+ep_only = true
+ 
+[CMD./TitanMist.exe -i] 
+signature = 53 51 52 56 57 55 E8 00 00 00 00 5D 8B D5 81 ED A2 30 40 00 2B 95 91 33 40 00 81 EA 0B 00 00 00 89 95 9A 33 40 00 80 BD 99 33 40 00 00 74 50 E8 02 01 00 00 8B FD 8D 9D 9A 33 40 00 8B 1B 8D 87
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 5B 81 E3 00 FF FF FF 66 81 3B 4D 5A 75 33 8B F3 03 73 3C 81 3E 50 45 00 00 75 26 0F B7 46 18 8B C8 69 C0 AD 0B 00 00 F7 E0 2D AB 5D 41 4B 69 C9 DE C0 00 00 03 C1 75 09 83 EC 04 0F 85 DD 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/PEunLOCK.v1.2/PEunLOCK.exe]
+signature = 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 56 69 72 74 75 61 6C 41 6C 6C 6F 63 00 4B 45
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB 03 CD 20 EB EB 01 EB 1E EB 01 EB EB 02 CD 20 9C EB 03 CD
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = EB 02 C7 85 1E EB 03 CD 20 EB EB 01 EB 9C EB 01 EB EB 02 CD
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB 02 C7 85 1E EB 03 CD 20 C7 9C EB 02 69 B1 60 EB 02 EB 01
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB ?? CD ?? ?? ?? ?? ?? CD ?? ?? ?? ?? ?? EB ?? EB ?? EB ?? EB ?? CD ?? ?? ?? ?? ?? E8 ?? ?? ?? ?? E9 ?? ?? ?? ?? 50 C3
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 3F 90 40 87 DD 8B 85 E6 90 40 01 85 33 90 40 66 C7 85 90 40 90 90 01 85 DA 90 40 01 85 DE 90 40 01 85 E2 90 40 BB 8B 11
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 3F 90 40 87 DD 8B 85 E6 90 40 01 85 33 90 40 66 C7 85 90 40 90 90 01 85 DA 90 40 01 85 DE 90 40 01 85 E2 90 40 BB 7B 11
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = B8 ?? ?? ?? ?? 50 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 33 C0 89 08 50 45 43 6F 6D 70 61 63 74 32 00
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? 40 00 C3 9C 60 BD ?? ?? 00 00 B9 02 00 00 00 B0 90 8D BD 7A 42 40 00 F3 AA 01 AD D9 43 40 00 FF B5
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB A0 86 40 ?? 87 DD 8B 85 2A 87
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 24 88 40 ?? 87 DD 8B 85 A9 88
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 49 87 40 ?? 87 DD 8B 85 CE 87
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB D1 84 40 ?? 87 DD 8B 85 56 85
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB D7 84 40 ?? 87 DD 8B 85 5C 85
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 2F 85 40 ?? 87 DD 8B 85 B4 85
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB C4 84 40 ?? 87 DD 8B 85 49 85
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 28 63 40 ?? 87 DD 8B 85 AD 63
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 60 40 ?? 87 DD 8B 85 94 60
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 60 40 ?? 87 DD 8B 85 95 60 40 ?? 01 85 03 60 40 ?? 66 C7 85 ?? 60 40 ?? 90 90 BB 95
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 60 40 ?? 87 DD 8B 85 95 60 40 ?? 01 85 03 60 40 ?? 66 C7 85 ?? 60 40 ?? 90 90 BB 44
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 60 40 ?? 87 DD 8B 85 95 60 40 ?? 01 85 03 60 40 ?? 66 C7 85 ?? 60 40 ?? 90 90 BB 49
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 60 ?? 00 87 DD 8B 85 9A 60 40 ?? 01 85 03 60 40 ?? 66 C7 85 ?? 60 40 ?? 90 90 01 85 92 60 40 ?? BB B7
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 60 40 ?? 87 DD 8B 85 9A 60 40 ?? 01 85 03 60 40 ?? 66 C7 85 ?? 60 40 ?? 90 90 01 85 92 60 40 ?? BB 14
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 70 40 ?? 87 DD 8B 85 9A 70 40
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 70 40 ?? 87 DD 8B 85 A6 70 40 ?? 01 85 03 70 40 ?? 66 C7 85 ?? 70 40 ?? 90 90 01 85 9E 70 40 ?? BB F3 08
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 70 40 ?? 87 DD 8B 85 A6 70 40 ?? 01 85 03 70 40 ?? 66 C7 85 70 40 90 ?? 90 01 85 9E 70 40 BB ?? D2 08
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 70 40 ?? 87 DD 8B 85 A6 70 40 ?? 01 85 03 70 40 ?? 66 C7 85 70 40 90 ?? 90 01 85 9E 70 40 BB ?? D2 09
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 70 40 ?? 87 DD 8B 85 A6 70 40 ?? 01 85 03 70 40 ?? 66 C7 85 70 40 90 ?? 90 01 85 9E 70 40 BB ?? F3 0D
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 70 40 ?? 87 DD 8B 85 A6 70 40 ?? 01 85 03 70 40 ?? 66 C7 85 70 40 90 ?? 90 01 85 9E 70 40 BB ?? 05 0E
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 80 40 ?? 87 DD 8B 85 A6 80 40 ?? 01 85 03 80 40 ?? 66 C7 85 00 80 40 ?? 90 90 01 85 9E 80 40 ?? BB E8 0E
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 80 40 ?? 87 DD 8B 85 A6 80 40 ?? 01 85 03 80 40 ?? 66 C7 85 ?? 00 80 ?? 40 90 90 01 85 9E 80 ?? 40 BB F8 10
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F A0 40 ?? 87 DD 8B 85 A6 A0 40 ?? 01 85 03 A0 40 ?? 66 C7 85 ?? A0 40 ?? 90 90 01 85 9E A0 40 ?? BB C3 11
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F A0 40 ?? 87 DD 8B 85 A6 A0 40 ?? 01 85 03 A0 40 ?? 66 C7 85 ?? A0 40 ?? 90 90 01 85 9E A0 40 ?? BB 86 11
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F A0 40 ?? 87 DD 8B 85 A6 A0 40 ?? 01 85 03 A0 40 ?? 66 C7 85 ?? A0 40 ?? 90 90 01 85 9E A0 40 ?? BB 8A 11
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F A0 40 ?? 87 DD 8B 85 A6 A0 40 ?? 01 85 03 A0 40 ?? 66 C7 85 ?? A0 40 ?? 90 90 01 85 9E A0 40 ?? BB 60 12
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F A0 40 ?? 87 DD 8B 85 A6 A0 40 ?? 01 85 03 A0 40 ?? 66 C7 85 ?? A0 40 ?? 90 90 01 85 9E A0 40 ?? BB 5B 12
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 80 40 ?? 87 DD 8B 85 A2 80 40 ?? 01 85 03 80 40 ?? 66 C7 85 ?? 80 40 ?? 90 90 01 85 9E 80 40 ?? BB 2D 12
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 0F 90 40 ?? 87 DD 8B 85 A2 90 40 ?? 01 85 03 90 40 ?? 66 C7 85 ?? 90 40 ?? 90 90 01 85 9E 90 40 ?? BB 2D 12
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 3F 80 40 ?? 87 DD 8B 85 D2 80 40 ?? 01 85 33 80 40 ?? 66 C7 85 ?? 80 40 ?? 90 90 01 85 CE 80 40 ?? BB BB 12
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 3F 90 40 ?? 87 DD 8B 85 E6 90 40 ?? 01 85 33 90 40 ?? 66 C7 85 ?? 90 40 ?? 90 90 01 85 DA 90 40 ?? 01 85 DE 90 40 ?? 01 85 E2 90 40 ?? BB 5B 11
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = B8 ?? ?? ?? ?? 80 B8 BF 10 00 10 01 74 7A C6 80 BF 10 00 10 01 9C 55 53 51 57 52 56 8D 98 0F 10 00 10 8B 53 14 8B E8 6A 40 68 00 10 00 00 FF 73 04 6A 00 8B 4B 10 03 CA 8B 01 FF D0 8B F8 50 8B 33 8B 53 14 03 F2 8B 4B 0C 03 CA 8D 85 B7 10 00 10 FF 73 04 8F
+ep_only = false
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = B8 ?? ?? ?? 01 50 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 33 C0 89 08 50 45 43 6F 6D 70 61 63 74 32 00
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = B8 ?? ?? ?? ?? 55 53 51 57 56 52 8D 98 C9 11 00 10 8B 53 18 52 8B E8 6A 40 68 00 10 00 00 FF 73 04 6A 00 8B 4B 10 03 CA 8B 01 FF D0 5A 8B F8 50 52 8B 33 8B 43 20 03 C2 8B 08 89 4B 20 8B 43 1C 03 C2 8B 08 89 4B 1C 03 F2 8B 4B 0C 03 CA 8D 43 1C 50 57 56 FF
+ep_only = false
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = B8 ?? ?? ?? ?? 50 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 33 C0 89 08 50 45 43 32 00
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = B8 ?? ?? ?? ?? 05 ?? ?? ?? ?? 50 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 CC 90 90 90 90
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = B8 ?? ?? ?? 01 50 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 33 C0 89 08 50 45 43 32 00
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = B8 ?? ?? ?? ?? 50 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 33 C0 89 08 50 45 43
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = B8 ?? ?? ?? 00 50 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 33 C0 89 08 50 45 43 6F 6D 70 61 63 74 32 00
+ep_only = false
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 BD ?? ?? ?? ?? B9 02 ?? ?? ?? B0 90 8D BD A5 4F 40 ?? F3 AA 01 AD 04 51 40 ?? FF B5
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 ?? ?? ?? ?? C3 9C 60 E8 ?? ?? ?? ?? 5D 55 58 81 ED ?? ?? ?? ?? 2B 85 ?? ?? ?? ?? 01 85 ?? ?? ?? ?? 50 B9 02
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = EB 06 68 C3 9C 60 E8 5D 55 5B 81 ED 8B 85 01 85 66 C7 85
+ep_only = true
+
+[GUI./PEiD/unpacker/unpecompact2.exe]
+signature = 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = B8 93 ?? ?? 00 55 50 67 64 FF 36 00 00 67 64 89 26 00 00 BD 4B 48 43 42 B8 04 00 00 00 CC 3C 04 75 04 90 90 C3 90 67 64 8F 06 00 00 58 5D BB 00 00 40 00 33 C9 33 C0
+ep_only = true
+ 
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 66 9C 60 E8 CA 00 00 00 03 00 04 00 05 00 06 00 07 00 08 00 09 00 0A 00 0B 00 0D 00 0F 00 11 00 13 00 17 00 1B 00 1F 00 23 00 2B 00 33 00 3B 00 43 00 53 00 63 00 73 00 83 00 A3 00 C3 00 E3 00 02 01 00 00 00 00 00 00 00 00 00 00 00 00 01 01 01 01 02 02 02
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = ?? ?? ?? ?? ?? 66 9C 60 50 8B D8 03 00 68 54 BC 00 00 6A 00 FF 50 14 8B CC 8D A0 54 BC 00 00 50 8B C3 8D 90 ?? 16 00 00 68 00 00 ?? ?? 51 50 80 04 24 08 50 80 04 24 42 50 80 04 24 61 50 80 04 24 9D 50 80 04 24 BB 83 3A 00 0F 84 D8 14 00 00 8B 44 24 18 F6
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = ?? ?? ?? ?? ?? ?? 9C 60 50 8D 88 00 ?? ?? ?? 8D 90 ?? ?? 00 00 8B DC 8B E1 68 00 00 ?? ?? 53 50 80 04 24 08 50 80 04 24 42 50 80 04 24 61 50 80 04 24 9D 50 80 04 24 BB 83 3A 00 0F 84 DA 14 00 00 8B 44 24 18 F6 42 03 80 74 19 FD 80 72 03 80 8B F0 8B F8 03
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = ?? ?? ?? ?? ?? 68 ?? ?? ?? ?? 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 66 9C 60 50 68 00 00 ?? ?? 8B 3C 24 8B 30 66 81 C7 80 07 8D 74 06 08 89 38 8B 5E 10 50 56 6A 02 68 80 08 00 00 57 6A ?? 6A 06 56 6A 04 68 80 08 00 00 57 FF D3 83 EE 08 59 F3 A5 59 66
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = ?? ?? ?? ?? ?? 66 9C 60 50 8B D8 03 00 68 54 BC 00 00 6A 00 FF 50 14 8B CC
+ep_only = true
+
+
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 66 9C 60 E8 CA 00 00 00 03 00 04 00 05 00 06 00 07 00 08 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 9C 60 E8 CA ?? ?? ?? 03 ?? 04 ?? 05 ?? 06 ?? 07 ?? 08
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = ?? ?? ?? ?? ?? 66 9C 60 50 8D 88 ?? F0 ?? ?? 8D 90 04 16 ?? ?? 8B DC 8B E1 68 ?? ?? ?? ?? 53 50 80 04 24 08 50 80 04 24 42
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = B8 ?? ?? ?? ?? 66 9C 60 50 8B D8 03 00 68 ?? ?? ?? ?? 6A 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 66 9C 60 50 8B D8 03 ?? 68 54 BC ?? ?? 6A ?? FF 50 14 8B CC
+ep_only = true
+
+
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = B8 ?? ?? ?? ?? 68 ?? ?? ?? ?? 64 FF 35 ?? ?? ?? ?? 64 89 25 ?? ?? ?? ?? 66 9C 60 50
+ep_only = true
+
+
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 66 9C 60 50 8D 88 00 F0 00 00 8D 90 04 16 00 00 8B DC 8B E1
+ep_only = false
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 66 9C 60 50 8B D8 03 00 68 54 BC 00 00 6A 00 FF 50 14 8B CC
+ep_only = false
+
+[GUI./PEiD/unpacker/enlarge13/ENLARGE.EXE]
+signature = 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 66 9C 60 50 8B D8
+ep_only = false
+
+[GUI./PEiD/unpacker/enlarge13/ENLARGE.EXE]
+signature = B8 ?? ?? ?? ?? 6A ?? 68 ?? ?? ?? ?? 64 FF 35 ?? ?? ?? ?? 64 89 25 ?? ?? ?? ?? 66 9C 60 50
+ep_only = true
+
+[GUI./PEiD/unpacker/enlarge13/ENLARGE.EXE]
+signature = B8 ?? ?? ?? ?? 68 ?? ?? ?? ?? 64 ?? ?? ?? ?? ?? ?? 64 ?? ?? ?? ?? ?? ?? 66 9C 60 50
+ep_only = true
+
+[GUI./PEiD/unpacker/enlarge13/ENLARGE.EXE]
+signature = B8 ?? ?? ?? ?? 6A 00 68 ?? ?? ?? ?? 64 ?? ?? ?? ?? ?? ?? 64 ?? ?? ?? ?? ?? ?? 66 9C 60 50
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = B8 ?? ?? ?? ?? 66 9C 60 50 8B D8 03 ?? 68 54 BC ?? ?? 6A ?? FF 50 18 8B CC 8D A0 54 BC ?? ?? 8B C3 8D 90 E0 15 ?? ?? 68
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = B8 ?? ?? ?? ?? 66 9C 60 50 8D ?? ?? ?? ?? ?? 68 ?? ?? ?? ?? 83
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = B8 ?? ?? ?? ?? 66 9C 60 50
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E9 F5 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E9 F5 00 00 00 0D 0A C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E9 F5 ?? ?? ?? 0D 0A C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4
+ep_only = true
+  
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 01 ?? ?? ?? ?? 83 C4 04 E8 01 ?? ?? ?? ?? 5D 81
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB 04 83 A4 BC CE 60 EB 04 80 BC 04 11 E8 00 00 00 00 81 2C 24 CA C2 41 00 EB 04 64 6B 88 18 5D E8 00 00 00 00 EB 04 64 6B 88 18 81 2C 24 86 00 00 00 EB 04 64 6B 88 18 8B 85 9C C2 41 00 EB 04 64 6B 88 18 29 04 24 EB 04 64 6B 88 18 EB 04 64 6B 88 18 8B 04
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 3F 00 00 80 66 20 ?? 00 7E 20 ?? 00 92 20 ?? 00 A4 20 ?? 00 00 00 00 00 4B 45 52 4E 45 4C 33 32
+ep_only = false
+ 
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB 04 83 A4 BC CE 60 EB 04 80 BC 04 11 E8 00 00 00 00
+ep_only = true 
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8D 64 24 04 8B 6C 24 FC 8D B5 4C 02 00 00 8D 9D 13 01 00 00 33 FF EB 0F FF 74 37 04 FF 34 37 FF D3 83 C4 08 83 C7 08 83 3C 37 00 75 EB 8D 74 37 04 53 6A 40 68 00 10 00 00 68 ?? ?? ?? ?? 6A 00 FF 95 F9 01 00 00 89 85 48 02 00 00 5B FF B5 48 02 00 00 56 FF D3 83 C4 08 8B B5 48 02 00 00 8B C6 EB 01 40 80 38 01 75 FA 40 8B 38 83 C0 04 89 85 44 02 00 00 EB 7A 56 FF 95 F1 01 00 00 89 85 40 02 00 00 8B C6 EB 4F 8B 85 44 02 00 00 8B 00 A9 00 00 00 80 74 14 35 00 00 00 80 50 8B 85 44 02 00 00 C7 00 20 20 20 00 EB 06 FF B5 44 02 00 00 FF B5 40 02 00 00 FF 95 F5 01 00 00 89 07 83 C7 04 8B 85 44 02 00 00 EB 01 40 80 38 00 75 FA 40 89 85 44 02 00 00 80 38 00 75 AC EB 01 46 80 3E 00 75 FA 46 40 8B 38 83 C0 04 89 85 44 02 00 00 80 3E 01 75 81 68 00 40 00 00 68 ?? ?? ?? ?? FF B5 48 02 00 00 FF 95 FD 01 00 00 61 68 ?? ?? ?? ?? C3 60 8B 74 24 24 8B 7C
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 80 7C 24 08 01 0F 85 ?? ?? ?? ?? 60 E8 00 00 00 00 8B 2C 24 83 C4 04 8D B5 53 03 00 00 8D 9D 02 02 00 00 33 FF E8 ?? ?? ?? ?? EB 0F FF 74 37 04 FF 34 37 FF D3 83 C4 08 83 C7 08 83 3C 37 00 75
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8D 64 24 04 8B 6C 24 FC 8D B5 4C 02 00 00 8D 9D 13 01 00 00 33 FF EB 0F FF 74 37 04 FF 34 37 FF D3 83 C4 08 83 C7 08 83 3C 37 00 75 EB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 8D B5 5A 0A 00 00 8D 9D 40 02 00 00 33 FF E8 ?? ?? ?? ?? 6A 40 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 6A 00 FF 95 EB 09 00 00 89 85 ?? ?? ?? ?? EB 14 60 FF B5 3A 0A
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 8D B5 2C 0A 00 00 8D 9D 22 02 00 00 33 FF E8 ?? ?? ?? ?? 6A 40 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 6A 00 FF 95 CD 09 00 00 89 85 ?? ?? ?? ?? EB 14 60 FF B5 14 0A
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 8D B5 ?? ?? 00 00 8D 9D ?? ?? 00 00 33 FF E8 ?? ?? ?? ?? EB 0F FF 74 37 04 FF 34 37 FF D3
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 80 7C 24 08 01 0F 85 ?? ?? ?? ?? 60 E8 00 00 00 00 8B 2C 24 83 C4 04 8D B5 5A 0A 00 00 8D 9D 40 02 00 00 33 FF E8 ?? ?? ?? ?? 6A 40 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 6A 00 FF 95 EB 09 00 00 89 85
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6B 65 72 6E 65 6C 33 32 2E 64 6C 6C 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 47 65 74 50 72 6F 63 41 64 64 72 65 73 73 00 00 56 69 72 74 75 61 6C 41 6C 6C 6F 63 00 00 56 69 72 74 75 61 6C 46 72 65 65 00 00 56 69 72 74 75 61 6C 50 72 6F 74 65 63 74 00 00 47 65 74 4D 6F 64 75 6C 65 48 61 6E 64 6C 65 41 00 00 00 10
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 60 8B DD E8 00 00 00 00 5D 95 32 C0 95 89 9D 80 00 00 00 B8 42 31 40 00 BB 41 30 40 00 2B C3 03 C5 33 D2 8A 10 40 B9 ?? ?? 00 00 8B F9 30 10 8A 10 40 49 75 F8 64 EF 86 3D 30 00 00 0F B9 FF 4B 89 52 5C 4C BD 77 C2 0C CE 88 4E 2D E8 00 00 00 5D 0D DB 5E 56
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 8D B5 4A 02 00 00 8D 9D 11 01 00 00 33 FF EB 0F FF 74 37 04 FF 34 37 FF D3 83 C4 08 83 C7 08 83 3C 37 00 75 EB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 EB 03 ?? ?? ?? EB 03 ?? ?? ?? 8D B5 CB 22 00 00 8D 9D F0 02 00 00 33 FF E8 ?? ?? ?? ?? EB 03 ?? ?? ?? 6A 40 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 6A 00 FF 95 9B 0A
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 8D B5 79 29 00 00 8D 9D 2C 03 00 00 33 FF ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? EB 0F FF 74 37 04 FF 34
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 8D B5 67 30 00 00 8D 9D 66 03 00 00 33 FF ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 6A 40 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 6A
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 8D B5 74 1F 00 00 8D 9D 1E 03 00 00 33 FF ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? EB 0F FF 74 37 04 FF 34
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 8D B5 73 26 00 00 8D 9D 58 03 00 00 33 FF ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 6A 40 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 6A
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 8D B5 ?? ?? ?? ?? 8D 9D ?? ?? ?? ?? 33 FF 6A ?? 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 6A ?? FF 95 ?? ?? ?? ?? 89 85 ?? ?? ?? ?? EB ?? 60
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 8D B5 ?? ?? ?? ?? 8D 9D ?? ?? ?? ?? 33 FF
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 80 7C 24 08 01 0F 85 ?? ?? ?? ?? 60 E8 00 00 00 00 8B 2C 24 83 C4 04 8D B5 ?? ?? ?? ?? 8D 9D ?? ?? ?? ?? 33 FF E8
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 8B 2C 24 83 C4 04 8D B5 ?? ?? ?? ?? 8D 9D ?? ?? ?? ?? 33 FF EB 0F FF ?? ?? ?? FF ?? ?? ?? D3 83 C4 ?? 83 C7 ?? 83 3C 37 00 75 EB
+ep_only = true
+
+[GUI./PEiD/unpacker/Safedisc2Cleaner.exe]
+signature = 00 00 00 00 00 00 00 00 00 00 00 00 42 6F 47 5F
+ep_only = false 
+
+[GUI./PEiD/unpacker/Safedisc2Cleaner.exe]
+signature = 55 8B EC 60 BB ?? ?? ?? ?? 33 C9 8A 0D 3D ?? ?? ?? 85 C9 74 0C B8 ?? ?? ?? ?? 2B C3 83 E8 05 EB 0E 51 B9 ?? ?? ?? ?? 8B C1 2B C3 03 41 01 59 C6 03 E9 89 43 01 51 68 09 ?? ?? ?? 33 C0 85 C9 74 05 8B 45 08 EB 00 50 E8 76 00 00 00 83 C4 08 59 83 F8 00 74 1C C6 03 C2 C6 43 01 0C 85 C9 74 09 61 5D B8 00 00 00 00 EB 97 50 A1 29 ?? ?? ?? ?? D0 61 5D EB 46 80 7C 24 08 00 75 3F 51 8B 4C 24 04 89 0D ?? ?? ?? ?? B9 ?? ?? ?? ?? 89 4C 24 04 59 EB 28 50 B8 2D ?? ?? ?? ?? 70 08 8B 40 0C FF D0 B8 2D ?? ?? ?? ?? 30 8B 40 04 FF D0 58 FF 35 ?? ?? ?? ?? C3 72 16 61 13 60 0D E9 ?? ?? ?? ?? CC CC 81 EC E8 02 00 00 53 55 56 57
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? ?? 68 88 88 88 08 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 58 64 A3 00 00 00 00 58 58 58 58 8B E8 E8 3B 00 00 00 E8 01 00 00 00 FF 58 05
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 8B EC 6A FF 68 1D 32 13 05 68 88 88 88 08 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 58 64 A3 00 00 00 00 58 58 58 58 8B E8 E8 3B 00 00 00 E8 01 00 00 00 FF 58 05 53 00 00 00 51 8B 4C 24 10 89 81 B8 00 00 00 B8 55 01 00 00 89 41 20 33 C0 89 41 04 89 41
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 8B EC 6A FF 68 1D 32 13 05 68 88 88 88 08 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 58 64 A3 00 00 00 00 58 58 58 58 8B E8 50 83 EC 08 64 A1 00 00 00 00 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 83 C4 08 50 64 FF 35 00 00 00 00 64 89 25 00 00 00 00 64
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 8B EC 6A FF 68 1D 32 13 05 68 88 88 88 08 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 58 64 A3 00 00 00 00 58 58 58 58 8B E8 E8 3B 00 00 00 E8 01 00 00 00 FF 58 05 53 00 00 00 51 8B 4C 24 10 89 81 B8 00 00 00 B8 55 01 00 00 89 41 18 33 C0 89 41 04 89 41
+ep_only = true
+ 
+[GUI./PEiD/unpacker/UnThemida 3.0.exe]
+signature = B8 00 00 00 00 60 0B C0 74 58 E8 00 00 00 00 58 05 43 00 00 00 80 38 E9 75 03 61 EB 35 E8 00 00 00 00 58 25 00 F0 FF FF 33 FF 66 BB 19 5A 66 83 C3 34 66 39 18 75 12 0F B7 50 3C 03 D0 BB E9 44
+ep_only = true
+
+[GUI./PEiD/unpacker/UnThemida 3.0.exe]
+signature = B8 ?? ?? ?? ?? 60 0B C0 74 58 E8 00 00 00 00 58 05 43 00 00 00 80 38 E9 75 03 61 EB 35 E8 00 00 00 00 58 25 00 F0 FF FF 33 FF 66 BB 19 5A 66 83 C3 34 66 39 18 75 12 0F B7 50 3C 03 D0 BB E9 44 00 00 83 C3 67 39 1A 74 07 2D 00 10 00 00 EB DA 8B F8 B8 ?? ?? ?? ?? 03 C7 B9 5A ?? ?? ?? 03 CF EB 0A B8 ?? ?? ?? ?? B9 5A ?? ?? ?? 50 51 E8 84 00 00 00 E8 00 00 00 00 58 2D 26 00 00 00 B9 EF 01 00 00 C6 00 E9 83 E9 05 89 48 01 61 E9 AF 01
+ep_only = true
+
+[GUI./PEiD/unpacker/UnThemida 3.0.exe]
+signature = B8 00 00 ?? ?? 60 0B C0 74 58 E8 00 00 00 00 58 05 43 00 00 00 80 38 E9 75 03 61 EB 35 E8 00 00 00 00 58 25 00 F0 FF FF 33 FF 66 BB 19 5A 66 83 C3 34 66 39 18 75 12 0F B7 50 3C 03 D0 BB E9 44 00 00 83 C3 67 39 1A 74 07 2D 00 10 00 00 EB DA 8B F8 B8
+ep_only = true
+
+[GUI./PEiD/unpacker/UnThemida 3.0.exe]
+signature = B8 ?? ?? ?? ?? 60 0B C0 74 68 E8 00 00 00 00 58 05 53 00 00 00 80 38 E9 75 13 61 EB 45 DB 2D 37 ?? ?? ?? FF FF FF FF FF FF FF FF 3D 40 E8 00 00 00 00 58 25 00 F0 FF FF 33 FF 66 BB 19 5A 66 83 C3 34 66 39 18 75 12 0F B7 50 3C 03 D0 BB E9 44 00 00 83 C3 67 39 1A 74 07 2D 00 10 00 00 EB DA 8B F8 B8 ?? ?? ?? ?? 03 C7 B9 ?? ?? ?? ?? 03 CF EB 0A B8 ?? ?? ?? ?? B9 ?? ?? ?? ?? 50 51 E8 84 00 00 00 E8 00 00 00 00 58 2D 26 00 00 00 B9 EF 01 00 00 C6 00 E9 83 E9 05 89 48 01 61 E9
+ep_only = true
+
+[GUI./PEiD/unpacker/UnThemida 3.0.exe]
+signature = B8 00 00 00 00 60 0B C0 74 58 E8 00 00 00 00 58 05 ?? 00 00 00 80 38 E9 75 ?? 61 EB ?? E8 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/UnThemida 3.0.exe]
+signature = B8 00 00 00 00 60 0B C0 74 68 E8 00 00 00 00 58 05 ?? 00 00 00 80 38 E9 75 ?? 61 EB ?? DB 2D ?? ?? ?? ?? FF FF FF FF FF FF FF FF 3D 40 E8 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/UnThemida 3.0.exe]
+signature = B8 00 00 00 00 60 0B C0 74 58 E8 00 00 00 00 58 05 43 00 00 00 80 38 E9 75 03 61 EB 35 E8
+ep_only = true
+
+[GUI./PEiD/unpacker/UnThemida 3.0.exe]
+signature = 8B C5 8B D4 60 E8 00 00 00 00 5D 81 ED ?? ?? 35 09 89 95 ?? ?? 35 09 89 B5 ?? ?? 35 09 89 85 ?? ?? 35 09 83 BD ?? ?? 35 09 00 74 0C 8B E8 8B E2 B8 01 00 00 00 C2 0C 00 8B 44 24 24 89 85 ?? ?? 35 09 6A 45 E8 A3 00 00 00 68 9A 74 83 07 E8 DF 00 00 00 68 25
+ep_only = false
+ 
+[CMD./TitanMist.exe -i] 
+signature = BE 48 01 40 00 AD 8B F8 95 A5 33 C0 33 C9 AB 48 AB F7 D8 B1 04 F3 AB C1 E0 0A B5 ?? F3 AB AD 50 97 51 AD 87 F5 58 8D 54 86 5C FF D5 72 5A 2C 03 73 02 B0 00 3C 07 72 02 2C 03 50 0F B6 5F FF C1
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 40 00 AD 8B F8 95 A5 33 C0 33 C9 AB 48 AB F7 D8 B1 04 F3 AB C1 E0 0A B5 ?? F3 AB AD 50 97 51 58 8D 54 85 5C FF 16 72 5A 2C 03 73 02 B0 00 3C 07 72 02 2C 03 50 0F B6 5F FF C1 E3 ?? B3
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 40 00 AD 8B F8 6A 04 95 A5 33 C0 AB 48 AB F7 D8 59 F3 AB C1 E0 0A B5 ?? F3 AB AD 50 97 51 58 8D 54 85 5C FF 16 72 5A 2C 03 73 02 B0 00 3C 07 72 02 2C 03 50 0F B6 5F FF C1 E3 ?? B3 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 6A 07 BE 88 01 40 00 AD 8B F8 59 95 F3 A5 AD B5 ?? F3 AB AD 50 97 51 58 8D 54 85 5C FF 16 72 59 2C 03 73 02 B0 00 3C 07 72 02 2C 03 50 0F B6 5F FF C1 E3 ?? B3 00 8D 1C 5B 8D 9C 9D 0C 10 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 40 00 AD 8B F8 95 AD 91 F3 A5 AD B5 ?? F3 AB AD 50 97 51 58 8D 54 85 5C FF 16 72 57 2C 03 73 02 B0 00 3C 07 72 02 2C 03 50 0F B6 5F FF C1 E3 ?? B3 00 8D 1C 5B 8D 9C 9D 0C 10 00 00 B0
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 0B 01 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 18 10 00 00 10 00 00 00 00 ?? ?? 00 00 00 40 00 00 10 00 00 00 02 00 00 04 00 00 00 00 00 3A 00 04 00 00 00 00 00 00 00 00 ?? ?? 00 00 02 00 00 00 00 00 00 ?? 00 00 00 00 00 10 00 00 ?? 00 00 00 00 10 00 00 10 00 00 00 00 00 00 0A 00 00 00 00 00 00 00 00 00 00 00 EE ?? ?? 00 14 00 00 00 00 ?? ?? 00 ?? ?? 00 00 FF 76 38 AD 50 8B 3E BE F0 ?? ?? 00 6A 27 59 F3 A5 FF 76 04 83 C8 FF 8B DF AB EB 1C 00 00 00 00 47 65 74 50 72 6F 63 41 64 64 72 65 73 73 00 00 ?? ?? ?? 00 ?? 00 00 00 40 AB 40 B1 04 F3 AB C1 E0 0A B5
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = ?? ?? ?? ?? ?? ?? ?? AD 8B F8 59 95 F3 A5 AD B5 ?? F3 AB AD 50 97 51 58 8D 54 85 5C FF 16 72 ?? 2C 03 73 02 B0 00 3C 07 72 02 2C 03 50 0F B6 5F FF C1 E3 ?? B3 00 8D 1C 5B 8D 9C 9D 0C 10 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = BE 48 01 40 00 AD 8B F8 95 A5 33 C0 33 C9 AB 48 AB F7 D8 B1 04 F3 AB C1 E0 0A B5 1C F3 AB AD 50 97 51 AD 87 F5 58 8D 54 86 5C FF D5 72 5A 2C 03 73 02 B0 00 3C 07 72 02 2C 03 50 0F B6 5F FF C1 E3 03 B3 00 8D 1C 5B 8D 9C 9E 0C 10 00 00 B0 01 67 E3 29 8B D7
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = BE B0 11 ?? ?? AD 50 FF 76 34 EB 7C 48 01 ?? ?? 0B 01 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 18 10 00 00 10 00 00 00 00 ?? ?? ?? 00 00 ?? ?? 00 10 00 00 00 02 00 00 04 00 00 00 00 00 37 00 04 00 00 00 00 00 00 00 00 ?? ?? ?? 00 02 00 00 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE B0 11 ?? ?? AD 50 FF 76 34 EB 7C 48 01 ?? ?? 0B 01 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 18 10 00 00 10 00 00 00 00 ?? ?? ?? 00 00 ?? ?? 00 10 00 00 00 02 00 00 04 00 00 00 00 00 38 00 04 00 00 00 00 00 00 00 00 ?? ?? ?? 00 02 00 00 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE B0 11 ?? ?? AD 50 FF 76 34 EB 7C 48 01 ?? ?? 0B 01 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 18 10 00 00 10 00 00 00 00 ?? ?? ?? 00 00 ?? ?? 00 10 00 00 00 02 00 00 04 00 00 00 00 00 3A 00 04 00 00 00 00 00 00 00 00 ?? ?? ?? 00 02 00 00 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE 48 01 40 00 AD ?? ?? ?? A5 ?? C0 33 C9 ?? ?? ?? ?? ?? ?? ?? F3 AB ?? ?? 0A ?? ?? ?? ?? AD 50 97 51 ?? 87 F5 58 8D 54 86 5C ?? D5 72 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? B6 5F FF C1
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE E0 11 ?? ?? FF 36 E9 C3 00 00 00 48 01 ?? ?? 0B 01 4B 45 52 4E 45 4C 33 32 2E 44 4C 4C
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE 48 01 ?? ?? ?? ?? ?? 95 A5 33 C0
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 ?? ?? AD 8B F8 95
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 ?? ?? AD 8B F8 ?? ?? ?? ?? 33
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 6A 07 BE 88 01 40 00 AD 8B F8 59 95 F3 A5
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 40 00 AD ?? ?? 95 AD 91 F3 A5 AD
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E9 ?? ?? ?? ?? 42 79 44 77 69 6E 67 40 00 00 00 50 45 00 00 4C 01 02 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 29
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 ?? ?? AD 8B F8 95 A5 33 C0 33
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E9 ?? ?? ?? ?? 42 79 44 77 69 6E 67 40 00 00 00 50 45 00 00 4C 01 02 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 30
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E9 ?? ?? ?? ?? 42 79 44 77 69 6E 67 40 00 00 00 50 45 00 00 4C 01 02 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 31
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E9 ?? ?? ?? ?? 42 79 44 77 69 6E 67 40 00 00 00 50 45 00 00 4C 01 02 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 32
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = ?? ?? ?? ?? 59 F3 A5 83 C8 FF 8B DF AB 40 AB 40
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE ?? ?? ?? ?? FF 36 E9 C3 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE ?? ?? ?? ?? AD 50 FF ?? ?? EB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 56 10 E2 E3 B1 04 D3 E0 03 E8 8D 53 18 33 C0 55 40 51 D3 E0 8B EA 91
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = FF 76 38 AD 50 8B 3E BE F0 ?? ?? ?? 6A 27 59 F3 A5 FF 76 04 83 C8 FF
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 09 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? 33 C9 5E 87 0E
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 81 3A 00 00 00 02 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 09 00 00 00 ?? ?? ?? 00 E9 06 02
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 09 00 00 00 17 CD 00 00 E9 06 02
+ep_only = true
+ 
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 ?? ?? AD 8B F8 95 AD 91 F3 A5 AD B5 ?? F3
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 ?? ?? AD 50 ?? AD 91 F3 A5
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 ?? ?? AD 50 ?? AD 91 ?? F3 A5
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = BE 88 01 ?? ?? AD 50 ?? ?? AD 91 F3 A5
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 8B F2 8B CA 03 4C 19 1C 03 54 1A 20
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = AB E2 E5 5D 59 8B 76 68 51 59 46 AD 85 C0
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 53 18 33 C0 55 40 51 D3 E0 8B EA 91 FF 56 4C 33
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 2A A3 F2 54 CE
+ep_only = false
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? 57 83 CD FF EB 05 A4 01 DB 75 07 8B 1E 83 EE FC 11 DB 72 F2 31 C0 40 01 DB 75 07 8B 1E 83 EE FC 11 DB 11 C0 01 DB 75 07 8B 1E 83 EE FC 11 DB 73 E6 31 C9 83
+ep_only = true
+ 
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? 57 83 CD FF EB 10 90 90 90 90 90 90 8A 06 46 88 07 47 01 DB 75 07 8B 1E 83 EE FC 11 DB 72 ED B8 01 00 00 00 01 DB 75 07 8B 1E 83 EE FC 11 DB 11 C0 01 DB
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 00 00 00 00 58 83 E8 3D 50 8D B8 ?? ?? ?? FF 57 8D B0 D8 01 ?? ?? 83 CD FF 31 DB ?? ?? ?? ?? 01 DB 75 07 8B 1E 83 EE FC 11 DB 73 0B 8A 06 46 88 07 47 EB EB 90
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 00 00 00 00 58 83 E8 3D 50 8D B8 ?? ?? ?? FF 57 66 81 87 ?? ?? ?? ?? ?? ?? 8D B0 F0 01 ?? ?? 83 CD FF 31 DB 90 90 90 EB 08 90 90 8A 06 46 88 07 47 01 DB 75 07
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 00 00 00 00 58 83 E8 3D 50 8D B8 ?? ?? ?? FF 57 66 81 87 ?? ?? ?? ?? ?? ?? 8D B0 EC 01 ?? ?? 83 CD FF 31 DB EB 07 90 8A 06 46 88 07 47 01 DB 75 07
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = E8 00 00 00 00 5E 83 C6 14 AD 89 C7 AD 89 C1 AD 30 07 47 E2 FB AD FF E0 C3 00 ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? ?? ?? ?? ?? 00 55 50 58 2D 53 68 69 74 20 76 30 2E 31 20 2D 20 77 77 77 2E 62 6C 61 63 6B 6C 6F 67 69 63 2E 6E 65 74 20 2D 20 63 6F 64 65 20 62 79
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = E8 00 00 00 00 5E 83 C6 14 AD 89 C7 AD 89 C1 AD 30 07 47 E2 FB AD FF E0 C3 00 ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 01 ?? ?? ?? 00 55 50 58 2D 53 68 69 74 20 76 30 2E 31 20 2D 20 77 77 77 2E 62 6C 61 63 6B 6C 6F 67 69 63 2E 6E 65 74 20 2D 20 63 6F 64 65 20 62 79
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 00 00 00 00 58 83 E8 3D 50 8D B8 ?? ?? ?? FF 57 8D B0 E8
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 00 00 00 00 83 CD FF 31 DB 5E 8D BE FA ?? ?? FF 57 66 81 87 ?? ?? ?? ?? ?? ?? 81 C6 B3 01 ?? ?? EB 0A ?? ?? ?? ?? 8A 06 46 88 07 47 01 DB 75 07
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 ?? ?? ?? ?? 58 83 ?? ?? 50 8D ?? ?? ?? ?? ?? 57 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 83 ?? ?? 31 DB ?? ?? ?? EB
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 80 7C 24 08 01 0F 85 95 01 00 00 60 E8 00 00 00 00 58
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 8C CB B9 ?? ?? BE ?? ?? 89 F7 1E A9 ?? ?? 8D ?? ?? ?? 8E D8 05 ?? ?? 8E C0 FD F3 A5 FC 2E ?? ?? ?? ?? 73
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 ?? ?? ?? ?? 58 83 ?? ?? 50 8D ?? ?? ?? ?? ?? 57 66 ?? ?? ?? ?? ?? ?? ?? ?? 8D ?? ?? ?? ?? ?? 83 ?? ?? 31 DB EB
+ep_only = true
+ 
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 80 7C 24 08 01 0F 85 95 01 00 00 60 E8 00 00 00 00 83
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 ?? ?? ?? ?? 83 ?? ?? 31 DB 5E 8D ?? ?? ?? ?? ?? 57 66 ?? ?? ?? ?? ?? ?? ?? ?? 81 ?? ?? ?? ?? ?? EB
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = B9 ?? ?? BE ?? ?? 89 F7 1E A9 ?? ?? 8C C8 05 ?? ?? 8E D8 05 ?? ?? 8E C0 FD F3 A5 FC
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 BE ?? ?? ?? ?? 8D ?? ?? ?? ?? ?? 66 ?? ?? ?? ?? ?? ?? 57 83 ?? ?? 31 DB EB
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? 57 EB 0B 90 8A 06 46 88 07 47 01 DB 75 ?? 8B 1E 83 ?? ?? 11 DB 72 ?? B8 01 00 00 00 01 DB 75
+ep_only = true 
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? 57 83 CD FF FC B2 80 31 DB A4 B3 02 E8 6D 00 00 00 73 F6 31 C9 E8 64 00 00 00 73 1C 31 C0 E8 5B 00 00 00 73 23 B3 02 41 B0 10 E8 4F 00 00 00 10 C0 73 F7 75 3F AA EB D4 E8 4D 00 00 00 29 D9 75 10 E8 42 00 00 00 EB 28 AC
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? 57 83 CD FF FC B2 80 E8 00 00 00 00 5B 83 C3 66 A4 FF D3 73 FB 31 C9 FF D3 73 14 31 C0 FF D3 73 1D 41 B0 10 FF D3 10 C0 73 FA 75 3C AA EB E2 E8 4A 00 00 00 49 E2 10 E8 40 00 00 00 EB 28 AC D1 E8 74 45 11 C9 EB 1C 91 48
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = E8 00 00 00 00 59 83 C1 07 51 C3 C3 BE ?? ?? ?? ?? 83 EC 04 89 34 24 B9 80 00 00 00 81 36 ?? ?? ?? ?? 50 B8 04 00 00 00 50 03 34 24 58 58 83 E9 03 E2 E9 EB D6
+ep_only = true
+ 
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = B8 ?? ?? ?? ?? B9 ?? ?? ?? ?? 33 D2 EB 01 0F 56 EB 01 0F E8 03 00 00 00 EB 01 0F EB 01 0F 5E EB 01
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 01 DB 07 8B 1E 83 EE FC 11 DB ED B8 01 00 00 00 01 DB 07 8B 1E 83 EE FC 11 DB 11 C0 01 DB 73 0B
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 9C 60 E8 00 00 00 00 5D B8 B3 85 40 00 2D AC 85 40 00 2B E8 8D B5 D5 FE FF FF 8B 06 83 F8 00 74 11 8D B5 E1 FE FF FF 8B 06 83 F8 01 0F 84 F1 01 00 00 C7 06 01 00 00 00 8B D5 8B 85 B1 FE FF FF 2B D0 89 95 B1 FE FF FF 01 95 C9 FE FF FF 8D B5 E5 FE FF FF 01
+ep_only = false
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 79 07 0F B7 07 47 50 47 B9 57 48 F2 AE 55 FF 96 84 ?? 00 00 09 C0 74 07 89 03 83 C3 04 EB D8 FF 96 88 ?? 00 00 61 E9 ?? ?? ?? FF
+ep_only = true
+ 
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 01 DB ?? 07 8B 1E 83 EE FC 11 DB ?? ED B8 01 00 00 00 01 DB ?? 07 8B 1E 83 EE FC 11 DB 11 C0 01 DB 77 EF
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 01 DB ?? 07 8B 1E 83 EE FC 11 DB ?? ED B8 01 00 00 00 01 DB ?? 07 8B 1E 83 EE FC 11 DB 11 C0 01 DB 73 ?? 75
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 01 DB ?? 07 8B 1E 83 EE FC 11 DB 8A 07 ?? EB B8 01 00 00 00 01 DB ?? 07 8B 1E 83 EE FC 11 DB 11 C0 01 DB 73 EF
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? C7 87 ?? ?? ?? ?? ?? ?? ?? ?? 57 83 CD FF 89 E5 8D 9C 24 ?? ?? ?? ?? 31 C0 50 39 DC 75 FB 46 46 53 68 ?? ?? ?? ?? 57 83 C3 04 53 68 ?? ?? ?? ?? 56 83 C3 04
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? 57 83 CD FF 89 E5 8D 9C 24 ?? ?? ?? ?? 31 C0 50 39 DC 75 FB 46 46 53 68 ?? ?? ?? ?? 57 83 C3 04 53 68 ?? ?? ?? ?? 56 83 C3 04 53 50 C7 03 ?? ?? ?? ?? 90 90
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 00 00 00 00 58 83 E8 3D
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 00 00 00 00 83 CD FF 31 DB 5E
+ep_only = true
+ 
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = FF D5 80 A7 ?? ?? ?? ?? ?? 58 50 54 50 53 57 FF D5 58 61 8D 44 24 ?? 6A 00 39 C4 75 FA 83 EC 80 E9
+ep_only = false
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = FF D5 8D 87 ?? ?? ?? ?? 80 20 ?? 80 60 ?? ?? 58 50 54 50 53 57 FF D5 58 61 8D 44 24 ?? 6A 00 39 C4 75 FA 83 EC 80 E9
+ep_only = false
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = E8 ?? ?? ?? ?? 5E 83 C6 ?? AD 89 C7 AD 89 C1 AD 30 07 47 E2 ?? AD FF E0 C3
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = BF ?? ?? ?? 00 81 FF ?? ?? ?? 00 74 10 81 2F ?? 00 00 00 83 C7 04 BB 05 ?? ?? 00 FF E3 BE ?? ?? ?? 00 FF E6 00 00 00 00
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = BE ?? ?? ?? ?? 83 C6 01 FF E6 00 00 00 ?? ?? ?? 00 03 00 00 00 ?? ?? ?? ?? 00 10 00 00 00 00 ?? ?? ?? ?? 00 00 ?? F6 ?? 00 B2 4F 45 00 ?? F9 ?? 00 EF 4F 45 00 ?? F6 ?? 00 8C D1 42 00 ?? 56 ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? 24 ?? 00 ?? ?? ?? 00
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = B8 ?? ?? 43 00 B9 15 00 00 00 80 34 08 ?? E2 FA E9 D6 FF FF FF
+ep_only = true
+ 
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 50 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? 57 83 CD
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = EB EC ?? ?? ?? ?? 8A 06 46 88 07 47 01 DB 75 07
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = EB ?? ?? ?? ?? ?? 8A 06 46 88 07 47 01 DB 75 07 8B 1E 83 EE FC 11 DB
+ep_only = false
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 80 7C 24 08 01 0F 85 ?? ?? ?? 00 60 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? 57 83 CD FF
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? C7 87 ?? ?? ?? ?? ?? ?? ?? ?? 57 83 CD FF EB 0E ?? ?? ?? ?? 8A 06 46 88 07 47 01 DB 75 07 8B
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = B9 ?? ?? BE ?? ?? BF C0 FF FD
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 94 BC ?? ?? ?? 00 B9 ?? 00 00 00 80 34 0C ?? E2 FA 94 FF E0 61
+ep_only = false
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 00 00 00 00 5D 81 ED 48 12 40 00 60 E8 2B 03 00 00 61
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 90 61 BE ?? ?? ?? ?? 8D BE ?? ?? ?? ?? 57 83 CD FF
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = BE ?? ?? ?? ?? 83 C6 01 FF E6 00 00
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 E8 ?? ?? ?? ?? 5D 81 ED ?? ?? ?? ?? 60 E8 2B 03 00 00
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = E2 FA 94 FF E0 61 00 00 00 00 00 00 00
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 58 60 8B E8 55 33 F6 68 48 01 ?? ?? E8 49 01 ?? ?? EB
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E9 ?? ?? 50 9C FC BE ?? ?? 8B FE 8C C8 05 ?? ?? 8E C0 06 57 B9
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 83 3D ?? ?? ?? ?? ?? 55 8B EC 56 57 75 65 68 00 01 ?? ?? E8 ?? E6 FF FF 83 C4 04 8B 75 08 A3 ?? ?? ?? ?? 85 F6 74 1D 68 FF
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BB ?? ?? BA ?? ?? 81 C3 07 00 B8 40 B4 B1 04 D3 E8 03 C3 8C D9 49 8E C1 26 03 0E 03 00 2B
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 50 9C FC BE ?? ?? BF ?? ?? 57 B9 ?? ?? F3 A4 8B ?? ?? ?? BE ?? ?? BF ?? ?? F3 A4 C3
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 83 3D ?? ?? ?? 00 00 55 8B EC 56 57 75 65 68 00 01 00 00 E8
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 55 8B EC 56 57 75 65 68 00 01 00 00 E8 F1 E6 FF FF 83 C4 04
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 00 00 55 8B EC 56 57 75 65 68 00 01 00 00 E8
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 55 8B EC 56 57 75 6B 68 00 01 00 00 E8 11 0B 00 00 83 C4 04
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 83 3D B4 ?? ?? ?? ?? 55 8B EC 56 57 75 6B 68 00 01 00 00 E8 ?? 0B 00 00 83 C4 04 8B 75 08 A3 B4 ?? ?? ?? 85 F6 74 23 83 7D 0C 03 77 1D 68 FF
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 E8 03 00 00 00 C7 84 00 58 EB 01 E9 83 C0 07 50 C3
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 E8 03 00 00 00
+ep_only = true
+
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = EB ?? 5B 56 50 72 6F 74 65 63 74 5D
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = EB 0A 5B 56 50 72 6F 74 65 63 74 5D
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = EB 0B 5B 56 50 72 6F 74 65 63 74 5D
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? 00 68 ?? ?? ?? 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 E8 03 00 00 00 C7 84 00 58 EB 01 E9 83 C0 07 50 C3 FF 35 E8 03 00 00 00 C7 84 00 58 EB 01 E9 83 C0 07 50 C3 FF 35 E8 07 00 00 00 C7 83 83 C0 13 EB 0B 58 EB 02 CD 20 83
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = 55 8B EC 6A FF 68 1A 89 40 00 68 56 89 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 E8 03 00 00 00 C7 84 00 58 EB 01 E9 83 C0 07 50
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = 55 8B EC 6A FF 68 8A 8E 40 00 68 C6 8E 40 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 E8 03 00 00 00 C7 84 00 58 EB 01 E9 83 C0 07 50
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = 55 8B EC 6A FF 68 CA 37 41 00 68 06 38 41 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 E8 03 00 00 00 C7 84 00 58 EB 01 E9 83 C0 07 50
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = 55 8B EC 6A FF 68 CA 31 41 00 68 06 32 41 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 E8 03 00 00 00 C7 84 00 58 EB 01 E9 83 C0 07 50
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = B8 1A ED 41 00 B9 EC EB 41 00 50 51 E8 74 00 00 00 E8 51 6A 00 00 58 83 E8 10 B9 B3 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = EB 0B 5B 56 50 72 6F 74 65 63 74 5D 00 E8 24 00 00 00 8B 44 24 04 8B 00 3D 04 00 00 80 75 08 8B 64 24 08 EB 04 58 EB 0C E9 64 8F 05 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = EB 0B 5B 56 50 72 6F 74 65 63 74 5D 00 E8 24 00 00 00 8B 44 24 04 8B 00 3D 04 00 00 80 75 08 8B 64 24 08 EB 04 58 EB 0C E9 64 8F 05 00 00 00 00 74 F3 75 F1 EB 24 64 FF 35 00 00 00 00 EB 12 FF 9C 74 03 75 01 E9 81 0C 24 00 01 00 00 9D 90 EB F4 64 89 25 00
+ep_only = true
+
+[GUI./PEiD/unpacker/wvp/WVP.exe]
+signature = EB 0A 5B 56 50 72 6F 74 65 63 74 5D E8 24 00 00 00 8B 44 24 04 8B 00 3D 04 00 00 80 75 08 8B 64 24 08 EB 04 58 EB 0C E9 64 8F 05 00 00 00 00 74 F3 75 F1 EB 24 64 FF 35 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 09 00 00 00 ?? ?? ?? 00 E9 06 02 00 00 33 C9 5E 87 0E E3 F4 2B F1 8B DE AD 2B D8 AD 03 C3 50 97 AD 91 F3 A5 5E AD 56 91 01 1E AD E2 FB AD 8D 6E 10 01 5D 00 8D 7D 1C B5 ?? F3 AB 5E AD 53 50 51 97 58 8D 54 85 5C FF 16 72 57 2C 03 73 02 B0 00 3C 07 72
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = BE B0 11 ?? ?? AD 50 FF 76 34 EB 7C 48 01 ?? ?? 0B 01 4C 6F 61 64 4C 69 62 72 61 72 79 41 00 00 18 10 00 00 10 00 00 00 00 ?? ?? ?? 00 00 ?? ?? 00 10 00 00 00 02 00 00 04 00 00 00 00 00 39 00 04 00 00 00 00 00 00 00 00 ?? ?? ?? 00 02 00 00 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = E9 ?? ?? ?? ?? 42 79 44 77 69 6E 67 40 00 00 00 50 45 00 00 4C 01 02
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = E9 ?? ?? ?? ?? 42 79 44 77 69 6E 67 40 00 00 00 50 45 00 00
+ep_only = false
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D 81 ED E7 1A 40 00 E8 A1 00 00 00 E8 D1 00 00 00 E8 85 01 00 00 F7 85
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D 81 ED 8A 1C 40 00 B9 9E 00 00 00 8D BD 4C 23 40 00 8B F7 33
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D 81 ED F3 1D 40 00 B9 7B 09 00 00 8D BD 3B 1E 40 00 8B F7 AC ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? AA E2 CC
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 53 56 57 60 E8 00 00 00 00 5D 81 ED 6C 28 40 00 B9 5D 34 40 00
+ep_only = true
+
+[CMD./TitanMist.exe -i] 
+signature = 60 E8 00 00 00 00 5D 81 ED ?? ?? ?? ?? B9 ?? ?? 00 00 8D BD ?? ?? ?? ?? 8B F7 AC
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 53 56 57 60 E8 00 00 00 00 5D 81 ED 6C 28 40 00 B9 5D 34 40 00 81 E9 C6 28 40 00 8B D5 81 C2 C6 28 40 00 8D 3A 8B F7 33 C0 EB 04 90 EB 01 C2 AC
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 53 56 57 60 E8 00 00 00 00 5D 81 ED 4C 32 40 00 E8 03 00 00 00 EB 01 ?? B9 EA 47 40 00 81 E9 E9 32 40 00 8B D5 81 C2 E9 32 40 00 8D 3A 8B F7 33 C0 E8 04 00 00 00 90 EB 01 ?? E8 03 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E8 03 00 00 00 EB 01 ?? BB 55 00 00 00 E8 03 00 00 00 EB 01 ?? E8 8F 00 00 00 E8 03 00 00 00 EB 01 ?? E8 82 00 00 00 E8 03 00 00 00 EB 01 ?? E8 B8 00 00 00 E8 03 00 00 00 EB 01 ?? E8 AB 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 53 56 57 E8 03 00 00 00 EB 01 ?? E8 86 00 00 00 E8 03 00 00 00 EB 01 ?? E8 79 00 00 00 E8 03 00 00 00 EB 01 ?? E8 A4 00 00 00 E8 03 00 00 00 EB 01 ?? E8 97 00 00 00 E8 03 00 00 00 EB 01 ?? E8 2D 00 00 00 E8 03 00 00 00 EB 01 ?? 60 E8 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E8 03 00 00 00 EB 01 ?? BB 55 00 00 00 E8 03 00 00 00 EB 01 ?? E8 8F 00 00 00 E8 03 00 00 00 EB 01 ?? E8 82 00 00 00 E8 03 00 00 00 EB 01 ?? E8 B8 00 00 00 E8 03 00 00 00 EB 01 ?? E8 AB 00 00 00 E8 03 00 00 00 EB 01 ?? 83 FB 55 E8 03 00 00 00 EB 01 ?? 75
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E8 03 00 00 00 EB 01 ?? BB 55 00 00 00 E8 03 00 00 00 EB 01 ?? E8 8F 00 00 00 E8 03 00 00 00 EB 01 ?? E8 82 00 00 00 E8 03 00 00 00 EB 01 ?? E8 B8 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E8 03 00 00 00 EB 01 ?? BB 55 00 00 00 E8 03 00 00 00 EB 01 ?? E8 8E 00 00 00 E8 03 00 00 00 EB 01 ?? E8 81 00 00 00 E8 03 00 00 00 EB 01 ?? E8 B7 00 00 00 E8 03 00 00 00 EB 01 ?? E8 AA 00 00 00 E8 03 00 00 00 EB 01 ?? 83 FB 55 E8 03 00 00 00 EB 01 ?? 75
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 53 56 57 60 E8 00 00 00 00 5D 81 ED 4C 32 40 00 E8 03 00 00 00 EB 01 ?? B9 EA 47 40 00 81 E9 E9 32 40 00 8B D5 81 C2 E9 32 40 00 8D 3A 8B F7 33 C0 E8 04 00 00 00 90 EB 01 ?? E8 03 00 00 00 EB 01
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 53 56 57 E8 03 00 00 00 EB 01
+ep_only = true
+ 
+[CMD./TitanMist.exe -i]
+signature = 83 7C 24 08 01 0F 85 ?? ?? ?? ?? 60 BE ?? ?? ?? ?? BF ?? ?? ?? ?? FC AD 8D 1C 07 B0 80 3B FB 73 3B E8 ?? ?? ?? ?? 72 03 A4 EB F2 E8 ?? ?? ?? ?? 8D 51 FF E8 ?? ?? ?? ?? 56 8B F7 2B F2 F3 A4 5E EB DB 02 C0 75 03 AC 12 C0 C3 33
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 BE ?? ?? ?? ?? BF ?? ?? ?? ?? FC AD 8D 1C 07 B0 80 3B FB 73 3B E8 ?? ?? ?? ?? 72 03 A4 EB F2 E8 ?? ?? ?? ?? 8D 51 FF E8 ?? ?? ?? ?? 56 8B F7 2B F2 F3 A4 5E EB DB 02 C0 75 03 AC 12 C0 C3 33
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 7C 24 08 01 0F 85 ?? ?? ?? ?? 60 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? E8 ?? ?? ?? ?? BE ?? ?? ?? ?? B9 ?? ?? ?? ?? 8B F9 81 FE ?? ?? ?? ?? 7F 10 AC 47 04 18 2C 02 73 F0 29 3E 03 F1 03 F9 EB E8 BA ?? ?? ?? ?? 8D B2
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 7C 24 08 01 0F 85 ?? ?? ?? ?? 60 BE ?? ?? ?? ?? BF ?? ?? ?? ?? FC B2 80 33 DB A4 B3 02 E8 ?? ?? ?? ?? 73 F6 33 C9 E8 ?? ?? ?? ?? 73 1C 33 C0 E8 ?? ?? ?? ?? 73 23 B3 02 41 B0 10
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 7C 24 08 01 0F 85 ?? ?? ?? ?? 60 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? E8 ?? ?? ?? ?? BE ?? ?? ?? ?? B9 ?? ?? ?? ?? 8B F9 81 FE ?? ?? ?? ?? 7F 10 AC 47 04 18 2C 02 73 F0 29 3E 03 F1 03 F9 EB E8
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 7C 24 08 01 0F 85 ?? ?? ?? ?? 60 BE ?? ?? ?? ?? BF ?? ?? ?? ?? FC B2 80 33 DB A4 B3 02 E8 ?? ?? ?? ?? 73 F6 33 C9 E8 ?? ?? ?? ?? 73 1C 33 C0 E8 ?? ?? ?? ?? 73 23 B3 02 41 B0 10
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = BA ?? ?? ?? ?? 8D B2 ?? ?? ?? ?? 8B 46 ?? 85 C0 74 51 03 C2 8B 7E ?? 8B 1E 85 DB 75 02 8B DF 03 DA 03 FA 52 57 50 FF 15 ?? ?? ?? ?? 5F 5A 85 C0 74 2F 8B C8 8B 03 85 C0 74 22 0F BA F0 1F 72 04 8D 44 ?? ?? 51 52 57 50 51 FF 15 ?? ?? ?? ?? 5F 5A 59 85 C0 74 0B AB 83 C3 04 EB D8 83 C6 14 EB AA 61 C3
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 60 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? E8 ?? ?? ?? ?? BE ?? ?? ?? ?? B9 04 00 00 00 8B F9 81 FE ?? ?? ?? ?? 7F 10 AC 47 04 18 2C 02 73 F0 29 3E 03 F1 03 F9 EB E8 BA ?? ?? ?? ?? 8D B2
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? E8 ?? ?? ?? ?? BE ?? ?? ?? ?? B9 04 00 00 00 8B F9 81 FE ?? ?? ?? ?? 7F 10 AC 47 04 18 2C 02 73 F0 29 3E 03 F1 03 F9 EB E8
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 7C 24 08 01 0F 85 ?? ?? ?? ?? 60 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? E8 ?? ?? ?? ?? BE ?? ?? ?? ?? B9 ?? ?? ?? ?? 8B F9 81 FE ?? ?? ?? ?? 7F 10 AC 47 04 18 2C 02 73 F0 29 3E 03 F1 03 F9 EB E8
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 BE ?? ?? ?? ?? BF ?? ?? ?? ?? FC B2 80 33 DB A4 B3 02 E8 ?? ?? ?? ?? 73 F6 33 C9 E8 ?? ?? ?? ?? 73 1C 33 C0 E8 ?? ?? ?? ?? 73 23 B3 02 41 B0 10
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 81 EC 0C 02 ?? ?? 56 BE 04 01 ?? ?? 8D 85 F8 FE FF FF 56 50 6A ?? FF 15 54 10 40 ?? 8A 8D F8 FE FF FF 33 D2 84 C9 8D 85 F8 FE FF FF 74 16
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = E8 01 00 00 00 E8 58 5B 81 E3 00 FF FF FF 66 81 3B 4D 5A 75 37 84 DB 75 33 8B F3 03 ?? ?? 81 3E 50 45 00 00 75 26
+ep_only = true
+
+[GUI./PEiD/unpacker/Enigma-Unpacker0.20/Enigma-Unpacker.exe] 
+signature = 60 E8 00 00 00 00 5D 83 C5 FA 81 ED ?? ?? ?? 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? E8 01 00 00 00 9A 83 C4 04 EB 02 FF 35 60 E8 24 00 00 00 00 00 FF EB 02 CD 20 8B 44 24 0C 83 80 B8 00 00 00 03 31
+ep_only = true
+
+[GUI./PEiD/unpacker/Enigma-Unpacker0.20/Enigma-Unpacker.exe] 
+signature = 60 72 80 72 88 72 8C 72 90 72 94 72 98 72 9C 72 A0 72 A4 59 A8 B0 5C E8 39 D5 39 E4 39 F1 31 F9 5C 3D 58 CA 5F 56 B1 2D 20 7A 2E 30 16 32 72 2B 72 36 1C A5 33 A9 9C AD 9C B1 9C B5 9C B9 9C BD 9C C1 9C C5 9C C9 9C CD 9C D1 9C D5 9C D9 9C DD 9C E1 9C E5 89
+ep_only = false
+
+[GUI./PEiD/unpacker/Enigma-Unpacker0.20/Enigma-Unpacker.exe] 
+signature = 60 E8 00 00 00 00 5D 83 ED 06 81 ED ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? E8 01 00 00 00 9A 83 C4 04 EB 02 FF 35 60 E8 24 00 00 00 00 00 FF EB 02 CD 20 8B 44 24 0C 83 80 B8 00 00 00 03 31
+ep_only = false
+
+[GUI./PEiD/unpacker/Enigma-Unpacker0.20/Enigma-Unpacker.exe] 
+signature = 60 E8 00 00 00 00 5D 83 ?? ?? 81
+ep_only = true
+
+[GUI./PEiD/unpacker/Enigma-Unpacker0.20/Enigma-Unpacker.exe] 
+signature = 60 E8 00 00 00 00 5D 83 C5 FA 81
+ep_only = true
+ 
+[GUI./PEiD/unpacker/Enigma-Unpacker0.20/Enigma-Unpacker.exe] 
+signature = 60 E8 00 00 00 00 5D 83 ED 06 81
+ep_only = true
+ 
+[GUI./PEiD/unpacker/Enigma-Unpacker0.20/Enigma-Unpacker.exe] 
+signature = 45 6E 69 67 6D 61 20 70 72 6F 74 65 63 74 6F 72 20 76 31
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = E9 35 14 00 00 E9 31 13 00 00 E9 98 12 00 00 E9 EF 0C 00 00 E9 42 13 00 00 E9 E9 02 00 00 E9 EF 0B 00 00 E9 1B 0D 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = E9 15 13 00 00 E9 F0 12 00 00 E9 58 12 00 00 E9 AF 0C 00 00 E9 AE 02 00 00 E9 B4 0B 00 00 E9 E0 0C 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 81 EC D4 01 00 00 53 56 57 EB 0C 45 78 50 72 2D 76 2E 31 2E 32 2E 2E B8 ?? ?? ?? ?? 2B 05 84 ?? ?? ?? A3 ?? ?? ?? ?? 83 3D ?? ?? ?? ?? 00 74 16 A1 ?? ?? ?? ?? 03 05 80 ?? ?? ?? 89 85 54 FE FF FF E9 ?? 07 00 00 C7 05 ?? ?? ?? ?? 01 00 00 00 68 04
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 83 EC 58 53 56 57 83 65 DC 00 F3 EB 0C 65 58 50 72 2D 76 2E 31 2E 34 2E 00 A1 00 ?? ?? 00 05 00 ?? ?? 00 A3 08 ?? ?? 00 A1 08 ?? ?? 00 B9 81 ?? ?? 00 2B 48 18 89 0D 0C ?? ?? 00 83 3D
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 83 EC 58 53 56 57 83 65 DC 00 F3 EB 0C 65 58 50 72 2D 76 2E 31 2E 34 2E 00 A1 00 ?? ?? ?? 05 00 ?? ?? ?? A3 08 ?? ?? ?? A1 08 ?? ?? ?? B9 81 ?? ?? ?? 2B 48 18 89 0D 0C ?? ?? ?? 83 3D 10 ?? ?? ?? 00 74 16 A1 08 ?? ?? ?? 8B 0D 0C ?? ?? ?? 03 48 14
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 83 EC ?? 53 56 57 83 65 ?? 00 F3 EB 0C 65 58 50 72 2D 76 2E 31 2E 34 2E 00 A1 00 ?? ?? 00 05 00 ?? ?? 00 A3 ?? ?? ?? 00 A1 ?? ?? ?? 00 B9 ?? ?? ?? 00 2B 48 18 89 0D ?? ?? ?? 00 83 3D
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = E9 ?? ?? 00 00 E9 ?? ?? 00 00 E9 ?? 12 00 00 E9 ?? 0C 00 00 E9 ?? ?? 00 00 E9 ?? ?? 00 00 E9 ?? ?? 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 45 78 50 72 2D 76 2E 31 2E 32 2E
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 45 78 50 72 2D 76 2E 31 2E 33 2E
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 65 58 50 72 2D 76 2E 31 2E 34 2E
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 81 EC D4 01 00 00 53 56 57 EB 0C 45 78 50 72 2D 76
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 83 EC ?? 53 56 57 EB 0C 45
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 83 EC 58 53 56 57 83 65 DC 00 F3 EB 0C
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 83 EC ?? 53 56 57 83 65 DC 00 F3 EB 0C
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 81 EC D4 01 00 00 53 56 57 EB 0C 45 78 50 72 2D 76 2E 31 2E 32 2E 2E
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 81 EC ?? ?? ?? ?? 53 56 57 EB ?? 45 78 50 72 2D 76 2E 31 2E 32 2E 2E
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 81 EC D4 01 00 00 53 56 57 EB 0C 45 78 50 72 2D 76 2E 31 2E 32 2E 2E B8 ?? ?? ?? 00 2B 05 84 ?? ?? 00 A3 ?? ?? ?? 00 83 3D ?? ?? ?? 00 00 74 16 A1 ?? ?? ?? 00 03 05 80 ?? ?? 00 89 85 54 FE FF FF E9 ?? 07 00 00 C7 05 ?? ?? ?? 00 01 00 00 00 68 04
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 83 EC ?? 53 56 57 EB 0C 45 78 50 72 2D 76 2E 31 2E 33 2E 2E B8 ?? ?? ?? ?? 2B 05 ?? ?? ?? ?? A3 ?? ?? ?? ?? 83 3D ?? ?? ?? ?? 00 74 13 A1 ?? ?? ?? ?? 03 05 ?? ?? ?? ?? 89 ?? ?? E9 ?? ?? 00 00 C7 05
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 83 EC ?? 53 56 57 EB 0C 45 78 50 72 2D 76 2E 31 2E 34 2E 2E B8
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 81 EC 58 02 00 00 53 56 57 83 A5 CC FD FF FF 00 F3 EB 0C 65 58 50 72 2D 76 2E 31 2E 35 2E 00 83 7D 0C 01 75 23
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E9 19 32 00 00 E9 7C 2A 00 00 E9 19 24 00 00 E9 FF 23 00 00 E9 1E 2E 00 00 E9 88 2E 00 00 E9 2C
+ep_only = true
+
+[GUI./PEiD/unpacker/xhs13/xhs.exe]
+signature = B4 30 CD 21 86 E0 3D ?? ?? 73 ?? B4 2F CD 21 B0 ?? B4 4C CD 21 50 B8 ?? ?? 58 EB
+ep_only = true
+
+[GUI./PEiD/unpacker/xhs13/xhs.exe]
+signature = B4 30 CD 21 86 E0 3D ?? ?? 73 ?? B4 ?? CD 21 B0 ?? B4 4C CD 21 53 BB ?? ?? 5B EB
+ep_only = true
+
+[GUI./PEiD/unpacker/killhs12/killhs.exe]
+signature = 52 B8 ?? ?? 1E CD 21 86 E0 3D ?? ?? 73 ?? CD 20 0E 1F B4 09 E8 ?? ?? 24 ?? EA
+ep_only = true
+
+[GUI./PEiD/unpacker/killhs12/killhs.exe]
+signature = FA BD ?? ?? FF E5 6A 49 48 0C ?? E4 ?? 3F 98 3F
+ep_only = true
+
+[GUI./PEiD/unpacker/unhs10/UNHS.EXE]
+signature = 52 BA ?? ?? 5A EB ?? 9A ?? ?? ?? ?? 30 CD 21 ?? ?? ?? FD 02 ?? ?? CD 20 0E 1F 52 BA ?? ?? 5A EB
+ep_only = true
+
+[GUI./PEiD/unpacker/unhs10/UNHS.EXE]
+signature = 52 BA ?? ?? 5A EB ?? 9A ?? ?? ?? ?? 30 CD 21 ?? ?? ?? D6 02 ?? ?? CD 20 0E 1F 52 BA ?? ?? 5A EB
+ep_only = true
+
+[GUI./PEiD/unpacker/killhs12/killhs.exe]
+signature = B4 30 CD 21 86 E0 3D 00 03 73 ?? B4 2F CD 21 B4 2A CD 21 B4 2C CD 21 B0 FF B4 4C CD 21 50 B8 ?? ?? 58 EB
+ep_only = true
+
+[GUI./PEiD/unpacker/killhs12/killhs.exe]
+signature = 52 B4 30 CD 21 52 FA ?? FB 3D ?? ?? EB ?? CD 20 0E 1F B4 09 E8
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = ?? BA ?? ?? ?? 00 B8 ?? ?? ?? ?? 89 02 83 C2 04 B8 ?? ?? ?? ?? 89 02 83 C2 04 B8 ?? ?? ?? ?? 89 02 83 C2 F8 FF E2 0D 0A 2D 3D 5B 20 48 69 64 65 50 45 20 62 79 20 42 47 43 6F 72 70 20 5D 3D 2D
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 90 90 90 E9 D8
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 83 C4 C0 53 56 57 33 C0 89 45 F0 89 45 C4 89 45 C0 E8 A7 7F FF FF E8 FA 92 FF FF E8 F1 B3 FF FF 33 C0
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 83 C4 C0 53 56 57 33 C0 89 45 F0 89 45 EC 89 45 C0 E8 5B 73 FF FF E8 D6 87 FF FF E8 C5 A9 FF FF E8 E0
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 49 6E 6E 6F 53 65 74 75 70 4C 64 72 57 69 6E 64 6F 77 00 00 53 54 41 54 49 43
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 83 C4 B8 53 56 57 33 C0 89 45 F0 89 45 BC 89 45 B8 E8 73 71 FF FF E8 DA 85 FF FF E8 81 A7 FF FF E8 C8
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 83 C4 B8 53 56 57 33 C0 89 45 F0 89 45 BC 89 45 B8 E8 B3 70 FF FF E8 1A 85 FF FF E8 25 A7 FF FF E8 6C
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 83 C4 ?? 53 56 57 33 C0 89 45 F0 89 45 ?? 89 45 ?? E8 ?? ?? FF FF E8 ?? ?? FF FF E8 ?? ?? FF FF E8 ?? ?? FF FF E8 ?? ?? FF FF
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 83 EC 44 56 FF 15 ?? ?? 41 00 8B F0 85 F6 75 08 6A FF FF 15 ?? ?? 41 00 8A 06 57 8B 3D ?? ?? 41 00 3C 22 75 1B 56 FF D7 8B F0 8A 06 3C 22 74 04 84 C0 75 F1 80 3E 22 75 15 56 FF D7 8B
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 64 A1 ?? ?? ?? ?? 50 64 89 25 ?? ?? ?? ?? 83 C4 ?? 53 56 57
+ep_only = true
+
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 6A FF 68 68 51 40 00 68 04 25 40 00 64 A1 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 60 E8 ?? ?? ?? ?? 5D 8B D5 81 ED ?? ?? ?? ?? 2B 95 ?? ?? ?? ?? 81 EA 06 ?? ?? ?? 89 95 ?? ?? ?? ?? 83 BD 45
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 55 8B EC 6A FF 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 ?? ?? ?? E8 01 00 00 00 ?? ?? ?? ?? ?? ?? 05 00 00 00 00 83 C4 0C 5D 60 E8 00 00 00 00 5D 8B D5 64 FF 35 00 00 00 00 EB
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = FC FF 4D 08 31 D2 8D 7D 30 BE
+ep_only = false
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = BD 08 ?? ?? 00 C7 45 00 ?? ?? ?? 00 FF 4D 08 C6 45 0C 05 8D 7D 14 31 C0 B4 04 89 C1 F3 AB BF ?? ?? ?? 00 57 BE ?? ?? ?? 00 31 C9 41 FF 4D 0C 8D 9C 8D A0 00 00 00 FF D6 10 C9 73 F3 FF 45 0C 91 AA 83 C9 FF 8D 5C 8D 18 FF D6 74 DD E3 17 8D 5D 1C FF D6 74 10
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 66 9C BB ?? ?? ?? ?? 80 B3 00 10 40 00 90 4B 83 FB FF 75 F3 66 9D 61
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 66 9C BB 00 ?? ?? 00 80 B3 00 10 40 00 90 4B 83 FB FF 75 F3 66 9D 61 B8 ?? ?? 40 00 FF E0
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E9 ?? ?? ?? FF 0C ?? ?? 00 00 00 00 00 00 00 00 00 ?? ?? ?? 00 0C
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 33 C0 E9 ?? ?? FF FF 6A ?? ?? ?? ?? ?? 70
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E9 ?? ?? ?? FF 0C ?? ?? 00 00 00 00 00 00 00 00 00 ?? ?? ?? 00 0C ?? ?? 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = BE 5B 00 40 00 AD 91 AD 93 53 AD 96 56 5F AC C0 C0
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 33 C0 E9 ?? ?? FF FF ?? 1C ?? ?? 40
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = E9 ?? ?? ?? FF 0C ?? 00 00 00 00 00 00 00 00 00 00
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 33 C0 E9 ?? ?? ?? FF
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E9 ?? ?? ?? FF 0C
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E9 ?? ?? ?? FF 0C ?? 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? 00 0C ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 28 ?? ?? ?? 00 00 00 00 00 00 00 00 40 ?? ?? ?? 34 ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4C ?? ?? ?? 5C ?? ?? ?? 00 00 00 00 4C ?? ?? ?? 5C ?? ?? ?? 00 00 00 00 4B 65 52 6E 45 6C 33 32 2E 64 4C 6C 00 00 47 65 74 50 72 6F 63 41 64 64 72 65 73 73 00 00 4C 6F 61 64 4C 69 62 72 61 72 79 41
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D B8 B3 85 40 00 2D AC 85 40 00 2B E8 8D B5
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D B8 B3 85 40 00 2D AC 85 40 00 2B E8 8D B5 73 ?? FF FF 8B 06 83 F8 00 74 11 8D B5 7F ?? FF FF 8B 06 83 F8 01 0F 84 F1 01 00 00 C7 06 01 00 00 00 8B D5 8B 85 4F ?? FF FF 2B D0 89 95 4F ?? FF FF 01 95 67 ?? FF FF 8D B5 83 ?? FF FF 01
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D 83 ED 07 8D 9D ?? ?? FF FF 8A 03 3C 00 74 10 8D 9D ?? ?? FF FF 8A 03 3C 01 0F 84 42 02 00 00 C6 03 01 8B D5 2B 95 ?? ?? FF FF 89 95 ?? ?? FF FF 01 95 ?? ?? FF FF 8D B5 ?? ?? FF FF 01 16 60 6A 40 68 00 10 00 00 68 00 10 00 00 6A 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 8B DF 83 3F 00 75 0A 83 C7 04 B9 00 00 00 00 EB 16 B9 01 00 00 00 03 3B 83 C3 04 83 3B 00 74 2D 01 13 8B 33 03 7B 04 57 51 52 53
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D 83 ED 07 8D 85 ?? ?? FF FF ?? 38 01 0F 84 ?? 02 00 00 ?? 00 01
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D B8 07 00 00 00 2B E8 8D B5 ?? ?? FF FF 8B 06 83 F8 00 74 11 8D B5 ?? ?? FF FF 8B 06 83 F8 01 0F 84 4B 02 00 00 C7 06 01 00 00 00 8B D5 8B 85 ?? ?? FF FF 2B D0 89 95 ?? ?? FF FF 01 95 ?? ?? FF FF 8D B5 ?? ?? FF FF 01 16 8B 36 8B FD
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D B8 07 00 00 00 2B E8 8D B5 ?? ?? ?? ?? 66 8B 06 66 83 F8 00 74
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D 83 ED 07 8D 9D ?? ?? ?? ?? 8A 03 3C 00 74
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D 83 ED 07 8D 85 ?? ?? ?? ?? 80 38 00 74
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D 83 ED 07 8D 85 ?? ?? ?? ?? 80 38 01 0F 84
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D 83 ED 07 8D ?? ?? ?? ?? ?? 83 38 01 0F 84 47 02 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D 83 ED 07 8D ?? ?? ?? ?? ?? 80 39 01 0F ?? ?? ?? 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D B8 57 84 40 00 2D 50 84 40 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D B8 B3 85 40 00 2D AC 85 40 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D B8 B1 85 40 00 2D AA 85 40 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 70 61 63 6B 24 40
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 9C 60 E8 00 00 00 00 5D B8 07 00 00 00 2B E8 8D B5
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 6E 73 70 61 63 6B 24 40
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 83 3D 40 ?? ?? ?? 00 75 05 E9 01 00 00 00 C3 E8 41 00 00 00 B8 80 ?? ?? ?? 2B 05 08 ?? ?? ?? A3 3C ?? ?? 00 E8 5E 00 00 00 E8 E0 01 00 00 E8 EC 06 00 00 E8 F7 05 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 3D 04 ?? ?? ?? 00 75 05 E9 01 00 00 00 C3 E8 46 00 00 00 E8 73 00 00 00 B8 2E ?? ?? ?? 2B 05 08 ?? ?? ?? A3 00 ?? ?? ?? E8 9C 00 00 00 E8 04 02 00 00 E8 FB 06 00 00 E8 1B 06 00 00 A1 00 ?? ?? ?? C7 05 04 ?? ?? ?? 01 00 00 00 01 05 00 ?? ?? ?? FF 35 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 3D 40 ?? ?? ?? 00 75 05 E9 01 00 00 00 C3 E8 41 00 00 00 B8 80 ?? ?? ?? 2B 05 08 ?? ?? ?? A3 3C ?? ?? ?? E8 5E 00 00 00 E8 E0 01 00 00 E8 EC 06 00 00 E8 F7 05 00 00 A1 3C ?? ?? ?? C7 05 40 ?? ?? ?? 01 00 00 00 01 05 00 ?? ?? ?? FF 35 00 ?? ?? ?? C3 C3 56 57 68 54 ?? ?? ?? FF 15 00 ?? ?? ?? 8B 35 08 ?? ?? ?? 8B F8 68 44 ?? ?? ?? 57 FF D6 68 38 ?? ?? ?? 57 A3 38 ?? ?? ?? FF D6 5F A3 34 ?? ?? ?? 5E C3
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 3D 40 ?? ?? ?? 00 75 05 E9 01 00 00 00 C3 E8 41 00 00 00 B8 80 ?? ?? ?? 2B 05 08 ?? ?? ?? A3 3C ?? ?? ?? E8 5E 00 00 00 E8 E0 01 00 00 E8 EC 06 00 00 E8 F7 05 00 00 A1 3C ?? ?? ?? C7 05 40 ?? ?? ?? 01 00 00 00 01 05 00 ?? ?? ?? FF 35 00 ?? ?? ?? C3 C3
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 3D 40 ?? ?? ?? 00 75 05 E9 01 00 00 00 C3 E8 41 00 00 00 B8 80 ?? ?? ?? 2B 05 08 ?? ?? ?? A3 3C ?? ?? ?? E8 5E 00 00 00 E8 EC 01 00 00 E8 F8 06 00 00 E8 03 06 00 00 A1 3C ?? ?? ?? C7 05 40 ?? ?? ?? 01 00 00 00 01 05 00 ?? ?? ?? FF 35 00 ?? ?? ?? C3 C3
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 3D ?? ?? ?? 00 00 75 05 E9 01 00 00 00 C3 E8 46 00 00 00 E8 73 00 00 00 B8 ?? ?? ?? ?? 2B 05 08 ?? ?? ?? A3 ?? ?? ?? ?? E8 9C 00 00 00 E8 ?? 02 00 00 E8 ?? 06 00 00 E8 ?? 06 00 00 A1 ?? ?? ?? ?? C7 05 ?? ?? ?? 00 01 00 00 00 01 05 00 ?? ?? ?? FF 35 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 00 00 00 00 58 8D A8 ?? FE FF FF 8D 98 ?? ?? ?? FF 8D ?? ?? 01 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 00 00 00 00 58 8D A8 ?? ?? FF FF 8D 98 ?? ?? ?? FF 8D ?? ?? 01 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 00 00 00 00 5B 8D 5B C6 01 1B 8B 13 8D 73 14 6A 08 59 01 16 AD 49 75 FA
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 00 00 00 00 58 8D ?? ?? ?? ?? ?? 8D ?? ?? ?? ?? ?? 8D ?? ?? ?? ?? ?? 8D ?? ?? 48
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 0F 85 ?? FF FF FF 8D B3 ?? ?? ?? ?? EB 3D 8B 46 0C 03 C3 50 FF 55 00 56 8B 36 0B F6 75 02 8B F7 03 F3 03 FB EB 1B D1 C1 D1 E9 73 05 0F B7 C9 EB 05 03 CB 8D 49 02 50 51 50 FF 55 04 AB 58 83 C6 04 8B 0E 85 C9 75 DF 5E 83 C6 14 8B 7E 10 85 FF 75 BC 8D 8B 00
+ep_only = false
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 53 51 52 56 57 55 E8 00 00 00 00 5D 8B CD 81 ED 33 30 40 ?? 2B 8D EE 32 40 00 83 E9 0B 89 8D F2 32 40 ?? 80 BD D1 32 40 ?? 01 0F 84
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 53 51 52 56 57 55 E8 00 00 00 00 5D 8B CD 81 ED 33 30 40 00
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 53 51 52 56 57 55 E8 ?? ?? ?? ?? 5D 8B CD 81 ?? ?? ?? ?? ?? 2B ?? ?? ?? ?? ?? 83
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E8 AA 00 00 00 2D ?? ?? ?? 00 00 00 00 00 00 00 00 3D
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 56 52 51 53 55 E8 15 01 00 00 32 ?? ?? 00 00 00 00 00
+ep_only = true
+
+[PE-Armor 0.46 -> China Cracking Group]
+signature = E8 AA 00 00 00 2D ?? ?? 00 00 00 00 00 00 00 00 00 3D ?? ?? 00 2D ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4B ?? ?? 00 5C ?? ?? 00 6F ?? ?? 00 00 00 00 00 4B 45 52 4E 45 4C 33 32 2E 64 6C 6C 00 00 00 00 47 65 74 50 72 6F 63 41
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 00 00 00 00 5D 81 ED ?? ?? ?? ?? 8D B5 ?? ?? ?? ?? 55 56 81 C5 ?? ?? ?? ?? 55 C3
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 ?? ?? ?? ?? 5D 83 ED 06 80 BD E0 04 ?? ?? 01 0F 84 F2
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = FC 8B 35 70 01 40 ?? 83 EE 40 6A 40 68 ?? 30 10
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 00 00 00 00 5D 83 ED 06 80 BD E0 04 00 00 01 0F 84 F2
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 74 ?? E9 ?? ?? ?? ?? 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 C4 0D 0A 20 2D 3D FE 20 50 45 2D 50 41 43 4B 20 76 31 2E 30 20 2D FE 2D 20 28 43 29 20 43 6F 70
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = E8 00 00 00 00 5D 81 ED 05 10 40 00 8D B5 24 10 40 00 8B FE B9 0F 00 00 00 BB ?? ?? ?? ?? AD 33 C3 E2 FA
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 60 9C BE 00 10 40 00 8B FE B9 28 03 00 00 BB 78 56 34 12 AD 33 C3 AB E2 FA 9D 61
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = E9 ?? ?? ?? 00 F0 0F C6
+ep_only = true
+
+[GUI./PEiD/unpacker/Un-SecuPack/tool.EXE]
+signature = 55 8B EC 83 C4 F0 53 56 57 33 C0 89 45 F0 B8 CC 3A 40 ?? E8 E0 FC FF FF 33 C0 55 68 EA 3C 40 ?? 64 FF 30 64 89 20 6A ?? 68 80 ?? ?? ?? 6A 03 6A ?? 6A 01 ?? ?? ?? 80
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 55 57 51 53 E8 ?? ?? ?? ?? 5D 8B C5 81 ED ?? ?? ?? ?? 2B 85 ?? ?? ?? ?? 83 E8 09 89 85 ?? ?? ?? ?? 0F B6
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 5B 53 50 45 43 5D E8 ?? ?? ?? ?? 5D 8B C5 81 ED 41 24 40 ?? 2B 85 89 26 40 ?? 83 E8 0B 89 85 8D 26 40 ?? 0F B6 B5 91 26 40 ?? 8B FD
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 57 56 52 51 53 E8 ?? ?? ?? ?? 5D 8B D5 81 ED 63 3A 40 ?? 2B 95 C2 3A 40 ?? 83 EA 0B 89 95 CB 3A 40 ?? 8D B5 CA 3A 40 ?? 0F B6 36
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 57 56 52 51 53 E8 ?? ?? ?? ?? 5D 8B D5 81 ED 97 3B 40 ?? 2B 95 2D 3C 40 ?? 83 EA 0B 89 95 36 3C 40 ?? 01 95 24 3C 40 ?? 01 95 28
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 53 51 52 56 57 55 E8 ?? ?? ?? ?? 5D 81 ED 42 30 40 ?? FF 95 32 35 40 ?? B8 37 30 40 ?? 03 C5 2B 85 1B 34 40 ?? 89 85 27 34 40 ?? 83
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 57 56 52 51 53 E8 ?? ?? ?? ?? 5D 8B D5 81
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 66 8B C0 8D 24 24 EB 01 EB 60 EB 01 EB 9C E8 00 00 00 00 5E 83 C6 50 8B FE 68 78 01 ?? ?? 59 EB 01 EB AC 54 E8 03 ?? ?? ?? 5C EB 08
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = C1 EE 00 66 8B C9 EB 01 EB 60 EB 01 EB 9C E8 00 00 00 00 5E 83 C6 52 8B FE 68 79 01 59 EB 01 EB AC 54 E8 03 5C EB 08
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = C1 EE 00 66 8B C9 EB 01 EB 60 EB 01 EB 9C E8 00 00 00 00 5E 83 C6 ?? 8B FE 68 79 01 ?? ?? 59 EB 01
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = C1 EE 00 66 8B C9 EB 01 EB 60 EB 01 EB 9C E8 00 00 00 00 5E 83 C6 5E 8B FE 68 79 01 59 EB 01 EB AC 54 E8 03 5C EB 08
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 5E DF FF FF 00 00 00 ?? ?? ?? ?? E5 ?? ?? 00 00 00 00 00 00 00 00 00 05 ?? ?? 00 F5 ?? ?? 00 ED ?? ?? 00 00 00 00 00 00 00 00 00 12 ?? ?? 00 FD ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1D ?? ?? 00 00 00 00 00 30 ?? ?? 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 99 D7 FF FF 00 00 00 ?? ?? ?? ?? AA ?? ?? 00 00 00 00 00 00 00 00 00 CA
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 5E DF FF FF 00 00 00 ?? ?? ?? ?? E5 ?? ?? 00 00 00 00 00 00 00 00 00 05
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 25 E4 FF FF 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? ?? 00 00 00 00 ?? ?? ?? ?? 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 ?? ?? FF FF 00 00 00 ?? ?? ?? ?? ?? ?? ?? 00 ?? ?? ?? ?? ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? 02 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? 00 00 00 00 00 ?? ?? 02 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = E9 ?? ?? FF FF 00 00 00 ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 00 00 00 00 60 E8 00 00 00 00 58 83 C0 08
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 BD 10 00 00 C3 83 E2 00 F9 75 FA 70
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 ED 10 00 00 C3 83
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 44 11 00 00 C3 83
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 48 11 00 00 C3 83
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 F9 11 00 00 C3 83
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 02 00 00 00 CD 20 E8 00 00 00 00 5E 2B C9 58 74 02
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = ?? ?? E8 02 00 00 00 E8 00 E8 00 00 00 00 5E 2B
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 25 E4 FF FF 00 00 00 ?? ?? ?? ?? 1E
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 00 00 C3 83
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 7E E9 FF FF 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 D5 E4 FF FF 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 59 E4 FF FF 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 25 E4 FF FF
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 1B E4 FF FF
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = E9 E5 E2 FF FF
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 33 C0 8B B8 00 ?? ?? ?? 8B 90 04 ?? ?? ?? 85 FF 74 1B 33 C9 50 EB 0C 8A 04 39 C0 C8 04 34 1B 88 04 39 41 3B CA 72 F0 58
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 33 C0 8B B8 00 ?? ?? ?? 8B 90 04 ?? ?? ?? 85 FF 74 1B 33 C9 50 EB 0C 8A 04 39 C0 C8 04 34 1B 88 04 39 41 3B CA 72 F0 58 83 C0 08 EB D5 61 E9 ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = FF 15 ?? ?? ?? 00 B1 22 38 08 74 02 B1 20 40 80 38 00 74 10 38 08 74 06 40 80 38 00 75 F6 80 38 00 74 01 40 33 C9 ?? ?? ?? ?? FF 15
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 53 FF 15 ?? ?? ?? 00 B3 22 38 18 74 03 80 C3 FE 8A 48 01 40 33 D2 3A CA 74 0A 3A CB 74 06 8A 48 01 40 EB F2 38 10 74 01 40 ?? ?? ?? ?? FF 15
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = FF 15 FC 81 40 00 B1 22 38 08 74 02 B1 20 40 80 38 00 74 10
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 60 EB 05 E8 EB 04 40 00 EB FA E8 0A 00 00 00 E8 EB 0C 00 00 E8 F6 FF FF FF E8 F2 FF FF FF 83 C4 08 74 04 75 02 EB 02 EB 01 81 E8 0A 00 00 00 E8 EB 0C 00 00 E8 F6 FF FF FF E8 F2 FF FF FF 83 C4 08 74 04 75 02 EB 02 EB 01 81 E8 0A 00 00 00 E8 EB 0C 00 00 E8
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 60 D1 CB 0F CA C1 CA E0 D1 CA 0F C8 EB 01 F1 0F C0 C9 D2 D1 0F C1 C0 D3 DA C0 D6 A8 EB 01 DE D0 EC 0F C1 CB D0 CF 0F C1 D1 D2 DB 0F C8 EB 01 BC C0 E9 C6 C1 D0 91 0F CB EB 01 73 0F CA 87 D9 87 D2 D0 CF 87 D9 0F C8 EB 01 C1 EB 01 A2 86 CA D0 E1 0F C0 CB 0F
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = EB 05 E8 EB 04 40 00 EB FA E8 0A 00 00 00 E8 EB 0C 00 00 E8 F6 FF FF FF E8 F2 FF FF FF 83 C4 08 74 04 75 02 EB 02 EB 01 81 E8 0A 00 00 00 E8 EB 0C 00 00 E8 F6 FF FF FF E8 F2 FF FF FF 83 C4 08 74 04 75 02 EB 02 EB 01 81 50 E8 02 00 00 00 29 5A 58 6B C0 03
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = E8 EB 0C 00 00 E8 F6 FF FF FF E8 F2 FF FF FF 83 C4 08 74 04 75 02 EB 02 EB 01 81 74 04 75 02 EB 02 EB 01 81 0F 31 50 0F 31 E8 0A 00 00 00 E8 EB 0C 00 00 E8 F6 FF FF FF E8 F2 FF FF FF 83 C4 08 2B 04 24 74 04 75 02 EB 02 EB 01 81 83 C4 04 E8 0A 00 00 00 E8
+ep_only = false
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 60 D1 CB 0F CA C1 CA E0 D1 CA 0F C8 EB 01 F1
+ep_only = true
+
+[GUI./PEiD/unpacker/WSUnpackerV0.20/WSUnpacker.exe]
+signature = EB 01 EA 9C EB 01 EA 53 EB 01 EA 51 EB 01 EA 52 EB 01 EA 56
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB 02 69 B1 83 EC 04 EB 03 CD 20 EB EB 01 EB 9C EB 01 EB EB
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB 03 3A 4D 3A 1E EB 02 CD 20 9C EB 02 CD 20 EB 02 CD 20 60
+ep_only = true
+ 
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB ?? 3A ?? ?? 1E EB ?? CD 20 9C EB ?? CD 20 EB ?? CD 20 60 EB
+ep_only = true
+
+[GUI./PEiD/unpacker/uncodecrypt/UNCODE.EXE]
+signature = E9 C5 02 00 00 EB 02 83 3D 58 EB 02 FF 1D 5B EB 02 0F C7 5F
+ep_only = true
+
+[GUI./PEiD/unpacker/uncodecrypt164/decrypt2.EXE]
+signature = E9 31 03 00 00 EB 02 83 3D 58 EB 02 FF 1D 5B EB 02 0F C7 5F
+ep_only = true
+
+[GUI./PEiD/unpacker/uncodecrypt163/UNCODE.EXE]
+signature = E9 2E 03 00 00 EB 02 83 3D 58 EB 02 FF 1D 5B EB 02 0F C7 5F
+ep_only = true
+
+[GUI./PEiD/unpacker/uncodecrypt164/decrypt2.EXE]
+signature = E9 2E 03 00 00 EB 02 83 3D 58 EB 02 FF 1D 5B EB 02 0F C7 5F EB 03 FF 1D 34
+ep_only = true
+ 
+[GUI./PEiD/unpacker/DBPE_1.0/undbpe.exe]
+signature = 55 57 56 52 51 53 E8 00 00 00 00 5D 8B D5 81 ED 0D 39 40 00
+ep_only = true
+
+[GUI./PEiD/unpacker/DBPE_1.0/undbpe.exe]
+signature = 55 57 56 52 51 53 66 81 C3 EB 02 EB FC 66 81 C3 EB 02 EB FC
+ep_only = true
+
+[GUI./PEiD/unpacker/DBPE_1.0/undbpe.exe]
+signature = 55 57 56 52 51 53 E8 00 00 00 00 5D 8B D5 81 ED 23 35 40 00
+ep_only = true
+
+
+[GUI./PEiD/unpacker/DBPE_1.0/undbpe.exe]
+signature = 9C 55 57 56 52 51 53 9C FA E8 00 00 00 00 5D 81 ED 5B 53 40 00 B0
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 3B C0 74 02 81 83 55 3B C0 74 02 81 83 53 3B C9 74 01 BC ?? ?? ?? ?? 02 81 ?? ?? ?? ?? ?? ?? ?? 3B DB 74 01 BE 5D 8B D5 81 ED CC 8D 40
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 3B C0 74 02 81 83 55 3B C0 74 02 81 83 53 3B C9 74 01 BC ?? ?? ?? ?? 02 81 ?? ?? ?? ?? ?? ?? ?? 3B DB 74 01 BE 5D 8B D5 81 ED 4C 8E 40
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 3B C0 74 02 81 83 55 3B C0 74 02 81 83 53 3B C9 74 01 BC ?? ?? ?? ?? 02 81 ?? ?? ?? ?? ?? ?? ?? 3B DB 74 01 BE 5D 8B D5 81 ED DC 8D 40
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 3B C0 74 02 81 83 55 3B C0 74 02 81 83 53 3B C9 74 01 BC ?? ?? ?? ?? 02 81 ?? ?? ?? ?? ?? ?? ?? 3B DB 74 01 BE 5D 8B D5 81 ED EC 8D 40
+ep_only = true 
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 3B ?? 74 02 81 83 55 3B ?? 74 02 81 ?? 53 3B ?? 74 01 ?? ?? ?? ?? ?? 02 81 ?? ?? E8 ?? ?? ?? ?? 3B 74 01 ?? 5D 8B D5 81 ED
+ep_only = true
+
+[GUI./PEiD/unpacker/Unpack_EXESmasher_1.0/Movie_EXESmasher 1.0.exe]
+signature = 9C FE 03 ?? 60 BE ?? ?? 41 ?? 8D BE ?? 10 FF FF 57 83 CD FF EB 10
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 68 04 30 40 00 68 04 30 40 00 E8 09 03 00 00 68 04 30 40 00 E8 C7 02 00 00
+ep_only = true 
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 68 ?? ?? ?? ?? B8 ?? ?? ?? ?? FF 10 68 ?? ?? ?? ?? 50 B8 ?? ?? ?? ?? FF 10 68 00 00 00 00 6A 40 FF D0 89 05 ?? ?? ?? ?? 89 C7 BE ?? ?? ?? ?? 60 FC B2 80 31 DB A4 B3 02 E8 6D 00 00 00 73 F6 31 C9 E8 64 00 00 00 73 1C 31 C0 E8 5B 00 00 00 73 23 B3 02 41
+ep_only = false
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 68 ?? ?? ?? ?? B8 ?? ?? ?? ?? FF 10 68 ?? ?? ?? ?? 50 B8 ?? ?? ?? ?? FF 10 68 00 A0 00 00 6A 40 FF D0 89 05 ?? ?? ?? ?? 89 C7 BE ?? ?? ?? ?? 60 FC B2 80 31 DB A4 B3 02 E8 6D 00 00 00 73 F6
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 00 00 00 00 00 00 00 00 ?? ?? 00 00 00 00 00 00 ?? ?? 01 00 00 00 00 00 00 00 00 00 56 69 72 74 75 61 6C 41 6C 6C 6F 63 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 74 ?? ?? ?? 00 00 00 00 00
+ep_only = false
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E9 00 00 00 00 60 E8 14 00 00 00 5D 81 ED 00 00 00 00 6A ?? E8 A3 00 00 00
+ep_only = true
+ 
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = E8 E8 01 ?? ?? 60 01 AD B3 27 40 ?? 68
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = ?? BD ?? ?? ?? ?? 01 AD 55 39 40 ?? 8D B5 35 39 40
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = ?? BD ?? ?? ?? ?? 01 AD E3 38 40 ?? FF B5 DF 38 40
+ep_only = true
+  
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 9C 60 BD ?? ?? ?? ?? 01 AD 54 3A 40 ?? FF B5 50 3A 40 ?? 6A 40 FF 95 88 3A 40 ?? 50 50 2D ?? ?? ?? ?? 89 85
+ep_only = true
+
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 01 AD 54 3A 40 00 FF B5 50 3A 40 00 6A 40 FF 95 88 3A 40 00
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 9C 60 BD ?? ?? ?? ?? 01 ?? ?? ?? ?? ?? FF ?? ?? ?? ?? ?? 6A ?? FF ?? ?? ?? ?? ?? 50 50 2D
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E8 ?? ?? ?? ?? 5B 83 EB 05 EB 04 52 4E 44 21 EB 02 CD 20 EB
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E8 ?? ?? ?? ?? 5B 83 EB 05 EB 04 52 4E 44
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E8 00 00 00 00 5B 83 EB 05 EB 04 52 4E 44 21 EB 02 CD 20 EB
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E8 00 00 00 00 5B 83 ?? ?? EB ?? 52 4E 44 21
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 00 00 00 00 5D 81 ED 55 20 40 00 B9 7B 09 00 00 8D BD 9D 20 40 00 8B F7 AC ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? AA E2 CC
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker1.5/VMUnpacker_CN.exe]
+signature = 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB ?? ?? 40 ?? 87 DD 6A 04 68 ?? 10 ?? ?? 68 ?? 02 ?? ?? 6A ?? FF 95
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker1.5/VMUnpacker_CN.exe]
+signature = 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB ?? ?? 40 ?? 87 DD 01 AD ?? ?? ?? ?? 01 AD
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 9C 60 E8 02 ?? ?? ?? 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB ?? ?? 40 ?? 87 DD 83 BD
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker1.5/VMUnpacker_CN.exe]
+signature = 9C 60 E8 02 00 00 00 33 C0 8B C4 83 C0 04 93 8B E3 8B 5B FC 81 EB 07 20 40 00 87 DD ?? ?? ?? ?? 40 00 01
+ep_only = false
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 50 4B 4C 49 54 45 33 32 20 43 6F 70 79 72 69 67 68 74 20 31
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 68 ?? ?? ?? 00 68 ?? ?? ?? 00 68 00 00 00 00 E8 ?? ?? ?? ?? E9
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 8B EC A1 ?? ?? ?? ?? 85 C0 74 09 B8 01 ?? ?? ?? 5D C2 0C ?? 8B 45 0C 57 56 53 8B 5D 10
+ep_only = false
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? 68 00 00 00 00 E8
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 68 ?? ?? ?? ?? 68 ?? ?? ?? ?? B8 ?? ?? ?? ?? 2B 44 24 0C 50
+ep_only = true
+   
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 8B EC A1 ?? ?? ?? ?? 85 C0 74 09 B8 01 00 00 00 5D C2 0C 00 8B 45 0C 57 56 53 8B 5D 10
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = B8 ?? ?? BA ?? ?? 8C DB 03 D8 3B
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = 2E 8C 1E ?? ?? 8B 1E ?? ?? 8C DA 81 C2 ?? ?? 3B DA 72 ?? 81 EB ?? ?? 83 EB ?? FA 8E D3 BC ?? ?? FB FD BE ?? ?? 8B FE
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = BA ?? ?? A1 ?? ?? 2D ?? ?? 8C CB 81 C3 ?? ?? 3B C3 77 ?? 05 ?? ?? 3B C3 77 ?? B4 09 BA ?? ?? CD 21 CD 20 90
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = B8 ?? ?? BA ?? ?? 05 ?? ?? 3B 06 ?? ?? 73 ?? 2D ?? ?? FA 8E D0 FB 2D ?? ?? 8E C0 50 B9 ?? ?? 33 FF 57 BE ?? ?? FC F3 A5 CB B4 09 BA ?? ?? CD 21 CD 20
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = B8 ?? ?? BA ?? ?? 3B C4 73
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = B8 ?? ?? BA ?? ?? 05 ?? ?? 3B ?? ?? ?? 72 ?? B4 09 BA ?? 01 CD 21 CD 20 4E 6F
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = B8 ?? ?? BA ?? ?? 05 ?? ?? 3B 06 ?? ?? 72 ?? B4 09 BA ?? ?? CD 21 CD 20
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = B8 ?? ?? BA ?? ?? 05 ?? ?? 3B 06 ?? ?? 72 ?? B4 09 BA ?? ?? CD 21 B4 4C CD 21
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = 50 B8 ?? ?? BA ?? ?? 05 ?? ?? 3B 06 ?? ?? 72 ?? B4 ?? BA ?? ?? CD 21 B8 ?? ?? CD 21
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = B4 09 BA 14 01 CD 21 B8 00 4C CD 21 F8 9C 50 53 51 52 56 57 55 1E 06 BB
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = 50 B8 ?? ?? BA ?? ?? 05 ?? ?? 3B 06 02 00 72 ?? B4 09 BA ?? ?? CD 21 B8 01 4C CD 21 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 59 2D ?? ?? 8E D0 51 2D ?? ?? 8E C0 50 B9
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = 50 B8 ?? ?? BA ?? ?? 05 ?? ?? 3B 06 02 00 72 ?? B4 09 BA ?? ?? CD 21 B8 01 4C CD 21 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? EA ?? ?? ?? ?? F3 A5 C3 59 2D ?? ?? 8E D0 51 2D ?? ?? 50 80
+ep_only = true
+
+[GUI./PEiD/unpacker/unp411/UNP.EXE]
+signature = 50 B8 ?? ?? BA ?? ?? 3B C4 73 ?? 8B C4 2D ?? ?? 25 ?? ?? 8B F8 B9 ?? ?? BE ?? ?? FC
+ep_only = true
+ 
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 50 6F 6C 79 43 72 79 70 74 20 50 45 20 28 63 29 20 32 30 30 34 2D 32 30 30 35 2C 20 4A 4C 61 62 53 6F 66 74 77 61 72 65 2E 00 50 00 43 00 50 00 45
+ep_only = false
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = EB ?? 28 50 6F 6C 79 53 63 72 79 70 74 20 ?? ?? ?? 20 62 79 20 53 4D 54 29
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 91 8B F4 AD FE C9 80 34 08 ?? E2 FA C3 60 E8 ED FF FF FF EB
+ep_only = false
+ 
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 60 90 61 61 80 7F F0 45 90 60 0F 85 1B 8B 1F FF 68 ?? ?? ?? ?? C3
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 90 58 90 50 90 8B 00 90 3C 50 90 58 0F 85 67 D6 EF 11 50 68 ?? ?? ?? ?? B8 ?? ?? ?? ?? 3D ?? ?? ?? ?? 74 06 80 30 ?? 40 EB F3
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 8B 04 24 83 E8 4F 68 ?? ?? ?? ?? FF D0 B8 ?? ?? ?? ?? 3D ?? ?? ?? ?? 74 06 80 30 ?? 40 EB F3
+ep_only = false
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 55 8B EC 8B 44 24 04 83 E8 4F 68 ?? ?? ?? ?? FF D0 58 59 50 B8 ?? ?? ?? ?? 3D ?? ?? ?? ?? 74 06 80 30 ?? 40 EB F3
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 61 83 EF 4F 60 68 ?? ?? ?? ?? FF D7 B8 ?? ?? ?? ?? 3D ?? ?? ?? ?? 74 06 80 30 ?? 40 EB F3
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 83 2C 24 4F 68 ?? ?? ?? ?? FF 54 24 04 83 44 24 04 4F B8 ?? ?? ?? ?? 3D ?? ?? ?? ?? 74 06 80 30 ?? 40 EB F3
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 33 D0 68 ?? ?? ?? ?? FF D2 B8 ?? ?? ?? ?? 3D ?? ?? ?? ?? 74 06 80 30 ?? 40 EB F3
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 8B C7 03 04 24 2B C7 80 38 50 0F 85 1B 8B 1F FF 68 ?? ?? ?? ?? B8 ?? ?? ?? ?? 3D ?? ?? ?? ?? 74 06 80 30 ?? 40 EB F3
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 60 90 61 61 80 7F F0 45 90 60 0F 85 1B 8B 1F FF 68 ?? ?? ?? ?? B8 ?? ?? ?? ?? 90 3D ?? ?? ?? ?? 74 06 80 30 ?? 40 EB F3
+ep_only = true
+
+[GUI./PEiD/unpacker/unscram/Unscram.com]
+signature = B4 30 CD 21 3C 02 77 ?? CD 20 BC ?? ?? B9 ?? ?? 8B FC B2 ?? 58 4C
+ep_only = true
+
+[GUI./PEiD/unpacker/unscram/Unscram.com]
+signature = B8 ?? ?? 50 9D 9C 58 25 ?? ?? 75 ?? BA ?? ?? B4 09 CD 21 CD 20
+ep_only = true
+
+[GUI./PEiD/unpacker/spuica1052/SPUICA.EXE]
+signature = 68 ?? ?? ?? ?? 6A 01 6A 00 FF 15 ?? ?? ?? ?? A3 ?? ?? ?? ?? FF 15 ?? ?? ?? ?? 33 C9 3D B7 00 00 00 A1 ?? ?? ?? ?? 0F 94 C1 85 C0 89 0D ?? ?? ?? ?? 0F 85 ?? ?? ?? ?? 55 56 C7 05 ?? ?? ?? ?? 01 00 00 00 FF 15 ?? ?? ?? ?? 01 05 ?? ?? ?? ?? FF 15
+ep_only = true
+
+[GUI./PEiD/unpacker/spuica1052/SPUICA.EXE]
+signature = A1 ?? ?? ?? ?? 55 8B ?? ?? ?? 85 C0 74 ?? 85 ED 75 ?? A1 ?? ?? ?? ?? 50 55 FF 15 ?? ?? ?? ?? 8B 0D ?? ?? ?? ?? 55 51 FF 15 ?? ?? ?? ?? 85 C0 74 ?? 8B 15 ?? ?? ?? ?? 52 FF 15 ?? ?? ?? ?? 6A 00 6A 00 68 ?? ?? ?? ?? E8 ?? ?? ?? ?? B8 01 00 00 00 5D C2 0C 00
+ep_only = true
+ 
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 B8 ?? ?? ?? ?? B9 ?? ?? ?? ?? ?? ?? ?? ?? E2 FA 61 68 ?? ?? ?? ?? C3
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 B8 ?? ?? ?? ?? B9 18 00 00 00 80 34 08 ?? E2 FA 61 68 ?? ?? ?? ?? C3
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 B8 ?? ?? ?? 00 B9 18 00 00 00 80 34 08 ?? E2 FA 61 68 ?? ?? ?? 00 C3
+ep_only = true
+
+[CMD./PEiD/unpacker/upx.exe -d]
+signature = 60 B8 ?? ?? ?? 00 B9 ?? 01 00 00 80 34 08 ?? E2 FA 61 68 ?? ?? ?? 00 C3
+ep_only = true
+ 
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E8 00 00 00 00 58 C6 00 EB C6 40 01 08 FF E0 E9 4C ?? ?? 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E8 00 00 00 00 58 C6 00 EB C6 40 01 08 FF E0 E9 4C
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB 02 FA 04 E8 49 00 00 00 69 E8 49 00 00 00 95 E8 4F 00 00 00 68 E8 1F 00 00 00 49 E8 E9 FF FF FF 67 E8 1F 00 00 00 93 E8 31 00 00 00 78 E8 DD
+ep_only = false
+
+[GUI./PEiD/unpacker/vboxunwrap/MKEZ.exe]
+signature = 8C E0 0B C5 8C E0 0B C4 03 C5 74 00 74 00 8B C5
+ep_only = true
+
+[GUI./PEiD/unpacker/vboxunwrap/MKEZ.exe]
+signature = ?? ?? ?? ?? 90 03 C4 33 C4 33 C5 2B C5 33 C5 8B C5 ?? ?? 2B C5 48 ?? ?? 0B C0 86 E0 8C E0 ?? ?? 8C E0 86 E0 03 C4 40
+ep_only = false
+     
+[GUI./PEiD/unpacker/vboxunwrap/MKEZ.exe]
+signature = 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5 8B C5
+ep_only = false
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 53 55 8B E8 33 DB EB 60 0D 0A 0D 0A 57 57 50 61 63 6B 33 32
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 53 55 8B E8 33 DB EB 60
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 6A ?? 06 06 8C D3 83 ?? ?? 53 6A ?? FC
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 33 C9 B1 ?? 51 06 06 BB ?? ?? 53 8C D3
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = BE ?? ?? BF ?? ?? B9 ?? ?? 8C CD 81 ED ?? ?? 8B DD 81 EB ?? ?? 8B D3 FC FA 1E 8E DB 01 15 33 C0 2E AC
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 B9 ?? ?? 51 06 06 BB ?? ?? 53
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = 03 05 C0 1A B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 B9 ?? ?? 51 06 06 B1 ?? 51 8C D3
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = 03 05 80 1A B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 B9 ?? ?? 51 06 06 B1 ?? 51 8C D3
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = 03 05 40 1A B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 B9 ?? ?? 51 06 06 B1 ?? 51 8C D3
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = 03 05 00 1A B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 B9 ?? ?? 51 06 06 B1 ?? 51 8C D3
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 B9 ?? ?? 51 06 06 B1 ?? 51 8C D3
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = 03 05 C0 1B B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 B9 ?? ?? 51 06 06 B1 ?? 51 8C D3
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = 03 05 80 1B B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 B9 ?? ?? 51 06 06 B1 ?? 51 8C D3
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = 03 05 40 1B B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 B9 ?? ?? 51 06 06 B1 ?? 51 8C D3
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = 03 05 00 1B B8 ?? ?? 8C CA 03 D0 8C C9 81 C1 ?? ?? 51 B9 ?? ?? 51 06 06 B1 ?? 51 8C D3
+ep_only = true
+
+[GUI./PEiD/unpacker/ucfuwwp9/stn-wwpp.exe]
+signature = BE ?? ?? BA ?? ?? BF ?? ?? B9 ?? ?? 8C CD 8E DD 81 ED ?? ?? 06 06 8B DD 2B DA 8B D3 FC
+ep_only = true
+ 
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 60 9C E8 ?? ?? ?? ?? 8B DD 5D 81 ED ?? ?? ?? ?? 89 9D
+ep_only = true   
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 93 71 08 ?? ?? ?? ?? ?? ?? ?? ?? 8B D8 78 E2 ?? ?? ?? ?? 9C 33 C3 ?? ?? ?? ?? 60 79 CE ?? ?? ?? ?? E8 01 ?? ?? ?? ?? 83 C4 04 E8 AB FF FF FF ?? ?? ?? ?? 2B E8 ?? ?? ?? ?? 03 C5 FF 30 ?? ?? ?? ?? C6 ?? EB
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 8B EC FA 33 C0 8E D0 BC ?? ?? 2E ?? ?? ?? ?? 2E ?? ?? ?? ?? EB
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E9 53 00 FF FD FF FB FF F9 FF BC 03 00 8B E5 4C 4C C3
+ep_only = true
+
+[XPack 1.67]
+signature = B8 8C D3 15 33 75 81 3E E8 0F 00 9A E8 F9 FF 9A 9C EB 01 9A 59 80 CD 01 51 9D EB
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 72 ?? C3 8B DE 83 ?? ?? C1 ?? ?? 8C D8 03 C3 8E D8 8B DF 83 ?? ?? C1 ?? ?? 8C C0 03 C3 8E C0 C3
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = E9 ?? ?? 00 00 00 00 00 00 90 90 90 ?? ?? ?? ?? ?? ?? 00 ?? 00 ?? ?? ?? ?? ?? FF
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 60 68 ?? ?? ?? ?? B8 ?? ?? ?? ?? FF 10
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 06 FC 1E 07 BE ?? ?? ?? ?? 6A 04 68 ?? 10 ?? ?? 68
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = 53 60 BD ?? ?? ?? ?? 8D 45 ?? 8D 5D ?? E8 ?? ?? ?? ?? 8D
+ep_only = true
+ 
+[GUI./PEiD/unpacker/uncs/uncs.exe]
+signature = B4 48 BB FF FF B9 EB 27 8B EC CD 21 FA FC
+ep_only = true
+  
+[CMD./TitanMist.exe -i]
+signature = EB 01 DD 60 68 00 ?? ?? ?? 68 ?? ?? 00 00 E8 ?? 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/EPE-V2-Stripper-rc4.exe]
+signature = 60 9C 64 FF 35 00 00 00 00 E8 79
+ep_only = true
+
+[GUI./PEiD/unpacker/EPE-V2-Stripper-rc4.exe]
+signature = 60 9C 64 FF 35 00 00 00 00 E8 7A
+ep_only = true
+
+[GUI./PEiD/unpacker/EPE-V2-Stripper-rc4.exe]
+signature = 45 50 45 3A 20 45 6E 63 72 79 70 74 50 45 20 56 32 2E 32 30 30 36 2E 31 2E 31 35
+ep_only = false
+
+[GUI./PEiD/unpacker/EPE-V2-Stripper-rc4.exe]
+signature = 60 9C 64 FF 35 00 00 00 00 E8 73 01 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/Quickunpack/QUnpack.exe]
+signature = EB 04 40 30 2E 31 60 68 61
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker1.5/VMUnpacker_CN.exe]
+signature = E9 00 00 00 00 60 E8 14 00 00 00 5D 81 ED 00 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/exel666r/exel666r.exe]
+signature = E8 00 00 00 00 60 8B 6C 24 20 81 ED 05 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/exel666r/exel666r.exe]
+signature = 06 8C C8 8E C0 BE ?? ?? 26 ?? ?? 34 ?? 26 ?? ?? 46 81 ?? ?? ?? 75 ?? 40 B3 ?? B3 ?? F3
+ep_only = true
+
+[GUI./PEiD/unpacker/exel666r/exel666r.exe]
+signature = BA ?? ?? BF ?? ?? EB ?? EA ?? ?? ?? ?? 79 ?? 7F ?? 7E ?? 1C ?? 48 78 ?? E3 ?? 45 14 ?? 5A E9
+ep_only = true
+ 
+[GUI./PEiD/unpacker/unga10/unga.com]
+signature = 06 8C C8 8E D8 8E C0 FC BF ?? ?? EB
+ep_only = true
+ 
+[GUI./PEiD/unpacker/ugupe_07/UGU_PE.EXE]
+signature = 55 8B EC 83 C4 F0 60 E8 51 FF FF FF
+ep_only = true
+
+[GUI./PEiD/unpacker/umess120/unmess12.com]
+signature = ?? ?? ?? ?? FA B9 ?? ?? F3 ?? ?? E3 ?? EB ?? EB ?? B6
+ep_only = true
+ 
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E8 ?? ?? ?? ?? 60 E8 4F
+ep_only = false
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E8 00 00 00 00 60 E8 4F 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 8B 44 24 04 8D 54 24 FC 23 05 ?? ?? ?? ?? E8 ?? ?? ?? ?? FF 35 ?? ?? ?? ?? 50 FF 25
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E9 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 4E 65 6F 4C 69 74 65
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 8B 44 24 04 23 05 ?? ?? ?? ?? 50 E8 ?? ?? ?? ?? 83 C4 04 FE 05 ?? ?? ?? ?? 0B C0 74
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E9 9B 00 00 00 A0
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = E9 A6 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/unnfo/unNFO.exe]
+signature = 60 9C 8D 50
+ep_only = true
+
+[GUI./PEiD/unpacker/unnfo/unNFO.exe]
+signature = 8D 50 12 2B C9 B1 1E 8A 02 34 77 88 02 42 E2 F7 C8 8C
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker/VMUnpacker/VMUnpacker.exe]
+signature = 1F B4 09 BA ?? ?? CD 21 B8 ?? ?? CD 21
+ep_only = true
+
+[GUI./PEiD/unpacker/xpcr15/X_PCR.COM]
+signature = 50 43 52 59 50 54 FF 76 33 2E 35 31 00 E9
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = E8 00 00 00 00 5B 83 EB 05 EB 04 52 4E 44 21 85 C0 73 02 F7
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 00 00 00 00 5D EB 26
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker1.5/VMUnpacker_CN.exe]
+signature = E8 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? B9 1B 01 ?? ?? D1
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 ?? ?? ?? ?? 41 4E 41 4B 49 4E 5D 83 ED 06 EB 02 EA 04
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker1.5/VMUnpacker_CN.exe]
+signature = 5D 83 ED 06 EB 02 EA 04 8D
+ep_only = true
+
+[GUI./PEiD/unpacker/VMUnpacker1.5/VMUnpacker_CN.exe]
+signature = 60 E8 2B 00 00 00
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 60 E8 00 00 00 00 41 4E 41 4B 49 4E 5D 83 ED 06 EB 02 EA 04
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = EB 03 CD 20 C7 1E EB 03 CD 20 EA 9C EB 02 EB 01 EB 01 EB 60
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = E8 05 00 00 00 33 C0 40 48 C3 E8 05
+ep_only = false
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 90 33 C9 33 D2 B8 ?? ?? ?? 00 B9 FF
+ep_only = false
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = ?? ?? B8 ?? ?? ?? 00 FF E0
+ep_only = false
+
+ 
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 40 48 BE 00 ?? ?? 00 40 48 60 33 C0 B8 ?? ?? ?? 00 FF E0 C3 C3
+ep_only = false
+ 
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 60 00 00 E0 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 60 00 00 E0
+ep_only = false
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 50 6F 6C 79 45 6E 45 00 4D 65 73 73 61 67 65 42 6F 78 41 00 55 53 45 52 33 32 2E 64 6C 6C
+ep_only = false 
+
+[GUI./PEiD/unpacker/x-recsm/x-recsm.exe]
+signature = 06 1E 52 B8 ?? ?? 1E CD 21 86 E0 3D
+ep_only = true
+
+[GUI./PEiD/unpacker/x-recsm/x-recsm.exe]
+signature = 06 1E B4 30 CD 21 3C 02 73 ?? 33 C0 06 50 CB
+ep_only = true
+
+[GUI./PEiD/unpacker/x-recsm/x-recsm.exe]
+signature = 06 1E 0E 0E 07 1F B4 30 CD 21 86 E0 3D 00 03 73 ?? CD 20 EB
+ep_only = true
+
+[GUI./PEiD/unpacker/x-recsm/x-recsm.exe]
+signature = 8C D8 1E E8 ?? ?? 83 ?? ?? 5D B9 ?? ?? 81 ?? ?? ?? 40 8E D8 2B DB B2 ?? ?? ?? FE C2 43 83
+ep_only = true
+
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 9C 55 E8 EC 00 00 00 87 D5 5D 60 87 D5 80 BD 15 27 40 00 01
+ep_only = true
+ 
+[GUI./PEiD/unpacker/RLdeUnPacker_1.2rc1/RLdePacker.exe]
+signature = 8D 40 00 B9 ?? ?? ?? ?? 6A ?? 58 C0 0C ?? ?? 48 ?? ?? 66 13 F0 91 3B D9 ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00
+ep_only = false
+ 
+[GUI./PEiD/unpacker/untpack/UNTPACK.COM]
+signature = 68 ?? ?? FD 60 BE ?? ?? BF ?? ?? B9 ?? ?? F3 A4 8B F7 BF ?? ?? FC 46 E9 8E FE
+ep_only = true
+
+[GUI./PEiD/unpacker/untpack/UNTPACK.COM]
+signature = 68 ?? ?? FD 60 BE ?? ?? BF ?? ?? B9 ?? ?? F3 A4 8B F7 BF ?? ?? FC 46 E9 CE FD
+ep_only = true
+ 
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 8B EC 83 EC ?? 53 56 57 E9 50
+ep_only = true
+
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = 55 8B EC 83 EC ?? 53 56 57 E9 B0 06
+ep_only = true
+ 
+[GUI./PEiD/unpacker/GUnPacker.v0.5.exe]
+signature = BA ?? ?? ?? 00 FF E2 BA ?? ?? ?? 00 B8 ?? ?? ?? ?? 89 02 83 C2 03 B8 ?? ?? ?? ?? 89 02 83 C2 FD FF E2
+ep_only = true
+ 
+[CMD./TitanMist.exe -i]
+signature = 60 B8 ?? ?? ?? ?? B8 ?? ?? ?? ?? 8A 14 08 80 F2 ?? 88 14 08 41 83 F9 ?? 75 F1
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 68 54 ?? ?? ?? B8 48 ?? ?? ?? FF 10 68 B3 ?? ?? ?? 50 B8 44 ?? ?? ?? FF 10 68 00 ?? ?? ?? 6A 40 FF D0 89 05 CA ?? ?? ?? 89 C7 BE 00 10 ?? ?? 60 FC B2 80 31 DB A4 B3 02 E8 6D 00 00 00 73 F6 31 C9 E8 64 00 00 00 73 1C 31 C0 E8 5B 00 00 00 73 23 B3 02 41
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 68 54 ?? ?? ?? B8 48 ?? ?? ?? FF 10 68 B3 ?? ?? ?? 50 B8 44 ?? ?? ?? FF 10 68 00 ?? ?? ?? 6A 40 FF D0 89 05 CA ?? ?? ?? 89 C7 BE 00 10 ?? ?? 60 FC B2 80 31 DB A4 B3 02 E8 6D 00 00 00 73 F6 31 C9 E8 64 00 00 00 73 1C 31 C0 E8 5B 00 00 00 73 23 B3 02 41
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 68 54 ?? ?? 00 B8 48 ?? ?? 00 FF 10 68 B3 ?? ?? 00 50 B8 44 ?? ?? 00 FF 10 68 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 00 00 00 00 5D 81 ED 06 10 40 00 E8 24 00 00 00 EB 01 E9 8B 44 24 0C EB 03 EB 03 C7 EB FB E8 01 00 00 00 A8 83 C4 04 83 80 B8 00 00 00 02 33 C0 EB 01 E9 C3 58 83 C4 04 EB 03 EB 03 C7 EB FB E8 01 00 00 00 A8 83 C4 04 50 64 FF 35 00 00 00 00 64 89 25
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 00 00 00 00 5D 81 ED 06 10 40 00 E8 24 00 00 00 EB 01 E9 8B 44 24 0C EB 03 EB 03 C7 EB FB E8 01 00 00 00 A8 83 C4 04 83 80 B8 00 00 00 02 33 C0 EB 01 E9 C3 58 83 C4 04 EB 03 EB 03 C7 EB FB E8 01 00 00 00 A8 83 C4 04 50 64 FF 35 00 00 00 00 64 89 25
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 01 00 00 00 C7 83 C4 04 33 C9 E8 01 00 00 00 68 83 C4 04 E8 01 00 00 00 68 83 C4 04 B9 ?? 00 00 00 E8 01 00 00 00 68 83 C4 04 E8 00 00 00 00 E8 01 00 00 00 C7 83 C4 04 8B 2C 24 83 C4 04 E8 01 00 00 00 A9 83 C4 04 81 ED 3C 13 40 00 E8 01 00 00 00 68
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 01 00 00 00 C7 83 C4 04 33 C9 E8 01 00 00 00 68 83 C4 04 E8 01 00 00 00 68 83 C4 04 B9 ?? 00 00 00 E8 01 00 00 00 68 83 C4 04 E8 00 00 00 00 E8 01 00 00 00 C7 83 C4 04 8B 2C 24 83 C4 04 E8 01 00 00 00 A9 83 C4 04 81 ED 3C 13 40 00 E8 01 00 00 00 68
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 00 00 00 00 5D 81 ED 06 10 40 00 E8 24 00 00 00 EB 01 E9 8B
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 6A 14 E8 9A 05 00 00 8B D8 53 68 FB ?? ?? 00 E8 6C FD FF FF B9 05 00 00 00 8B F3 BF FB ?? ?? 00 53 F3 A5 E8 8D 05 00 00 8B 3D 03 ?? ?? 00 A1 2B ?? ?? 00 66 8B 15 2F ?? ?? 00 B9 80 ?? ?? 00 2B CF 89 45 E8 89 0D 6B ?? ?? 00 66 89 55 EC 8B 41 3C 33 D2 03 C1
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 6A 14 E8 9A 05 00 00 8B D8 53 68 ?? ?? ?? ?? E8 6C FD FF FF
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 55 8B EC 83 EC 2C 53 56 33 F6 57 56 89 75 DC 89 75 F4 BB A4 9E 40 00 FF 15 60 70 40 00 BF C0 B2 40 00 68 04 01 00 00 57 50 A3 AC B2 40 00 FF 15 4C 70 40 00 56 56 6A 03 56 6A 01 68 00 00 00 80 57 FF 15 9C 70 40 00 8B F8 83 FF FF 89 7D EC 0F 84 C3 00 00 00
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 EC 0C 53 56 57 FF 15 20 71 40 00 05 E8 03 00 00 BE 60 FD 41 00 89 44 24 10 B3 20 FF 15 28 70 40 00 68 00 04 00 00 FF 15 28 71 40 00 50 56 FF 15 08 71 40 00 80 3D 60 FD 41 00 22 75 08 80 C3 02 BE 61 FD 41 00 8A 06 8B 3D F0 71 40 00 84 C0 74 0F 3A C3 74
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 EC 0C 53 55 56 57 FF 15 ?? 70 40 00 8B 35 ?? 92 40 00 05 E8 03 00 00 89 44 24 14 B3 20 FF 15 2C 70 40 00 BF 00 04 00 00 68 ?? ?? ?? 00 57 FF 15 ?? ?? 40 00 57 FF 15
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 83 EC 0C 53 55 56 57 C7 44 24 10 70 92 40 00 33 DB C6 44 24 14 20 FF 15 2C 70 40 00 53 FF 15 84 72 40 00 BE 00 54 43 00 BF 00 04 00 00 56 57 A3 A8 EC 42 00 FF 15 C4 70 40 00 E8 8D FF FF FF 8B 2D 90 70 40 00 85 C0 75 21 68 FB 03 00 00 56 FF 15 5C 71 40 00
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 83 EC 10 53 55 56 57 C7 44 24 14 70 92 40 00 33 ED C6 44 24 13 20 FF 15 2C 70 40 00 55 FF 15 84 72 40 00 BE 00 54 43 00 BF 00 04 00 00 56 57 A3 A8 EC 42 00 FF 15 C4 70 40 00 E8 8D FF FF FF 8B 1D 90 70 40 00 85 C0 75 21 68 FB 03 00 00 56 FF 15 5C 71 40 00
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 83 EC 0C 53 56 57 FF 15 B4 10 40 00 05 E8 03 00 00 BE E0 E3 41 00 89 44 24 10 B3 20 FF 15 28 10 40 00 68 00 04 00 00 FF 15 14 11 40 00 50 56 FF 15 10 11 40 00 80 3D E0 E3 41 00 22 75 08 80 C3 02 BE E1 E3 41 00 8A 06 8B 3D 14 12 40 00 84 C0 74 19 3A C3 74
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 83 EC 14 83 64 24 04 00 53 55 56 57 C6 44 24 13 20 FF 15 30 70 40 00 BE 00 20 7A 00 BD 00 04 00 00 56 55 FF 15 C4 70 40 00 56 E8 7D 2B 00 00 8B 1D 8C 70 40 00 6A 00 56 FF D3 BF 80 92 79 00 56 57 E8 15 26 00 00 85 C0 75 38 68 F8 91 40 00 55 56 FF 15 60 71
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 83 EC 10 53 55 56 57 C7 44 24 14 F0 91 40 00 33 ED C6 44 24 13 20 FF 15 2C 70 40 00 55 FF 15 88 72 40 00 BE 00 D4 42 00 BF 00 04 00 00 56 57 A3 60 6F 42 00 FF 15 C4 70 40 00 E8 9F FF FF FF 8B 1D 90 70 40 00 85 C0 75 21 68 FB 03 00 00 56 FF 15 60 71 40 00
+ep_only = false
+
+[CMD./TitanMist.exe -i]
+signature = 83 EC 0C 53 56 57 FF 15 2C 81 40
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 01 00 00 00 E8 83 C4 04 E8 01 00 00 00 E9 5D 81 ED D3 22 40 00 E8 04 02 00 00 E8 EB 08 EB 02 CD 20 FF 24 24 9A 66 BE 47 46
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 60 E8 01 ?? ?? ?? E8 83 C4 04 E8 01 ?? ?? ?? E9 5D 81 ED D3 22 40 ?? E8 04 02 ?? ?? E8 EB 08 EB 02 CD 20 FF 24 24 9A 66 BE 47 46
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90
+ep_only = true
+
+[CMD./TitanMist.exe -i]
+signature = 5D 8B C5 81 ED B2 2C 40 00 2B 85 94 3E 40 00 2D 71 02 00 00 89 85 98 3E 40 00 0F B6 B5 9C 3E 40 00 8B FD
+ep_only = true
