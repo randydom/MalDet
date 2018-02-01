@@ -14,8 +14,9 @@ This tool is setup by the following steps:
  2) You get Jakstab from their website http://www.jakstab.org/. Then, you copy the Jakstab folder to the folder containing this tool.
  3) You get Moped from their website http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/. Then, you copy our file poststar.c to the Moped folder before compilation.
  
- 		
-
+ HOW TO USE
+ 
+ Usage: MalDet.exe <Command> [options] [<TestFile>] [<ListFiles>]
 
     Commands:
       Train  Compute the malicious API graphs from executables in <ListFiles>
@@ -38,10 +39,3 @@ This tool is setup by the following steps:
                 w=1 denotes Rocchio Equation,
                 w=2 denotes Ratio Equation.
     -S<s>  specify the strategy (s=1,2,3) to compute graphs.
-
-
-
-
- 
- 
-
