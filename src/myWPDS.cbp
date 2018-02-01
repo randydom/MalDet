@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MalDet" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<MakeCommands>
+			<Build command="" />
+			<CompileFile command="" />
+			<Clean command="" />
+			<DistClean command="" />
+			<AskRebuildNeeded command="" />
+			<SilentBuild command=" &gt; $(CMD_NULL)" />
+		</MakeCommands>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MalDet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="Test -g1 -d10 -N45 -F3 -W2 -S1 D:\workspace\PCDataset\Jan2018\malunpacked\Trojan-Spy.Win32.Banker.rf.exe.upx D:\workspace\PCDataset\Jan2018\DescriptionTrain.txt " />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-fpermissive" />
+					<Add option="-std=c++14" />
+					<Add directory="D:/workspace/Tool/boost_1_64_0" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/myWPDS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="F:\workspace\PCData\noPackFilesAPI\Trojan-Proxy.Win32.Small.ad.exe Backdoor.Win32.Wootbot.ai.exe.upx Trojan.Win32.Zonekiller.a.exe.upx VirusShare_1e2722e754074fbb0b2ed13d2eb2dddc Trojan-Downloader.Win32.Banload.ce.exe 411toppm.exe Email-Worm.Win32.Avron.c.exe.upx " />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-fpermissive" />
+					<Add option="-std=c++14" />
+					<Add directory="H:/workspace/Tool/boost_1_64_0" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++14" />
+			<Add directory="H:/workspace/Tool/boost_1_64_0" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="myUtil.cpp" />
+		<Unit filename="myUtil.hpp" />
+		<Unit filename="myWPDS.cpp" />
+		<Unit filename="myWPDS.hpp" />
+		<Unit filename="mycfg.cpp" />
+		<Unit filename="mycfg.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

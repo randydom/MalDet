@@ -1,0 +1,8 @@
+#ifndef MYGLOBAL_H_INCLUDED
+#define MYGLOBAL_H_INCLUDED
+
+
+
+
+
+#endif // MYGLOBAL_H_INCLUDED
