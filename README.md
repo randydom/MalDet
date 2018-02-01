@@ -1,6 +1,6 @@
-                              MalDet -- A Tool for Malware Detection
+                                MalDet -- A Tool for Malware Detection
+                                        Version 0.0.1 (31.01.2018)
 
-Usage: MalDet.exe <Command> [options] [<TestFile>] [<ListFiles>]
 
     Commands:
       Train  Compute the malicious API graphs from executables in <ListFiles>
@@ -24,13 +24,23 @@ Usage: MalDet.exe <Command> [options] [<TestFile>] [<ListFiles>]
                 w=2 denotes Ratio Equation.
     -S<s>  specify the strategy (s=1,2,3) to compute graphs.
 
-Version 0.0.1 (31.01.2018)
 
-HOW TO INSTALL
+
+HOW TO INSTALL:
+
 This tool accompanies with 
-  + IDA Pro (https://www.hex-rays.com/products/ida/index.shtml)
-  + Jakstab (http://www.jakstab.org/)
-  + PEiD (
-  + UPX (https://upx.github.io)
-  + Moped (http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/)
+  + IDA Pro
+  + Jakstab
+  + PEiD 
+  + UPX
+  + Moped
+
+This tool is setup by the following steps:
+ 1) You can get IDA Pro on https://www.hex-rays.com/products/ida/index.shtml. After install IDA Pro to your PC, you copy the installed folder to the folder containing this tool. Then, you copy our two files analysis.idc and idc.idc to the folder idc of IDA Pro.
+ 2) You get Jakstab from their website http://www.jakstab.org/. Then, you copy the Jakstab folder to the folder containing this tool.
+ 3) You get UPX packer from their website https://upx.github.io. Then, you put this UPX to the folder containing this tool.
+ 4) You get Moped from their website http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/. Then, you copy our file poststar.c to the Moped folder before complie it.
+ 
+ 
+ 
 
