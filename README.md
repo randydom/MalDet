@@ -1,10 +1,8 @@
 # MalDet --  A Tool for Malware Detection
 
-A static tool for malware detection
-
 ## Overview
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+![MalDet is a tool for malware detection](https://raw.githubusercontent.com/dkhuuthe/MalDet/path/images/MalDet_small.png)
 
 ### Prerequisites
 
