@@ -20,53 +20,58 @@ This tool is setup in the folder **MalDet** by the following steps:
 + You copy the [***Jakstab**](http://www.jakstab.org/) folder to **MalDet**.
 + You download the source code of [**Moped**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/). Then, you copy our file **poststar.c** to the Moped folder. After compilation, you create **moped_src** folder in **MalDet** and copy the executable of moped to the folder **moped_src**.
  
-##Extraction of Malious Behaviors
+**Extraction of Malious Behaviors**
+```
+Usage: MalDet.exe Train [options] <ListFiles>
+```
+```
+Options:
+   -g<n>  specify the kind of graph to compute
+          n=0 denotes Extended API call graph (default),
+          n=1 denotes API call graph,
+   -N<n>  specify the number of highest terms in the malicious API graph.
+   -F<f>  specify the type of the function used in the term weighting scheme.
+          f=0 denotes function F1 (a linear function),
+          f=1 denotes function F2 (a rational function),
+          f=2 denotes function F3 (a logarithmic function),
+          f=2 denotes function F4 (a sigmoid function).
+   -W<w>  specify the Equation used in the term weighting scheme.
+          w=1 denotes Rocchio Equation,
+          w=2 denotes Ratio Equation.
+   -S<s>  specify the strategy (s=1,2,3) to compute graphs.
+```
++ Extracting the malicious behaviors from set of malwares and benwares listed in *trainSvm.txt*.
+    This malicious graph is extracted by using Stragegy S1 with Equation Ratio and Fomular F3 with n=55.
 ```
 MalDet.exe Train -N55 -S1 -W2 -F3 trainSvm.txt
 ```
 ![Training](https://github.com/dkhuuthe/MalDet/raw/path/images/train.png)
 
-##Test a new program
+**Check New Programs**
+```
+Usage: MalDet.exe Test [options] <TestFile> <ListFiles>
+```
++ Check the program **reg.exe** in the folder **Samples** whether contains any malicious behavior or not with the malicious graph which is extracted above.
 ```
 MalDet.exe Test -N55 -S1 -W2 -F3 Samples\reg.exe trainSvm.txt
 ```
+We obtained the answer "**Benign!**".
 ![reg.exe Benign](https://github.com/dkhuuthe/MalDet/raw/path/images/testreg.png)
 
++ Check the program **iexpress.exe** in the folder **Samples** whether contains any malicious behavior or not with the malicious graph which is extracted above.
 ```
 MalDet.exe Test -N55 -S1 -W2 -F3 Samples\iexpress.exe trainSvm.txt
 ```
+We obtained the answer "**Benign!**".
 ![iexpress.exe Benign](https://github.com/dkhuuthe/MalDet/raw/path/images/testiepress.png)
 
++ Check the program **Trojan-Downloader.Win32.Agent.hs.exe** in the folder **Samples** whether contains any malicious behavior or not with the malicious graph which is extracted above.
 ```
 MalDet.exe Test -N55 -S1 -W2 -F3 Samples\Trojan-Downloader.Win32.Agent.hs.exe trainSvm.txt
 ```
+We obtained the answer "**Malicious!**".
 ![Trojan-Downloader.Win32.Agent.hs.exe Malicious](https://github.com/dkhuuthe/MalDet/raw/path/images/testTrojan.png)
 
-
-Commands:
-      Train  Compute the malicious API graphs from executables in <ListFiles>
-                   Usage: MalDet.exe Train [options] <ListFiles>
-
-      Test   Check an executable file (<TestFile>)
-                   Usage: MalDet.exe Test [options] <TestFile> <ListFiles>
-
-    Options:
-    -g<n>  specify the kind of graph to compute
-                n=0 denotes Extended API call graph (default),
-                n=1 denotes API call graph,
-    -N<n>  specify the number of highest terms in the malicious API graph.
-    -F<f>  specify the type of the function used in the term weighting scheme.
-                f=0 denotes function F1 (a linear function),
-                f=1 denotes function F2 (a rational function),
-                f=2 denotes function F3 (a logarithmic function),
-                f=2 denotes function F4 (a sigmoid function).
-    -W<w>  specify the Equation used in the term weighting scheme.
-                w=1 denotes Rocchio Equation,
-                w=2 denotes Ratio Equation.
-    -S<s>  specify the strategy (s=1,2,3) to compute graphs.
-```
- 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
