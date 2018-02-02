@@ -2,7 +2,7 @@
 # MalDet --  A Tool for Malware Detection
 
 ## Overview
-
+Since the number of malwares is increasing very fast, the malware detection is a big challenge. The well-known technique is based on matching the signature (a sequence of binary) to detect malware. This technique is easily evaded by the obfuscation technique where the binary code of malware is changed while keeping the same behaviors.  Another technique in malware detection is the emulating technique  where the behaviors of malware are dynamically observed while running the program on an emulated environment. Although the running behaviors of the program are easily captured in this controlled environment, it is hard to get the malicious behaviors  in a short period since they may require a delay or only show up after user interaction. To sidestep limitations of these techniques, the static analysis approach is implemented for malware detection since it allows to analyze the behaviors (not the syntax) of the program without executing it. However, in this technique, one have to find a formula to specify the malicious behaviors. Currently, this task is done manually. Hence, we introduce an approach in order to automatize the task from extraction of malicious behaviors  and to detect malwares. First, we apply the term weighting scheme in Information Retrieval Community to compute the *malicious API call graph*, which is relevant to malware graphs but irrelevant to benign program graphs, from the malwares and benign programs. Then, we use this graph to detect a new program.
 ![MalDet is a tool for malware detection](https://raw.githubusercontent.com/dkhuuthe/MalDet/path/images/MalDet_small.png)
 
 ### Prerequisites
@@ -14,11 +14,11 @@ This tool accompanies with
 
 ### Installing
 
-This tool is setup in the folder **MalDet** by the following steps:
-+ Download [**MalDet.7z**](https://github.com/dkhuuthe/MalDet/raw/master/MalDet.7z) and decompress it.
-+ Install [**IDA Pro**](https://www.hex-rays.com/products/ida/index.shtml). Then, copy the IDA Pro folder to **MalDet** and copy two files **analysis.idc** and **idc.idc** to the folder **idc** in the IDA Pro folder.
-+ Copy the [**Jakstab**](http://www.jakstab.org/) folder to **MalDet**.
-+ Download the source code of [**Moped**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/) and replace **poststar.c** in *moped_src*. Then, compile this source code to get the executable file and copy it to *moped_src* in **MalDet**.
+This tool is setup in the folder *MalDet* by the following steps:
++ Download [*MalDet.7z*](https://github.com/dkhuuthe/MalDet/raw/master/MalDet.7z) and decompress it.
++ Install [*IDA Pro*](https://www.hex-rays.com/products/ida/index.shtml). Then, copy the IDA Pro folder to *MalDet* and copy two files *analysis.idc* and *idc.idc* to the folder *idc* in the IDA Pro folder.
++ Copy the [Jakstab](http://www.jakstab.org/) folder to *MalDet*.
++ Download the source code of [Moped](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/) and replace *poststar.c* in *moped_src*. Then, compile this source code to get the executable file and copy it to *moped_src* in *MalDet*.
 
 **Extraction of Malious Behaviors**
 We first compute the malicious API call graph from a set of malwares and a set of benwares (*trainSvm.txt*) by the command as follows.
@@ -31,12 +31,12 @@ Options:
           n=0 denotes Extended API call graph (default),
           n=1 denotes API call graph,
    -N<n>  specify the number of highest terms in the malicious API graph.
-   -F<f>  specify the type of the function used in the term weighting scheme.
+   -F<f>  specify the type of the function for term weight computation.
           f=0 denotes function F1 (a linear function),
           f=1 denotes function F2 (a rational function),
           f=2 denotes function F3 (a logarithmic function),
           f=2 denotes function F4 (a sigmoid function).
-   -W<w>  specify the Equation used in the term weighting scheme.
+   -W<w>  specify the Equation for term weight computation.
           w=1 denotes Rocchio Equation,
           w=2 denotes Ratio Equation.
    -S<s>  specify the strategy (s=1,2,3) to compute graphs.
