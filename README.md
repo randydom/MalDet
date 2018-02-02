@@ -17,7 +17,7 @@ This tool accompanies with
 This tool is setup in the folder **MalDet** by the following steps:
 + Download [**MalDet.7z**](https://github.com/dkhuuthe/MalDet/raw/master/MalDet.7z) and decompress it.
 + Install [**IDA Pro**](https://www.hex-rays.com/products/ida/index.shtml). Then, copy the IDA Pro folder to **MalDet** and copy two files **analysis.idc** and **idc.idc** to the folder **idc** in the IDA Pro folder.
-+ Copy the [***Jakstab**](http://www.jakstab.org/) folder to **MalDet**.
++ Copy the [**Jakstab**](http://www.jakstab.org/) folder to **MalDet**.
 + Download the source code of [**Moped**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/) and replace **poststar.c** in *moped_src*. Then, compile this source code to get the executable file and copy it to *moped_src* in **MalDet**.
 
 **Extraction of Malious Behaviors**
