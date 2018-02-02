@@ -9,16 +9,17 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 This tool accompanies with 
-  + IDA Pro
-  + Jakstab
-  + Moped
+  + [**IDA Pro**](https://www.hex-rays.com/products/ida/index.shtml)
+  + [**Jakstab**](http://www.jakstab.org/)
+  + [**Moped**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/)
 
 ### Installing
 
-This tool is setup by the following steps:
-+ You can get [**IDA Pro**](https://www.hex-rays.com/products/ida/index.shtml). After install IDA Pro to your PC, you copy the installed folder to the folder containing this tool. Then, you copy our two files **analysis.idc** and **idc.idc** to the folder idc of IDA Pro.
-+ You get [**Jakstab**](http://www.jakstab.org/). Then, you copy the Jakstab folder to the folder containing this tool.
-+ You get [**Moped from**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/). Then, you copy our file **poststar.c** to the Moped folder before compilation.
+This tool is setup in the folder **MalDet** by the following steps:
++ Download [**MalDet.7z**](https://dkhuuthe.github.io) and decompress it.
++ You install [**IDA Pro**](https://www.hex-rays.com/products/ida/index.shtml). After install IDA Pro to your PC, you copy the installed folder to the folder containing this tool (**MalDet**). Then, you copy our two files **analysis.idc** and **idc.idc** to the folder **idc** of IDA Pro.
++ You copy the Jakstab folder to **MalDet**.
++ You download the source code of [**Moped**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/). Then, you copy our file **poststar.c** to the Moped folder. After compilation, you create **moped_src** folder in **MalDet** and copy the executable of moped to the folder **moped_src**.
  
 
 ```
