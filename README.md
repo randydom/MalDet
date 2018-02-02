@@ -1,3 +1,4 @@
+
 # MalDet --  A Tool for Malware Detection
 
 ## Overview
@@ -16,12 +17,33 @@ This tool accompanies with
 This tool is setup in the folder **MalDet** by the following steps:
 + Download [**MalDet.7z**](https://github.com/dkhuuthe/MalDet/raw/master/MalDet.7z) and decompress it.
 + You install [**IDA Pro**](https://www.hex-rays.com/products/ida/index.shtml). After install IDA Pro to your PC, you copy the installed folder to the folder containing this tool (**MalDet**). Then, you copy our two files **analysis.idc** and **idc.idc** to the folder **idc** of IDA Pro.
-+ You copy the Jakstab folder to **MalDet**.
++ You copy the [***Jakstab**](http://www.jakstab.org/) folder to **MalDet**.
 + You download the source code of [**Moped**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/). Then, you copy our file **poststar.c** to the Moped folder. After compilation, you create **moped_src** folder in **MalDet** and copy the executable of moped to the folder **moped_src**.
  
+##Extraction of Malious Behaviors
+```
+MalDet.exe Train -N55 -S1 -W2 -F3 trainSvm.txt
+```
+![Training](https://github.com/dkhuuthe/MalDet/raw/path/images/train.png)
+
+##Test a new program
+```
+MalDet.exe Test -N55 -S1 -W2 -F3 Samples\reg.exe trainSvm.txt
+```
+![reg.exe Benign](https://github.com/dkhuuthe/MalDet/raw/path/images/testreg.png)
 
 ```
- Commands:
+MalDet.exe Test -N55 -S1 -W2 -F3 Samples\iexpress.exe trainSvm.txt
+```
+![iexpress.exe Benign](https://github.com/dkhuuthe/MalDet/raw/path/images/testiepress.png)
+
+```
+MalDet.exe Test -N55 -S1 -W2 -F3 Samples\Trojan-Downloader.Win32.Agent.hs.exe trainSvm.txt
+```
+![Trojan-Downloader.Win32.Agent.hs.exe Malicious](https://github.com/dkhuuthe/MalDet/raw/path/images/testTrojan.png)
+
+
+Commands:
       Train  Compute the malicious API graphs from executables in <ListFiles>
                    Usage: MalDet.exe Train [options] <ListFiles>
 
