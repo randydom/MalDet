@@ -19,8 +19,9 @@ This tool is setup in the folder **MalDet** by the following steps:
 + You install [**IDA Pro**](https://www.hex-rays.com/products/ida/index.shtml). After install IDA Pro to your PC, you copy the installed folder to the folder containing this tool (**MalDet**). Then, you copy our two files **analysis.idc** and **idc.idc** to the folder **idc** of IDA Pro.
 + You copy the [***Jakstab**](http://www.jakstab.org/) folder to **MalDet**.
 + You download the source code of [**Moped**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/). Then, you copy our file **poststar.c** to the Moped folder. After compilation, you create **moped_src** folder in **MalDet** and copy the executable of moped to the folder **moped_src**.
- 
+
 **Extraction of Malious Behaviors**
+We first compute the malicious API call graph from a set of malwares and a set of benwares (*trainSvm.txt*) by the command as follows.
 ```
 Usage: MalDet.exe Train [options] <ListFiles>
 ```
@@ -48,9 +49,11 @@ MalDet.exe Train -N55 -S1 -W2 -F3 trainSvm.txt
 ![Training](https://github.com/dkhuuthe/MalDet/raw/path/images/train.png)
 
 **Check New Programs**
+Use the malicious API call graph extracted from the training phase, we check malicious behaviors in a new program as follows.
 ```
 Usage: MalDet.exe Test [options] <TestFile> <ListFiles>
 ```
+We have to choose the options according to the training phase.
 + Check the program **reg.exe** in the folder **Samples** whether contains any malicious behavior or not with the malicious graph which is extracted above.
 ```
 MalDet.exe Test -N55 -S1 -W2 -F3 Samples\reg.exe trainSvm.txt
