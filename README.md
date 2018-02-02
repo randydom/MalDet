@@ -16,7 +16,7 @@ This tool accompanies with
 ### Installing
 
 This tool is setup in the folder **MalDet** by the following steps:
-+ Download [**MalDet.7z**](https://dkhuuthe.github.io) and decompress it.
++ Download [**MalDet.7z**](https://github.com/dkhuuthe/MalDet/raw/master/MalDet.7z) and decompress it.
 + You install [**IDA Pro**](https://www.hex-rays.com/products/ida/index.shtml). After install IDA Pro to your PC, you copy the installed folder to the folder containing this tool (**MalDet**). Then, you copy our two files **analysis.idc** and **idc.idc** to the folder **idc** of IDA Pro.
 + You copy the Jakstab folder to **MalDet**.
 + You download the source code of [**Moped**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/). Then, you copy our file **poststar.c** to the Moped folder. After compilation, you create **moped_src** folder in **MalDet** and copy the executable of moped to the folder **moped_src**.
