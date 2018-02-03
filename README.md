@@ -41,7 +41,7 @@ Options:
           w=2 denotes Ratio Equation.
    -S<s>  specify the strategy (s=1,2,3) to compute graphs.
 ```
-It takes an input <ListFiles> which contains a set of malwares and a set benwares and gives the malicious API call graph which is extracted from these two set. An example of <ListFiles> is as follows.
+It takes an input <ListFiles> which contains a set of malwares and a set benwares and gives the malicious API call graph which is extracted from these two set. An example of <ListFiles> (*trainSvm.txt*) is as follows.
 ```
 @Backdoor
 Backdoor.Win32.Hupigon.are.exe
@@ -60,7 +60,8 @@ aainfo.exe
 aasavefont.exe
 aatest.exe
 ```
-This <ListFiles> contains a set of Backdoor (*@Backdoor*), a set of Worm (*@Worm*) and a set of benign program (*@NegativeSet*)
+This example of <ListFiles> contains a set of Backdoor (*@Backdoor*), a set of Worm (*@Worm*) and a set of benign program (*@NegativeSet*).
+
 There are different options to compute the malicious API call graph according to the parameters **S** (strategy), **F** (Frequency Function), **W** (Equation), **N** (the number of nodes/edges). The output of the training phase is stored in the folder *specification*.
 
 **Extraction of Malious Behaviors** We will extract the malicious behaviors from the set of malwares and benwares listed in *trainSvm.txt*.
