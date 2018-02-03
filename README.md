@@ -60,7 +60,7 @@ aainfo.exe
 aasavefont.exe
 aatest.exe
 ```
-This example of *ListFiles* contains a set of Backdoor (*Backdoor*), a set of Worm (*Worm*) and a set of benign program (*NegativeSet*).
+This example of *ListFiles* contains Backdoor family (*Backdoor*), Worm family (*Worm*) and a set of benign programs (*NegativeSet*).
 
 There are different options to compute the malicious API call graph according to the parameters **S** (strategy), **F** (Frequency Function), **W** (Equation), **N** (the number of nodes/edges). The output of the training phase is stored in the folder *specification*.
 
