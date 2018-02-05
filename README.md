@@ -1,103 +1,91 @@
-# MalDet --  A Tool for Malware Detection
+# svmTool --  A Tool for Android Malware Detection
 
-A static tool for malware detection
+A static tool for android malware detection
 
-## Overview
+## Requirements
+- Java version 1.8 or above.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Included data:
++ svmTool.jar is the main application.
++ noAPI.txt  declares the prefix of APIs.
++ DataBen and DataMal are archive files containing all training data.
++ svmTool.bat and tfidfTool.sh are script files to execute the main application.
++ TrainData folder contains the training configuration and training model.
++ Sample folder contains sample data.
 
-### Prerequisites
+## How to install?
+The data and executable files of svmTool are packed in svmTool.tar. In order to use this tool, we do as follows.
++ Download svmTool.tar
+	https://drive.google.com/open?id=0B9PO-H8CY0J_YUFuMGpGVzg1U0k
++ Extract files from svmTool.tar
+	'''
+  tar xvf	svmTool.tar
+  '''
+Now, the tool is ready!
 
-This tool accompanies with 
-  + [**IDA Pro**](https://www.hex-rays.com/products/ida/index.shtml)
-  + [**Jakstab**](http://www.jakstab.org/)
-  + [**Moped**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/)
+## Functionality
+This tool have two main functionalities: computing training model and detecting malicious behaviors in the given applications.
+### Compute the training model
+	+ Collect benign applications  in a folder named benignApkFolder and malicious applications in a folder named maliciousApkFolder.
+	+ Prepare training data by using the commands: 
+		svmTool packAPK -PB benignApkFolder -B benignPack -PM maliciousApkFolder -M maliciousPack
+	+ Use this command for computing the training model:
+		svmTool train -B benignPack -M maliciousPack
+### Malicious behavior detection
+	+ Collect new  applications and put  them in a folder named checkApk
+	+ Detect malicious behaviors of applications in the folder checkApk by using the command:
+		'''
+    svmTool check -S checkApk
+    '''
 
-### Installing
+'''
+Commands:
+svmTool train <Options>
+        Compute the classifier for given training data.
+                -T <T>: max length of the common walks (default value = 3).
+                -l <lambda>: lambda value to control the importance of length of walks (default value = 0.4).
+                -B <filename>: the archive file contains all graphs of training benwares.
+                -M <filename>: the archive file contains all graphs of training malwares.
 
-This tool is setup in the folder **MalDet** by the following steps:
-+ Download [**MalDet.7z**](https://github.com/dkhuuthe/MalDet/raw/master/MalDet.7z) and decompress it.
-+ You install [**IDA Pro**](https://www.hex-rays.com/products/ida/index.shtml). After install IDA Pro to your PC, you copy the installed folder to the folder containing this tool (**MalDet**). Then, you copy our two files **analysis.idc** and **idc.idc** to the folder **idc** of IDA Pro.
-+ You copy the Jakstab folder to **MalDet**.
-+ You download the source code of [**Moped**](http://www2.informatik.uni-stuttgart.de/fmi/szs/tools/moped/). Then, you copy our file **poststar.c** to the Moped folder. After compilation, you create **moped_src** folder in **MalDet** and copy the executable of moped to the folder **moped_src**.
- 
+svmTool check <Options>
+        Check malicious behaviors in the applications in a folder.
+                -S <foldername>: the folder contains all apk files.
 
-```
- Commands:
-      Train  Compute the malicious API graphs from executables in <ListFiles>
-                   Usage: MalDet.exe Train [options] <ListFiles>
+svmTool test <Options>
+        Test the classifier for given graph data.
+                -S <foldername>: the folder contains all graphs of test data.
+                -n <n>: the number of test samples.
 
-      Test   Check an executable file (<TestFile>)
-                   Usage: MalDet.exe Test [options] <TestFile> <ListFiles>
+svmTool clear
+        Clean all training data.
+'''
 
-    Options:
-    -g<n>  specify the kind of graph to compute
-                n=0 denotes Extended API call graph (default),
-                n=1 denotes API call graph,
-    -N<n>  specify the number of highest terms in the malicious API graph.
-    -F<f>  specify the type of the function used in the term weighting scheme.
-                f=0 denotes function F1 (a linear function),
-                f=1 denotes function F2 (a rational function),
-                f=2 denotes function F3 (a logarithmic function),
-                f=2 denotes function F4 (a sigmoid function).
-    -W<w>  specify the Equation used in the term weighting scheme.
-                w=1 denotes Rocchio Equation,
-                w=2 denotes Ratio Equation.
-    -S<s>  specify the strategy (s=1,2,3) to compute graphs.
-```
- 
-End with an example of getting some data out of the system or using it for a little demo
+## Examples:
+### To train new data:
++ First collect training applications (APK files) and store them in two folders named MalApkFolder and BenApkFolder.
++ Pack applications into archive files named MalPack and BenPack for training by using the command: 
+	'''
+  svmTool packAPK -PM MalApkFolder -M MalPack -PB BenApkFolder -B BenPack
+  '''
++ Clean old training data:
+'''
+	svmTool clear
+'''
++ Train new data:
+'''
+	svmTool train -B BenPack -M MalPack
+'''
+Wait for training to finish, the training model is stored in the folder named TrainData .
 
-## Running the tests
+### To check new applications: 
++ Put these applications in the a folder named *checkApk* and use this command:
+'''
+	svmTool check -S checkApk
+'''
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+## Included Packages:
++ apktool-2.2.1 (https://ibotpeaches.github.io/Apktool/)
++ ojalgo-41.0.0 (https://github.com/optimatika/ojAlgo)
++ libsvm (http://www.csie.ntu.edu.tw/~cjlin/libsvm/)
+## References
++ Khanh Huu The Dam and Tayssir Touili. Learn Android malware. In Proceedings of IWSMA@ARES 2017.
