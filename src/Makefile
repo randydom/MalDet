@@ -5,13 +5,13 @@ BOOSTVER = boost_1_64_0
 
 # Windows / Posix differences:
 ifdef WIN32
-  MALDET = MalDet.exe
+  MALDET = STAMAD.exe
   CC = cl /MT /I$(BOOSTVER) /DWIN32
   LINK=link
   LIBS = -lpthread
   O = obj
 else # POSIX
-  MALDET = MalDet
+  MALDET = STAMAD
   CCINCLUDEDIR =
   CC = g++  -std=c++14 -fpermissive -g -O3 -Wall -I$(BOOSTVER) #-DYYDEBUG
   LIBS = -lpthread
