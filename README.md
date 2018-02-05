@@ -18,27 +18,30 @@ The data and executable files of svmTool are packed in svmTool.tar. In order to 
 + Download svmTool.tar
 	https://drive.google.com/open?id=0B9PO-H8CY0J_YUFuMGpGVzg1U0k
 + Extract files from svmTool.tar
-	'''
+```
   tar xvf	svmTool.tar
-  '''
+```
 Now, the tool is ready!
 
 ## Functionality
 This tool have two main functionalities: computing training model and detecting malicious behaviors in the given applications.
 ### Compute the training model
-	+ Collect benign applications  in a folder named benignApkFolder and malicious applications in a folder named maliciousApkFolder.
-	+ Prepare training data by using the commands: 
-		svmTool packAPK -PB benignApkFolder -B benignPack -PM maliciousApkFolder -M maliciousPack
-	+ Use this command for computing the training model:
-		svmTool train -B benignPack -M maliciousPack
++ Collect benign applications  in a folder named benignApkFolder and malicious applications in a folder named maliciousApkFolder.
++ Prepare training data by using the commands: 
+```
+svmTool packAPK -PB benignApkFolder -B benignPack -PM maliciousApkFolder -M maliciousPack
+```
++ Use this command for computing the training model:
+```
+svmTool train -B benignPack -M maliciousPack
+```
 ### Malicious behavior detection
-	+ Collect new  applications and put  them in a folder named checkApk
-	+ Detect malicious behaviors of applications in the folder checkApk by using the command:
-		'''
-    svmTool check -S checkApk
-    '''
-
-'''
++ Collect new  applications and put  them in a folder named checkApk
++ Detect malicious behaviors of applications in the folder checkApk by using the command:
+```
+svmTool check -S checkApk
+```
+```
 Commands:
 svmTool train <Options>
         Compute the classifier for given training data.
@@ -58,30 +61,30 @@ svmTool test <Options>
 
 svmTool clear
         Clean all training data.
-'''
+```
 
 ## Examples:
 ### To train new data:
 + First collect training applications (APK files) and store them in two folders named MalApkFolder and BenApkFolder.
 + Pack applications into archive files named MalPack and BenPack for training by using the command: 
-	'''
+```
   svmTool packAPK -PM MalApkFolder -M MalPack -PB BenApkFolder -B BenPack
-  '''
+```
 + Clean old training data:
-'''
-	svmTool clear
-'''
+```
+svmTool clear
+```
 + Train new data:
-'''
-	svmTool train -B BenPack -M MalPack
-'''
+```
+svmTool train -B BenPack -M MalPack
+```
 Wait for training to finish, the training model is stored in the folder named TrainData .
 
 ### To check new applications: 
 + Put these applications in the a folder named *checkApk* and use this command:
-'''
-	svmTool check -S checkApk
-'''
+```
+svmTool check -S checkApk
+```
 
 ## Included Packages:
 + apktool-2.2.1 (https://ibotpeaches.github.io/Apktool/)
