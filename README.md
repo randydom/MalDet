@@ -34,7 +34,8 @@ Options:
           n=1 denotes API call graph,
    -N<n>  specify the number of highest terms in the malicious API graph.
    -F<f>  specify the type of the function for term weight computation.
-          f=0 denotes function F1 (a linear function),
+
+f=0 denotes function F1 (a linear function),
           f=1 denotes function F2 (a rational function),
           f=2 denotes function F3 (a logarithmic function),
           f=2 denotes function F4 (a sigmoid function).
@@ -108,3 +109,6 @@ MalDet.exe Test -N55 -S1 -W2 -F3 Samples\Trojan-Downloader.Win32.Agent.hs.exe tr
 We obtained the answer "**Malicious!**".
 ![Trojan-Downloader.Win32.Agent.hs.exe Malicious](https://github.com/dkhuuthe/MalDet/raw/path/images/testTrojan.png)
 
+## Reference
+•	Khanh Huu The Dam and Tayssir Touili. Automatic Extraction of Malicious Behaviors. In Proceedings of 11th International Conference on Malicious and Unwanted Software 2016.
+•	Khanh Huu The Dam and Tayssir Touili. Malware Detection Based On Graph Classification. In Proceedings of ICISSP 2017.
