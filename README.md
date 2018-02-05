@@ -110,5 +110,5 @@ We obtained the answer "**Malicious!**".
 ![Trojan-Downloader.Win32.Agent.hs.exe Malicious](https://github.com/dkhuuthe/MalDet/raw/path/images/testTrojan.png)
 
 ## Reference
-•	Khanh Huu The Dam and Tayssir Touili. Automatic Extraction of Malicious Behaviors. In Proceedings of 11th International Conference on Malicious and Unwanted Software 2016.
-•	Khanh Huu The Dam and Tayssir Touili. Malware Detection Based On Graph Classification. In Proceedings of ICISSP 2017.
++ Khanh Huu The Dam and Tayssir Touili. Automatic Extraction of Malicious Behaviors. In Proceedings of 11th International Conference on Malicious and Unwanted Software 2016.
++ Khanh Huu The Dam and Tayssir Touili. Malware Detection Based On Graph Classification. In Proceedings of ICISSP 2017.
